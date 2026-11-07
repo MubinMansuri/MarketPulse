@@ -23,8 +23,11 @@ import {
   Undo2,
   Upload,
   AlertCircle,
+  ChartColumn,
+  LayoutPanelTop,
   PanelLeftClose,
   PanelRightClose,
+  TextQuote,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -68,6 +71,50 @@ import { brand } from "./brand";
 
 const ESTIMATED_PAGE_HEIGHT = 1_040;
 const VIRTUAL_PAGE_BUFFER = 2;
+
+const sectionTemplates: Array<{
+  type: SectionType;
+  title: string;
+  description: string;
+  icon: typeof FileText;
+}> = [
+  {
+    type: "paragraph",
+    title: "Commentary",
+    description: "Editorial market context",
+    icon: TextQuote,
+  },
+  {
+    type: "heading",
+    title: "Section heading",
+    description: "A clear editorial break",
+    icon: FileText,
+  },
+  {
+    type: "technical-analysis",
+    title: "Technical outlook",
+    description: "Bias, reference and analysis",
+    icon: ChartColumn,
+  },
+  {
+    type: "scenario",
+    title: "Trading scenarios",
+    description: "Bullish and bearish cases",
+    icon: LayoutPanelTop,
+  },
+  {
+    type: "chart",
+    title: "Chart visual",
+    description: "An image or live chart reference",
+    icon: ChartColumn,
+  },
+  {
+    type: "dashboard",
+    title: "Market dashboard",
+    description: "A market summary section",
+    icon: LayoutPanelTop,
+  },
+];
 
 async function requestTranslation<T>(endpoint: string, payload: unknown): Promise<T> {
   const response = await fetch(endpoint, {
@@ -127,7 +174,7 @@ export function ReportEditor() {
   const [englishSourceReport, setEnglishSourceReport] = useState<CanonicalReport | null>(() =>
     structuredClone(sampleReport),
   );
-  const [isSample, setIsSample] = useState(true);
+  const [, setIsSample] = useState(true);
   const [history, setHistory] = useState<CanonicalReport[]>([]);
   const [future, setFuture] = useState<CanonicalReport[]>([]);
   const [selectedId, setSelectedId] = useState("overview");
@@ -605,20 +652,20 @@ export function ReportEditor() {
     const section: ReportSection = {
       id,
       type: newType,
-      title:
-        newType === "paragraph"
-          ? "New commentary"
-          : newType === "heading"
-            ? "New heading"
-            : newType === "scenario"
-              ? "New scenarios"
-              : "New chart",
+      title: sectionTemplates.find((template) => template.type === newType)?.title ?? "New section",
       data:
         newType === "scenario"
           ? { bullish: "Enter the bullish scenario.", bearish: "Enter the bearish scenario." }
           : newType === "chart"
             ? { caption: "Chart image pending" }
-            : { text: "Enter your report commentary." },
+            : newType === "technical-analysis"
+              ? {
+                  instrument: "Instrument",
+                  bias: "Neutral",
+                  reference: "Reference level",
+                  text: "Enter technical commentary.",
+                }
+              : { text: "Enter your report commentary." },
     };
     update({ ...report, sections: [...report.sections, section] });
     setSelectedId(id);
@@ -665,23 +712,36 @@ export function ReportEditor() {
           />
           <Button
             variant="ghost"
+            className="header-action import-action"
+            title="Import report"
+            aria-label="Import report"
             onClick={() => document.getElementById("report-import-input")?.click()}
           >
             <Upload />
-            {ui.import}
+            <span>{ui.import}</span>
           </Button>
           {theme === "gtm" && (
-            <Button variant="ghost" onClick={() => setSupportedJsonOpen(true)}>
+            <Button
+              variant="ghost"
+              className="header-action format-action"
+              title="Supported JSON format"
+              aria-label="Supported JSON format"
+              onClick={() => setSupportedJsonOpen(true)}
+            >
               <FileText />
-              Supported JSON Format
+              <span>Format guide</span>
             </Button>
           )}
-          <Button variant={preview ? "secondary" : "outline"} onClick={() => setPreview(!preview)}>
+          <Button
+            className="header-action preview-action"
+            variant={preview ? "secondary" : "outline"}
+            onClick={() => setPreview(!preview)}
+          >
             <Eye />
-            {preview ? ui.backToEditor : ui.preview}
+            <span>{preview ? ui.backToEditor : ui.preview}</span>
           </Button>
           <Button
-            variant="outline"
+            className="header-action export-action"
             disabled={exportBusy}
             onClick={() => {
               setExportError("");
@@ -689,7 +749,7 @@ export function ReportEditor() {
             }}
           >
             <Download />
-            {ui.export}
+            <span>{ui.export}</span>
             <ChevronDown />
           </Button>
         </div>
@@ -1236,23 +1296,36 @@ export function ReportEditor() {
         </span>
       </footer>
       <Dialog open={addOpen} onOpenChange={setAddOpen}>
-        <DialogContent>
+        <DialogContent className="section-picker-dialog">
           <DialogHeader>
             <DialogTitle>{ui.addSection}</DialogTitle>
-            <DialogDescription>Choose a supported section for this edition.</DialogDescription>
+            <DialogDescription>Choose a report building block for this edition.</DialogDescription>
           </DialogHeader>
-          <label className="property-field">
-            Section type
-            <select value={newType} onChange={(e) => setNewType(e.target.value as SectionType)}>
-              <option value="paragraph">Paragraph</option>
-              <option value="heading">Heading</option>
-              <option value="scenario">Bullish & bearish scenarios</option>
-              <option value="chart">Chart placeholder</option>
-            </select>
-          </label>
-          <Button onClick={addSection}>
+          <div className="section-template-grid" role="radiogroup" aria-label="Section type">
+            {sectionTemplates.map((template) => {
+              const Icon = template.icon;
+              const selectedTemplate = newType === template.type;
+              return (
+                <button
+                  key={template.type}
+                  type="button"
+                  role="radio"
+                  aria-checked={selectedTemplate}
+                  className={`section-template ${selectedTemplate ? "selected" : ""}`}
+                  onClick={() => setNewType(template.type)}
+                >
+                  <Icon aria-hidden="true" />
+                  <span>
+                    <strong>{template.title}</strong>
+                    <small>{template.description}</small>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          <Button className="section-picker-submit" onClick={addSection}>
             <Plus />
-            {ui.addSection}
+            Add {sectionTemplates.find((template) => template.type === newType)?.title ?? "section"}
           </Button>
         </DialogContent>
       </Dialog>
