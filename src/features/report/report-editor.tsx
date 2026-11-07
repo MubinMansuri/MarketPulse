@@ -595,13 +595,14 @@ export function ReportEditor() {
         throw new Error("The browser blocked the print window. Allow pop-ups and try again.");
       await waitForPrintAssets(root);
       setExportOpen(false);
-      printWindow.document.open();
       // Chrome and Edge use the print document title as the default Save as PDF filename.
       // Do not add ".pdf" here: the native dialog supplies the extension itself.
       const documentTitle =
         theme === "gtm" ? getGtmPdfBaseName(report.date, report.locale) : report.metadata.title;
-      printWindow.document.write(await createStandaloneReportDocument(documentTitle));
-      printWindow.document.close();
+      const printUrl = URL.createObjectURL(
+        new Blob([await createStandaloneReportDocument(documentTitle)], { type: "text/html" }),
+      );
+      printWindow.location.replace(printUrl);
       if (printWindow.document.readyState !== "complete")
         await new Promise<void>((resolve) =>
           printWindow.addEventListener("load", () => resolve(), { once: true }),
@@ -609,6 +610,7 @@ export function ReportEditor() {
       await waitForPrintAssets(printWindow.document.body);
       printWindow.focus();
       printWindow.print();
+      window.setTimeout(() => URL.revokeObjectURL(printUrl), 60_000);
     } catch (error) {
       setExportError(error instanceof Error ? error.message : "Print preparation failed.");
     } finally {
