@@ -2030,6 +2030,49 @@ button {
   border-color: var(--border);
   color: var(--muted-foreground);
 }
+.editor-app[data-theme="classic"] .report-page-back-cover {
+  background:
+    linear-gradient(135deg, color-mix(in oklch, var(--primary) 7%, var(--card)), var(--card) 56%),
+    var(--card);
+  color: var(--publication-ink);
+  border-top: 0.1875rem solid var(--primary);
+  border-inline-start: 0;
+}
+.editor-app[data-theme="classic"] .report-page-back-cover::before,
+.editor-app[data-theme="classic"] .report-page-back-cover::after {
+  display: none;
+}
+.editor-app[data-theme="classic"] .back-cover-content {
+  min-height: 54.5rem;
+  max-width: 29rem;
+}
+.editor-app[data-theme="classic"] .back-cover-mark {
+  width: 3rem;
+  height: 3rem;
+  padding: 0.4375rem;
+  border: 0.0625rem solid var(--primary);
+  border-radius: 50%;
+  object-position: left center;
+}
+.editor-app[data-theme="classic"] .back-cover-kicker {
+  color: var(--primary);
+  font-size: 0.6875rem;
+  letter-spacing: 0.0938rem;
+  text-transform: uppercase;
+}
+.editor-app[data-theme="classic"] .back-cover-content h2 {
+  color: var(--publication-ink);
+  font-size: 2.5rem;
+  letter-spacing: -0.05rem;
+}
+.editor-app[data-theme="classic"] .back-cover-content p:last-child {
+  color: var(--muted-foreground);
+  font-size: 0.875rem;
+}
+.editor-app[data-theme="classic"] .report-page-back-cover .publication-footer {
+  border-color: var(--border);
+  color: var(--muted-foreground);
+}
 @media screen {
   /* The publication stays print-proportional at export. The interactive canvas
      uses a larger, editorial reading scale so authors are not editing 7–11px text. */

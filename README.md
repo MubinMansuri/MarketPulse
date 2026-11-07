@@ -25,7 +25,7 @@ The editor keeps changes only in the current tab. It does not provide autosave, 
 
 ## DeepL translation memory
 
-When `TRANSLATION_PROVIDER=deepl`, translation uses a local-first workflow. The server checks a language-specific memory file (`.translation-cache/es.json` or `.translation-cache/ar.json`) before calling DeepL. Cache misses are batched by target language, sent to DeepL, and saved atomically after a successful response. Repeated text therefore has consistent output without another API request. The cache directory is ignored by Git because it may contain report copy.
+When `TRANSLATION_PROVIDER=deepl`, translation uses a local-first workflow. The server checks the existing language files (`locales/es.json` or `locales/ar.json`) before calling DeepL. Cache misses are batched by target language, sent to DeepL, and saved atomically after a successful response. Repeated text therefore has consistent output without another API request. Treat these files as report content and keep them out of public/static folders.
 
 Local disk persistence works in local development and on servers with a writable volume. Vercel function filesystems are ephemeral/read-only for this purpose: the same process still has an in-memory cache, but durable cross-instance cache storage needs a mounted volume or a managed store configured outside this repository.
 

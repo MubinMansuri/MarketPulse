@@ -1,0 +1,716 @@
+{
+  "version": 1,
+  "locale": "ar",
+  "entries": {
+    "71df8babcf24b06b6db171f72b567ca81136de546b1a07e31dbc3162d3661c27": {
+      "source": "Daily Market Report",
+      "translated": "التقرير اليومي للسوق",
+      "updatedAt": "2026-11-07T15:40:28.180Z"
+    },
+    "6f3b88c26d093e973983b395ddf9f8096d2456cfcc1c33f16c319dbd79da5acf": {
+      "source": "Market Intelligence",
+      "translated": "معلومات السوق",
+      "updatedAt": "2026-11-07T15:40:28.180Z"
+    },
+    "c88cd20fc60ef960c3cb6f3c950d222a03c1fc954cb24b243b7f03fcc1bd14dc": {
+      "source": "Clear data. Clear context. Disciplined decisions.",
+      "translated": "بيانات واضحة. سياق واضح. قرارات مدروسة.",
+      "updatedAt": "2026-11-07T15:40:28.180Z"
+    },
+    "568d8e4cbe2d9a1d3ef83e41e67376805132a3edda400042cf2a9f6d06cd58c4": {
+      "source": "Market overview",
+      "translated": "نظرة عامة على السوق",
+      "updatedAt": "2026-11-07T15:40:28.660Z"
+    },
+    "ab33adde44c5e339b4a3e45e1fe2b708113c8e558a6842f05abb9c74ddf19880": {
+      "source": "Prepared by Global Trend Markets",
+      "translated": "أعدته شركة «جلوبال تريند ماركتس»",
+      "updatedAt": "2026-11-07T15:40:28.660Z"
+    },
+    "58ef2dcbb31ec6800a1027fbf450659212bacccc7ef5732f31e3fd1a699a943a": {
+      "source": "Market outlook QXSECRETTOKENAQX",
+      "translated": "توقعات السوق QXSECRETTOKENAQX",
+      "updatedAt": "2026-11-07T15:42:54.900Z"
+    },
+    "8721917a59669d6500ba46c829749b3bab2569b2e8ad384018db31665219e2f9": {
+      "source": "Executive Market View",
+      "translated": "نظرة تنفيذية على السوق",
+      "updatedAt": "2026-11-07T16:45:20.374Z"
+    },
+    "4a0c824c9b1fca5a550a8b56b86223e1c341fbff38a5f45fd3a7db8d545d6e18": {
+      "source": "TradingView Chart Link",
+      "translated": "رابط الرسم البياني على TradingView",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "76a45e5a5128e2621fa08581280ca693a029a984dcb92a0e6fa2ea7457ecf0c4": {
+      "source": "Open TradingView for WTI Oil. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لمؤشر نفط WTI. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "0eacf11168632544f9d65a93220f65642191c50923e8c7e29efe030571aa469b": {
+      "source": "Fundamental View",
+      "translated": "النظرة الأساسية",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "9b86b10ca547fddef70071b446d9d4fc730fb8e9a566c7faeb99e070e40b0f40": {
+      "source": "FXStreet reported December WTI futures recovering above $90 after retreating toward $86 per barrel. The underlying news flow concerns possible diplomacy with Iran and risks around the Strait of Hormuz. A credible agreement could reduce the supply-risk premium; renewed disruption may cause abrupt gains. Reuters Friday reporting also highlighted how rising energy prices can reawaken inflation and rates concerns. Compare the same contract month when analysing prices.",
+      "translated": "أفادت «FXStreet» بأن العقود الآجلة لخام غرب تكساس الوسيط (WTI) لشهر ديسمبر تعافت لتتجاوز حاجز الـ90 دولارًا بعد تراجعها نحو 86 دولارًا للبرميل. وتتعلق الأخبار الأساسية باحتمال إجراء مفاوضات دبلوماسية مع إيران والمخاطر المحيطة بمضيق هرمز. وقد يؤدي التوصل إلى اتفاق موثوق به إلى خفض علاوة مخاطر العرض؛ في حين أن تجدد الاضطرابات قد يتسبب في ارتفاعات مفاجئة. كما سلط تقرير وكالة رويترز يوم الجمعة الضوء على كيفية قيام ارتفاع أسعار الطاقة بإثارة المخاوف بشأن التضخم وأسعار الفائدة من جديد. قم بمقارنة نفس شهر العقد عند تحليل الأسعار.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "16ed5bbdcee906394f2a4625c16f7139cef970d623b71e9fabc71242ddb4352f": {
+      "source": "Trading Scenarios",
+      "translated": "سيناريوهات التداول",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "51cc2c2e0497cf1d06f7370ef6ef31ed2a88d772bfa1d9074bcbf239faefb80f": {
+      "source": "Verified renewed Hormuz supply disruption and a sustained break above a current contract-specific high could extend the rebound.",
+      "translated": "إن تأكد حدوث انقطاع جديد في إمدادات مضيق هرمز، واختراق مستمر فوق أعلى مستوى مسجل حاليًا للعقد المعني، قد يؤديان إلى تمديد موجة الارتفاع.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "f70b20d42da9aab2861c33294da6837a447a694128a752d7f59eb407d3be72d2": {
+      "source": "Credible de-escalation or a demand downgrade could renew pressure toward prior lows; use the chosen WTI contract and fresh market data.",
+      "translated": "قد يؤدي أي تراجع حقيقي في حدة التوتر أو خفض للمطالبات إلى تجدد الضغط نحو أدنى المستويات السابقة؛ استخدم عقد خام غرب تكساس الوسيط (WTI) الذي اخترته وبيانات السوق الحديثة.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "c7c621143ec65d7d1ca2afb682eb7067fc3ec2ad0029b7571157ee169d50fed5": {
+      "source": "US30 Technical Framework",
+      "translated": "الإطار الفني لمؤشر US30",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "4269883ea61c59bf406d4d3e509ac51b8e7bce491c5d41d2367cc8c49253c887": {
+      "source": "Open TradingView for US30. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لمؤشر US30. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما عند المقارنة بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "3852d10f94874a41a020ccb30dd2a5c7ca76e630a9febda71ac78b16791a7525": {
+      "source": "Thursday�?Ts Dow decline of 1,833.06 points (3.44%) reflected broader risk aversion amid AI/data-centre policy concerns after the midterms, although the Nasdaq suffered more. US payrolls, Treasury yields and the breadth of any Friday rebound will determine whether the decline stabilises. This section uses DJIA cash closes and must not be represented as a real-time US30 CFD quote.",
+      "translated": "انخفاض مؤشر داو جونز يوم الخميس بمقدار 1,833.06 نقطة (3.44٪) عكس تزايد النزعة إلى تجنب المخاطرة على نطاق واسع وسط مخاوف بشأن سياسات الذكاء الاصطناعي ومراكز البيانات في أعقاب انتخابات التجديد النصفي، على الرغم من أن مؤشر ناسداك كان الأكثر تضررًا. وستحدد أرقام الوظائف في الولايات المتحدة، وعوائد سندات الخزانة، ومدى أي انتعاش يوم الجمعة ما إذا كان هذا الانخفاض سيستقر أم لا. يستخدم هذا القسم أسعار الإغلاق النقدية لمؤشر داو جونز الصناعي (DJIA)، ولا يجب اعتبارها أسعارًا فورية لعقود الفروقات (CFD) على مؤشر US30.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "d8c583cbb65df3f74d1e216c65e394bea41c3041925accb6f96c156f7f6052cf": {
+      "source": "A weaker-than-expected payrolls print and stabilising market breadth could allow a relief rally from Thursday�?Ts decline; confirm using live index levels.",
+      "translated": "قد يؤدي صدور تقرير الوظائف الذي جاء أضعف من المتوقع، إلى جانب استقرار نطاق السوق، إلى حدوث ارتفاع تعويضي بعد انخفاض يوم الخميس؛ يرجى التأكد من ذلك باستخدام مستويات المؤشر الحالية.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "d481f68227b8dd5ea2845bcaa58c51417d7f918131ab1d1f622d6e96632abc26": {
+      "source": "Strong yields or continued policy-related stock selling could extend pressure below Thursday�?Ts closing region; watch live price and cash/futures basis.",
+      "translated": "قد تؤدي المكاسب القوية أو استمرار عمليات بيع الأسهم المرتبطة بالسياسات إلى تفاقم الضغط أسفل مستوى إغلاق يوم الخميس؛ يرجى مراقبة الأسعار المباشرة وفارق السعر بين السوق الفورية والسوق الآجلة.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "18159f46f1b7763e2f67f5738db8aaf08951a58f9f3921ebf160a5944d832ba5": {
+      "source": "NASDAQ Technical Framework",
+      "translated": "الإطار الفني لمؤشر ناسداك",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "0e0b0ab286616df0a058ad196679758657a0bb228d6781081edd6394f683ef80": {
+      "source": "Open TradingView for NASDAQ. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لمؤشر ناسداك. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما عند المقارنة بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "051adb1364466d5d14aa414f22085aa47b07880513880408d3bd1bf091af30a3": {
+      "source": "The Nasdaq Composite plunged 5.52% Thursday as semiconductors and AI/data-centre-related stocks suffered heavy losses. Reuters reported intense selling amid fears of new US regulatory limits on data-centre construction following the midterms. The sell-off took the index into correction territory compared with its October peak. NFP can change yields and growth-stock valuations, but near-term sector regulation and positioning also matter. The Nasdaq Composite is different from Nasdaq-100 CFDs.",
+      "translated": "انخفض مؤشر ناسداك المركب بنسبة 5.52% يوم الخميس، حيث تكبدت أسهم شركات أشباه الموصلات والأسهم المرتبطة بالذكاء الاصطناعي ومراكز البيانات خسائر فادحة. وأفادت وكالة رويترز بحدوث موجة بيع مكثفة وسط مخاوف من فرض قيود تنظيمية أمريكية جديدة على إنشاء مراكز البيانات في أعقاب انتخابات التجديد النصفي. وأدى هذا التصفية إلى دخول المؤشر في منطقة التصحيح مقارنة بأعلى مستوى له في أكتوبر. وقد تؤثر أرقام الوظائف غير الزراعية (NFP) على العائدات وتقييمات أسهم النمو، لكن اللوائح التنظيمية للقطاعات على المدى القريب والمراكز الاستثمارية لها أهمية أيضًا. ويختلف مؤشر ناسداك المركب عن عقود الفروقات (CFDs) لمؤشر ناسداك 100.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "22ba8ba179984ae50c5529b9a2adfc7c68594583ab0be523295b67ff144f714a": {
+      "source": "If technology selling exhausts and payrolls ease rate fears, a meaningful rebound needs confirmation from improving semiconductor breadth and a live reversal pattern.",
+      "translated": "وإذا كانت مبيعات أسهم شركات التكنولوجيا وتقرير الوظائف يبددان المخاوف بشأن أسعار الفائدة، فإن أي انتعاش حقيقي يحتاج إلى تأكيد من خلال تحسن نطاق أداء قطاع أشباه الموصلات وظهور نمط انعكاس فعلي.",
+      "updatedAt": "2026-11-07T16:49:40.536Z"
+    },
+    "5aa1bad05ee9396b6454827a0d03f5f6698033e8d36e7239949fd484172f4ea4": {
+      "source": "Further AI policy concerns, profit-taking or stronger-than-expected yields could extend the correction below the latest verified session low. Stay cautious about false relief rallies.",
+      "translated": "قد تؤدي المخاوف الإضافية بشأن سياسات الذكاء الاصطناعي، أو عمليات جني الأرباح، أو العوائد الأقوى من المتوقع إلى تمديد التصحيح إلى ما دون أدنى مستوى مؤكد سجلته الجلسة الأخيرة. يجب توخي الحذر من ارتفاعات الارتياح الزائفة.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "1ba2e82e132b28b9ee6c5ec74067233ee3102ed65c5c18b9842de931cb624177": {
+      "source": "Daily Bias Matrix",
+      "translated": "مصفوفة التحيز اليومية",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "1f4822c23a381faf60cd6c8b10ce4655ab4997de89e6387c47839b0837017ee0": {
+      "source": "Next Major Catalyst",
+      "translated": "المحفز الرئيسي التالي",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "fd68df1ce1af131a90fb2cc1c0bd0a87a10e3babf30ff0ca13efa7133f4feb4f": {
+      "source": "At 13:30 UTC on Friday, 6 November, the US October Nonfarm Payrolls report is scheduled. FXStreet�?Ts calendar lists a +65,000 payroll consensus against a prior +29,000, with unemployment expected at 4.2% versus 4.2% previously. Average hourly earnings are expected to rise 0.3% month over month compared with 0.1% previously. At 15:00 UTC, preliminary November University of Michigan consumer sentiment and inflation expectations are due. A weak payroll result could lower US yields and offer relief for gold and growth shares, although recession worries could offset that support. A strong jobs/wages report could support the dollar and yields and keep technology stocks under pressure. Market reaction depends on the full report, revisions and prevailing risk sentiment.",
+      "translated": "من المقرر صدور تقرير الوظائف غير الزراعية في الولايات المتحدة لشهر أكتوبر في الساعة 13:30 بالتوقيت العالمي المنسق (UTC) يوم الجمعة، 6 نوفمبر. ويشير تقويم FXStreet إلى توقعات إجماعية بزيادة عدد الوظائف بمقدار +65,000 مقارنة بـ +29,000 في التقرير السابق، مع توقع أن يظل معدل البطالة عند 4.2% مقابل 4.2% سابقًا. ومن المتوقع أن يرتفع متوسط الأجر في الساعة بنسبة 0.3% على أساس شهري مقارنة بـ 0.1% سابقًا. وفي الساعة 15:00 بالتوقيت العالمي المنسق (UTC)، من المقرر صدور التوقعات الأولية لمؤشر ثقة المستهلك وتوقعات التضخم لشهر نوفمبر الصادرة عن جامعة ميشيغان. وقد يؤدي صدور نتائج ضعيفة لوظائف غير الزراعية إلى انخفاض عوائد السندات الأمريكية وتوفير بعض الراحة للذهب وأسهم النمو، على الرغم من أن مخاوف الركود الاقتصادي قد تقوض هذا الدعم. قد يدعم تقرير قوي عن الوظائف والأجور الدولار والعوائد ويبقي أسهم شركات التكنولوجيا تحت الضغط. تعتمد ردود فعل السوق على التقرير الكامل، والمراجعات، ومزاج المخاطرة السائد.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "e96a955e55f905501bc19a144b037905a618f3c9ebd2df5783bed2d92d446f48": {
+      "source": "Scenario Map",
+      "translated": "خريطة السيناريو",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "94f7c023c85d28eea215b1592b4365901c3be8a3896b942a94cf613ba1de639e": {
+      "source": "Base case: Friday is an event-risk session dominated by October US payrolls at 13:30 UTC and preliminary Michigan sentiment at 15:00 UTC. Equity markets enter after the severe 5 November sell-off. Soft data may ease yields but could also revive growth worries; stronger data may lift dollar/yields. Monitor Iran/Hormuz headlines for independent oil volatility.",
+      "translated": "السيناريو الأساسي: ستكون جلسة تداول يوم الجمعة حافلة بالمخاطر المرتبطة بالأحداث، حيث ستسيطر عليها بيانات الوظائف الأمريكية لشهر أكتوبر في الساعة 13:30 بتوقيت غرينتش، ومؤشر ثقة المستهلك الأولي لجامعة ميشيغان في الساعة 15:00 بتوقيت غرينتش. تدخل أسواق الأسهم هذه الجلسة في أعقاب موجة البيع الحادة التي شهدتها في 5 نوفمبر. وقد تؤدي البيانات الضعيفة إلى تراجع العائدات، لكنها قد تجدد أيضًا المخاوف بشأن النمو؛ في حين أن البيانات القوية قد تدفع الدولار والعائدات إلى الارتفاع. يجب مراقبة العناوين الرئيسية المتعلقة بإيران ومضيق هرمز لمتابعة التقلبات المستقلة في أسعار النفط.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "156acf0661f95074001e5fb082afd2ce9bdcdf5ba60b8aca22b4585bece57048": {
+      "source": "Risk recovery: softer but not recessionary payrolls, falling Treasury yields, stabilising semiconductors and credible Iran de-escalation allow equities and gold to steady. A weaker dollar could favour EUR/USD and GBP/USD. This is conditional, not a trade instruction.",
+      "translated": "تراجع المخاطر: أرقام التوظيف التي جاءت أقل قوة دون أن تشير إلى ركود، وانخفاض عوائد سندات الخزانة، واستقرار سوق أشباه الموصلات، والتخفيف الموثوق به للتوترات مع إيران، كلها عوامل تسمح للأسهم والذهب بالاستقرار. وقد يؤدي ضعف الدولار إلى دعم زوجي العملات EUR/USD و GBP/USD. هذا تحليل مشروط، وليس توجيهًا تداولياً.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "ff79291af748a3b6b6670f13f7171b3560e749c37ecb22ed9428b1b6fa775af1": {
+      "source": "Risk aversion: strong wages/strong NFP raise US yields, or negative AI/data-centre regulation headlines extend stock losses. Nasdaq and gold may weaken on higher real rates, while oil can rise separately if Strait of Hormuz supply risks intensify. Conditional scenario only.",
+      "translated": "تجنب المخاطرة: ارتفاع الأجور/قوة أرقام الوظائف غير الزراعية (NFP) يؤديان إلى ارتفاع العائدات الأمريكية، أو تسبب العناوين السلبية المتعلقة بالذكاء الاصطناعي/تنظيم مراكز البيانات في تفاقم خسائر الأسهم. قد يتراجع مؤشر ناسداك وسعر الذهب في ظل ارتفاع أسعار الفائدة الحقيقية، في حين قد يرتفع سعر النفط بشكل منفصل في حال اشتداد مخاطر الإمدادات عبر مضيق هرمز. هذا سيناريو مشروط فقط.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "5e652dfe120b232707626a33afe1fb128a917be46005015f31c155d222409e9a": {
+      "source": "Sources and Methodology",
+      "translated": "المصادر والمنهجية",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "c9dcafb42c4d9f21125ca38643705e1eb20bcb93fc742a255cb112f5d9025927": {
+      "source": "Sources checked for 6 November 2026 Cyprus morning edition: FXStreet news feed https://www.fxstreet.com/news/feed ; FXStreet economic calendar https://www.fxstreet.com/economic-calendar/United-States ; FXStreet-authored Forex Today analysis published 5 Nov https://www.tmgm-apac.com/eng/analysis/market-news/article/forex-today-us-payrolls-and-u-mich-come-next-202611051837 ; FXStreet-authored 6 Nov yen commentary https://www.tmgmasia.com/en/analysis/market-news/article/japanese-yen-retreats-from-weekly-high-as-usd-steadies-ahead-of-us-nfp-report-202611060203 ; AP prior US cash-market close https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a ; Reuters equity coverage https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/ ; Reuters gold https://www.reuters.com/world/india/gold-eases-inflation-worries-higher-oil-us-payrolls-data-focus-2026-11-06/ ; TradingView chart URLs appear in instrument sections. Values are dated references, consensus or prior cash closes, not licensed streaming data.",
+      "translated": "المصادر التي تم الرجوع إليها في الطبعة الصباحية لقبرص بتاريخ 6 نوفمبر 2026: موجز أخبار FXStreet https://www.fxstreet.com/news/feed ؛ التقويم الاقتصادي لـ FXStreet https://www.fxstreet.com/economic-calendar/United-States ؛ تحليل «فوركس توداي» الذي أعده موقع FXStreet ونُشر في 5 نوفمبر https://www.tmgm-apac.com/eng/analysis/market-news/article/forex-today-us-payrolls-and-u-mich-come-next-202611051837 ؛ تعليق حول الين صادر عن FXStreet بتاريخ 6 نوفمبر https://www.tmgmasia.com/en/analysis/market-news/article/japanese-yen-retreats-from-weekly-high-as-usd-steadies-ahead-of-us-nfp-report-202611060203 ; تقرير وكالة أسوشيتد برس قبل إغلاق السوق النقدية الأمريكية https://apnews.com/article/afe254c608c3d1fe2ea792812ba9765a ; تغطية رويترز لأسواق الأسهم https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/ ; رويترز للذهب https://www.reuters.com/world/india/gold-eases-inflation-worries-higher-oil-us-payrolls-data-focus-2026-11-06/ ؛ تظهر عناوين URL لرسوم TradingView البيانية في أقسام الأدوات المالية. القيم هي مراجع مؤرخة، أو إجماع، أو أسعار إغلاق نقدية سابقة، وليست بيانات متدفقة مرخصة.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "02def7cb26568b29f36621c68e9f0fbff630d236d4195eea8c6b9f9db5d10923": {
+      "source": "Risk Disclosure",
+      "translated": "إفصاح عن المخاطر",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "116c462eca5e6743c5da596f0e1e0c46d339619d2c2b25494581712f3dcb3e59": {
+      "source": "This report provides general market information and education only. It is not personal investment advice or a recommendation to buy, sell or hold an instrument. CFDs, leveraged foreign exchange and futures can cause substantial or total loss and may be unsuitable for some investors. Quotes are time-limited news references, not a verified real-time feed; some assets have no independently verified spot price. US30 uses the Dow Jones Industrial Average cash close and NASDAQ uses the Nasdaq Composite cash close, neither a broker-specific CFD or a Nasdaq-100 quote. WTI December futures may differ materially from spot oil or another delivery month. Indicative recent lows and highs are not verified technical calculations. Confirm the exact symbol, provider, time zone, contract, spreads, economic-event times and current prices on a live data service before placing trades. TradingView hyperlinks open charts; no licensed chart imagery or streaming TradingView data is embedded. Scenario analysis is conditional and no outcome is guaranteed.",
+      "translated": "يقدم هذا التقرير معلومات عامة عن السوق وأغراضًا تثقيفية فقط. ولا يُعد نصيحة استثمارية شخصية أو توصية بشراء أو بيع أو الاحتفاظ بأي أداة مالية. قد تتسبب عقود الفروقات (CFDs) وعمليات تداول العملات الأجنبية بالرافعة المالية والعقود الآجلة في خسائر كبيرة أو كاملة، وقد لا تكون مناسبة لبعض المستثمرين. الأسعار الواردة هي مراجع إخبارية محدودة زمنياً، وليست بيانات محدثة في الوقت الفعلي تم التحقق منها؛ ولا يوجد سعر فوري تم التحقق منه بشكل مستقل لبعض الأصول. يستخدم مؤشر US30 سعر الإغلاق النقدي لمؤشر داو جونز الصناعي، ويستخدم مؤشر ناسداك سعر الإغلاق النقدي لمؤشر ناسداك المركب، ولا يمثل أي منهما عقد فروقات خاص بوسيط معين أو سعرًا لمؤشر ناسداك 100. قد تختلف العقود الآجلة لخام غرب تكساس الوسيط (WTI) لشهر ديسمبر اختلافًا جوهريًّا عن سعر النفط الفوري أو عن شهر تسليم آخر. لا تُعد أدنى وأعلى المستويات الإرشادية الأخيرة حسابات فنية تم التحقق منها. تأكد من الرمز الدقيق، والمزود، والمنطقة الزمنية، والعقد، وفروق الأسعار، ومواعيد الأحداث الاقتصادية، والأسعار الحالية من خلال خدمة بيانات حية قبل إجراء الصفقات. تفتح روابط TradingView الرسوم البيانية؛ ولا يتم تضمين أي صور مرخصة للرسوم البيانية أو بيانات TradingView المتدفقة. تحليل السيناريوهات مشروط ولا توجد ضمانات بأي نتائج.",
+      "updatedAt": "2026-11-07T16:49:40.537Z"
+    },
+    "78640d98fa2a9e04d19d0932501eadaf15a0110d25273094b963e5d9156de29b": {
+      "source": "Strong payrolls or wage inflation, firmer yields and dollar demand could drive a deeper pullback; validate support with a fresh XAU/USD chart.",
+      "translated": "قد تؤدي أرقام التوظيف القوية أو تضخم الأجور، وارتفاع العائدات، وزيادة الطلب على الدولار إلى تراجع أعمق؛ تحقق من مستوى الدعم باستخدام رسم بياني جديد لزوج XAU/USD.",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "dfd167d8dc28d0d776315bc042f3753a6d2f399c5baa3104f388983992f1fcde": {
+      "source": "XAG/USD Technical Framework",
+      "translated": "الإطار الفني لزوج XAG/USD",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "40d16403bd050ff17d1c573618d7edd4c8c0d8c32e8d1210a5f06b4a0ab09ceb": {
+      "source": "Open TradingView for XAG/USD. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لـ XAG/USD. رابط إلكتروني للرسم البياني فقط؛ لا توجد بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView في ملف JSON هذا. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "5966e77d99eaa53a04e4b933ac9c1f4083f213722e87b3e904a78f645599cf00": {
+      "source": "Silver is affected by gold, real yields and the dollar, but its industrial-demand exposure also leaves it vulnerable to the global technology and growth sell-off. Reuters described silver as little changed on Thursday and higher in Friday reporting, without a verified spot-price timestamp suitable for this report. US payrolls could change both growth expectations and Fed pricing.",
+      "translated": "تتأثر الفضة بالذهب والعوائد الحقيقية والدولار، لكن ارتباطها بالطلب الصناعي يجعلها أيضًا عرضة لموجة البيع العالمية في قطاعي التكنولوجيا والنمو. ووصفت وكالة رويترز حركة الفضة بأنها لم تشهد تغيرًا يذكر يوم الخميس وارتفعت يوم الجمعة، دون ذكر طابع زمني مؤكد لسعر الفضة الفوري يناسب هذا التقرير. وقد تؤدي أرقام الوظائف الأمريكية إلى تغيير توقعات النمو وتوقعات أسعار الفائدة لدى بنك الاحتياطي الفيدرالي.",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "7e2780e48ca89cc942103ed27910a1093fa753ee338e4fb233a7c89b54137e92": {
+      "source": "Silver could outperform on weak payrolls and falling real yields if gold stabilises; await a verified breakout on the live silver chart.",
+      "translated": "قد يتفوق أداء الفضة في ظل ضعف أرقام الوظائف وانخفاض العائدات الحقيقية، شريطة أن يستقر سعر الذهب؛ انتظر حدوث اختراق مؤكد على الرسم البياني المباشر للفضة.",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "2ac34aa0cd61f042953baadb1c1285dd509711f18b0086d1cf425b12009458b9": {
+      "source": "A stronger dollar or risk-off industrial outlook could trigger a sharper percentage retreat than in gold; watch the nearest verified swing support.",
+      "translated": "قد يؤدي ارتفاع قيمة الدولار أو التوقعات الصناعية التي تنم عن تجنب المخاطرة إلى تراجع بنسبة مئوية أكبر مما يحدث في سوق الذهب؛ لذا يجب مراقبة أقرب مستوى دعم تأرجحي مؤكد.",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "6867be4b535f8a6d92b8eaeccee4a899408c9265d4fa615dda06124ad7d144e2": {
+      "source": "WTI Oil Technical Framework",
+      "translated": "الإطار الفني لخام غرب تكساس الوسيط (WTI)",
+      "updatedAt": "2026-11-07T16:52:37.140Z"
+    },
+    "8e8990bf88e7092466e0ba350ed06d60c820b2094693f648ff37bd8452f0fd8b": {
+      "source": "Overall bias: Risk-off and data-dependent following the sharp US technology sell-off. Wall Street reversed Wednesdayâ€™s rally on Thursday 5 November: the S&P 500 fell 4.36% to 7,353.73, the Dow lost 3.44% to 51,523.06 and the Nasdaq Composite sank 5.52% to 24,315.00, according to AP and Reuters. The decline was concentrated in AI, semiconductor and data-centre-related shares as markets considered potential policy changes following the US midterm election results. FXStreetâ€™s late-Thursday market overview put the Dollar Index around 101.70, EUR/USD around support at 1.1200 and GBP/USD near 1.3470; Fridayâ€™s feed has the pound around the mid-1.3400s. Gold traded above $4,100 in Thursday coverage but eased in Friday reporting as rising oil revived inflation worries. FXStreet reported December WTI futures recovering to above $90 after an earlier slide near $86 amid changing USâ€“Iran/Hormuz headlines. The dominant scheduled release is the US October nonfarm payrolls report at 13:30 UTC, followed by preliminary November University of Michigan consumer sentiment at 15:00 UTC. Pre-release prices, dated news references, and the previous US cash close must not be confused with live quotes.",
+      "translated": "الاتجاه العام: تراجع الرغبة في المخاطرة وارتباط الأداء بالبيانات في أعقاب موجة البيع الحادة التي شهدتها أسهم شركات التكنولوجيا الأمريكية. عكست وول ستريت يوم الخميس 5 نوفمبر اتجاه الارتفاع الذي سجلته يوم الأربعاء: حيث انخفض مؤشر S&P 500 بنسبة 4.36% إلى 7,353.73، وخسر مؤشر داو جونز 3.44% ليصل إلى 51,523.06، وانخفض مؤشر ناسداك المركب بنسبة 5.52% ليصل إلى 24,315.00، وفقًا لوكالتي أسوشيتد برس ورويترز. وتركز الانخفاض في أسهم شركات الذكاء الاصطناعي وأشباه الموصلات والمراكز البيانات، حيث أخذت الأسواق في الحسبان التغييرات المحتملة في السياسات في أعقاب نتائج انتخابات التجديد النصفي الأمريكية. أشارت نظرة عامة FXStreet على السوق في وقت متأخر من يوم الخميس إلى أن مؤشر الدولار كان عند حوالي 101.70، وأن زوج اليورو/الدولار الأمريكي كان بالقرب من مستوى الدعم عند 1.1200، وأن زوج الجنيه الإسترليني/الدولار الأمريكي كان بالقرب من 1.3470؛ وتشير تحليلات يوم الجمعة إلى أن الجنيه الإسترليني يتداول في منتصف مستوى 1.3400. تم تداول الذهب فوق مستوى 4,100 دولار في تغطية يوم الخميس، لكنه تراجع في تقرير يوم الجمعة مع تجدد مخاوف التضخم بسبب ارتفاع أسعار النفط. وأفادت FXStreet بأن العقود الآجلة لخام غرب تكساس الوسيط (WTI) لشهر ديسمبر تعافت لتتجاوز 90 دولارًا بعد انخفاض سابق قرب مستوى 86 دولارًا وسط تطورات متغيرة في العناوين الرئيسية المتعلقة بالعلاقات بين الولايات المتحدة وإيران ومضيق هرمز. أهم البيانات المقرر صدورها هو تقرير الوظائف غير الزراعية في الولايات المتحدة لشهر أكتوبر في الساعة 13:30 بتوقيت غرينتش، يليه مؤشر ثقة المستهلك الأولي لشهر نوفمبر الصادر عن جامعة ميشيغان في الساعة 15:00 بتوقيت غرينتش. يجب عدم الخلط بين الأسعار قبل صدور البيانات، والمراجع الإخبارية القديمة، وأسعار الإغلاق النقدي السابقة في الولايات المتحدة، وبين الأسعار الحية.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "30d4fc8d8ba375832adc2f2cea81f0db900a10e007757be0200bfbe1e24ffe8c": {
+      "source": "Market Dashboard",
+      "translated": "لوحة معلومات السوق",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "2c59fc9781ccf572ca17ec22a99cc47a8bf35b50dff535417d493a3d0a554bff": {
+      "source": "Economic Calendar",
+      "translated": "التقويم الاقتصادي",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "e5ea6247a6c0507b641c487b129f27f921dc78a581690ae8d0bb1120da2b2d7c": {
+      "source": "Market Overview",
+      "translated": "نظرة عامة على السوق",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "0dfd62a350fc7d0a8b215448307a3f941eeedd5698a3d77fca92991f70718ddc": {
+      "source": "US dollar: The dollar fell in FXStreetâ€™s 5 November evening review (DXY around 101.70) but Reuters Friday Asian reporting described safe-haven buying following the AI-stock rout; the intraday direction is therefore mixed and source-time-dependent. Equities: AP recorded Thursday losses of 4.36% for the S&P 500, 3.44% for the Dow and 5.52% for the Nasdaq after an abrupt reversal of Wednesdayâ€™s rally. Foreign exchange: EUR/USD recovered modestly from the 1.1200 area in Thursday FXStreet coverage, sterling hovered around 1.3470 and USD/JPY fell toward 157.80 before an Asian-session rebound. Rates and central banks: The Bank of England raised Bank Rate by 25 bps to 4.00% on Thursday; Japanese rate expectations remain relevant to yen strength. Precious metals: Gold pushed above $4,100 Thursday as yields fell, but was reported lower on Friday amid higher-oil inflation concerns; silver remains volatile. Energy: FXStreet reported December WTI recovering above $90 after touching about $86; developments in USâ€“Iran relations and the Strait of Hormuz can quickly change supply expectations. All references are dated and instrument-specific.",
+      "translated": "الدولار الأمريكي: انخفض الدولار في تقرير «FXStreet» المسائي ليوم 5 نوفمبر (مؤشر DXY عند حوالي 101.70)، لكن تقارير رويترز من آسيا يوم الجمعة أشارت إلى عمليات شراء الملاذ الآمن في أعقاب الهبوط الحاد لأسهم شركات الذكاء الاصطناعي؛ وبالتالي فإن الاتجاه خلال اليوم متباين ويعتمد على المصدر والوقت. الأسهم: سجلت وكالة أسوشيتد برس يوم الخميس خسائر بنسبة 4.36% لمؤشر S&P 500، و3.44% لمؤشر داو جونز، و5.52% لمؤشر ناسداك بعد انعكاس مفاجئ للارتفاع الذي شهده يوم الأربعاء. سوق الصرف الأجنبي: تعافى زوج اليورو/الدولار الأمريكي (EUR/USD) بشكل طفيف من منطقة 1.1200 وفقًا لتغطية FXStreet يوم الخميس، وحوم الجنيه الإسترليني حول مستوى 1.3470، وانخفض زوج الدولار الأمريكي/الين الياباني (USD/JPY) نحو 157.80 قبل أن يرتد خلال الجلسة الآسيوية. الأسعار والبنوك المركزية: رفع بنك إنجلترا سعر الفائدة البنكي بمقدار 25 نقطة أساس إلى 4.00% يوم الخميس؛ ولا تزال توقعات أسعار الفائدة اليابانية ذات صلة بقوة الين. المعادن الثمينة: ارتفع سعر الذهب فوق 4,100 دولار يوم الخميس مع انخفاض العائدات، لكنه سجل انخفاضًا يوم الجمعة وسط مخاوف من ارتفاع التضخم الناجم عن ارتفاع أسعار النفط؛ ولا تزال الفضة متقلبة. الطاقة: أفادت FXStreet بأن خام غرب تكساس الوسيط (WTI) لشهر ديسمبر تعافى فوق مستوى 90 دولارًا بعد أن لامس حوالي 86 دولارًا؛ ويمكن للتطورات في العلاقات بين الولايات المتحدة وإيران ومضيق هرمز أن تغير توقعات العرض بسرعة. جميع المراجع محددة التاريخ وتخص أدوات مالية معينة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "dd2a1d4f21429eb2a6b2dcc9bde6714d45b15ad23d0ef4cbfa3f45fff565c527": {
+      "source": "EUR/USD Technical Framework",
+      "translated": "الإطار الفني لزوج اليورو/الدولار الأمريكي",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "81ef2b545ce4b1232c74ec54ca76c55e37942a723a1bd513014454753b4d73d7": {
+      "source": "Open TradingView for EUR/USD. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لزوج العملات EUR/USD. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "7e3d18935083fea15ae7d1bdc1e9346a7848bc3fbe52e85d7b9c3d0330c92e8f": {
+      "source": "FXStreet noted that EUR/USD stabilised around 1.1200 late Thursday while the dollar remained unsettled after the election. Friday US payrolls and earnings will influence Fed rate pricing and short-dated Treasury yields. A weaker result could weigh on the dollar and support a euro rebound; a stronger report could reassert dollar demand. Germanyâ€™s industrial production is a secondary euro-area release. Avoid interpreting a previous-day technical reference as a live entry level.",
+      "translated": "وأشار موقع FXStreet إلى أن زوج اليورو/الدولار الأمريكي استقر عند مستوى 1.1200 في أواخر يوم الخميس، في حين ظل الدولار متقلبًا في أعقاب الانتخابات. ومن المتوقع أن تؤثر بيانات الوظائف والأرباح الأمريكية التي ستصدر يوم الجمعة على توقعات أسعار الفائدة لدى بنك الاحتياطي الفيدرالي وعوائد سندات الخزانة قصيرة الأجل. وقد تؤدي النتائج الضعيفة إلى الضغط على الدولار ودعم انتعاش اليورو؛ في حين أن التقرير القوي قد يعيد تعزيز الطلب على الدولار. ويُعد الإنتاج الصناعي الألماني أحد البيانات الثانوية الصادرة عن منطقة اليورو. تجنب تفسير المرجع الفني لليوم السابق على أنه مستوى دخول فعلي.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "88b0b7eb02532ab834006bfaed292bbbcb979f6524750718529bcbe135ad1420": {
+      "source": "If weaker US payrolls soften yields and EUR/USD holds above its verified intraday base, a move through the current 4H swing high could support a recovery. Confirm live before use.",
+      "translated": "إذا أدى ضعف بيانات الوظائف الأمريكية إلى انخفاض العائدات، وظل زوج اليورو/الدولار الأمريكي فوق قاعدته اليومية المؤكدة، فإن اختراق أعلى مستوى تأرجح حالي على الرسم البياني لكل 4 ساعات قد يدعم حدوث انتعاش. يرجى التأكد من ذلك في الوقت الفعلي قبل الاستخدام.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "f831585ecf9338b1eaa7e609aa7b201fb0560e46da4f9244e73135094f396e24": {
+      "source": "If payrolls and wages exceed expectations, US yields and USD may firm; failure to hold the recent 1.1200 reference area after confirmation could renew selling. The exact breakout point requires live chart verification.",
+      "translated": "إذا تجاوزت أرقام التوظيف والأجور التوقعات، فقد ترتفع عوائد السندات الأمريكية وسعر صرف الدولار الأمريكي؛ أما في حالة الفشل في الحفاظ على منطقة المرجع الأخيرة عند 1.1200 بعد تأكيدها، فقد تتجدد موجة البيع. ويتطلب تحديد نقطة الاختراق الدقيقة التحقق من الرسم البياني المباشر.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "d5ff31cda3646c149f1533bf8d46d46bb165ef43f0ef105abd5c7af1b717269a": {
+      "source": "GBP/USD Technical Framework",
+      "translated": "الإطار الفني لزوج الجنيه الإسترليني/الدولار الأمريكي",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "08969bf6dcebed587c3f8290ee44508ffc1f81d088cec5a15f3c827a3a419512": {
+      "source": "Open TradingView for GBP/USD. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لزوج العملات GBP/USD. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "8901ae0053e2e068ec81ae0265da5fa864affaf150649563b68b1350b29f3f73": {
+      "source": "The Bank of England increased Bank Rate to 4.00% on Thursday. Sterling was near 1.3470 in FXStreetâ€™s 5 November review and around the mid-1.3400s in a Friday news headline. Future UK rate expectations, US payrolls and risk aversion after the Nasdaq sell-off are the main near-term drivers. A hawkish BoE interpretation can help sterling, but broad dollar demand can offset it.",
+      "translated": "رفع بنك إنجلترا سعر الفائدة الرسمي إلى 4.00% يوم الخميس. وكان الجنيه الإسترليني يقترب من مستوى 1.3470 في تقرير موقع FXStreet الصادر في 5 نوفمبر، وحول منتصف مستوى 1.3400 في أحد عناوين الأخبار يوم الجمعة. وتعد التوقعات المستقبلية بشأن أسعار الفائدة في المملكة المتحدة، وبيانات الوظائف الأمريكية، ونزعة تجنب المخاطرة في أعقاب موجة البيع التي شهدها مؤشر ناسداك، العوامل الرئيسية المؤثرة على المدى القريب. وقد يساعد التفسير المتشدد لقرار بنك إنجلترا الجنيه الاسترليني، لكن الطلب الواسع على الدولار قد يعوض ذلك.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "7182f3b3c480673747f5a74068bfd594c0a070f0be3abc246e2244625ef0107c": {
+      "source": "Sterling could advance if US NFP disappoints and the live GBP/USD chart confirms a higher low and recovery through the latest resistance swing.",
+      "translated": "قد يرتفع الجنيه الإسترليني إذا جاءت أرقام الوظائف غير الزراعية الأمريكية مخيبة للآمال، وأكد الرسم البياني المباشر لزوج الجنيه الإسترليني/الدولار الأمريكي تشكيل قاع أعلى وارتدادًا فوق مستوى المقاومة المتأرجح الأخير.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "913bea4a3eea80b7a7671beea51c92d05b0a61fadcb13b7f193d90e530e3f466": {
+      "source": "A strong jobs report or renewed risk-off demand for USD could produce a lower high and renewed GBP/USD selling; confirm a live break of intraday support.",
+      "translated": "قد يؤدي صدور تقرير قوي عن الوظائف أو تجدد الطلب على الدولار الأمريكي في ظل تجنب المخاطرة إلى تشكيل قمة أقل وتجدد عمليات البيع لزوج الجنيه الإسترليني/الدولار الأمريكي؛ مع تأكيد الاختراق الفعلي لمستوى الدعم خلال الجلسة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "9f4a1277ecc7d8e92c9078c2bdadd9c91561e69db402061633990e0e0ba3a6a2": {
+      "source": "USD/JPY Technical Framework",
+      "translated": "الإطار الفني لزوج الدولار الأمريكي/الين الياباني",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "6b88f467136b5a69cd51494cc14738b0314eff26544b1d963925de20ae1d0b6f": {
+      "source": "Open TradingView for USD/JPY. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لزوج العملات USD/JPY. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "5bd3c2a9649525af88f9a3fac331d33c678df15b3204837af9510fc5e281a1d4": {
+      "source": "FXStreet Friday coverage described USD/JPY reversing a modest amount of its two-day drop after reaching about 157.25. Falling Treasury yields, expectations of further Bank of Japan tightening and intervention sensitivity support the yen. US payrolls can reverse the pair quickly if the market reprices the Fed outlook. A move near 158 is not proof that resistance will hold.",
+      "translated": "أشارت تغطية موقع FXStreet ليوم الجمعة إلى أن زوج الدولار الأمريكي/الين الياباني (USD/JPY) استعاد جزءًا متواضعًا من انخفاضه الذي استمر يومين بعد وصوله إلى حوالي 157.25. ويدعم الين انخفاض عوائد سندات الخزانة الأمريكية، والتوقعات بمزيد من التشديد النقدي من جانب بنك اليابان المركزي، وحساسية السوق تجاه التدخلات. وقد تؤدي بيانات الوظائف الأمريكية إلى انعكاس اتجاه الزوج بسرعة إذا أعاد السوق تقييم توقعاته بشأن السياسة النقدية للاحتياطي الفيدرالي. ولا يعتبر الاقتراب من مستوى 158 دليلاً على أن مستوى المقاومة سيصمد.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "bff23d6c113c21bffa04d7995f22119303cb532df971364a3a648280373b154e": {
+      "source": "Stronger US payrolls and rising yields could help USD/JPY sustain a move above a confirmed local 158-region high. Beware intervention-sensitive volatility.",
+      "translated": "قد يساعد تحسن أرقام الوظائف الأمريكية وارتفاع العائدات زوج الدولار الأمريكي/الين الياباني على الحفاظ على اتجاهه فوق القمة المحلية المؤكدة عند مستوى 158. يجب توخي الحذر من التقلبات التي قد تنجم عن التدخلات.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "f5bbcd90ca85ebaef417fa1fb583beb1a05a6479ffdf4a6116d76cc512b8e82e": {
+      "source": "Weak US labour figures, softer yields or firmer BoJ tightening expectations could bring renewed tests of the reported 157.25 low, subject to live confirmation.",
+      "translated": "قد تؤدي الأرقام الضعيفة لسوق العمل الأمريكي، أو انخفاض العائدات، أو تزايد توقعات تشديد السياسة النقدية من جانب بنك اليابان المركزي، إلى اختبارات جديدة لمستوى القاع المسجل عند 157.25، رهناً بالتأكيد الفعلي.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "24e8e6ec3f40e6669fecd578d0efa2f565646dc83f2cafe0f853649bc4bb19c6": {
+      "source": "XAU/USD Technical Framework",
+      "translated": "الإطار الفني لزوج XAU/USD",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "e18d661ad941f35739e2ca544c906157b145934cedfc4a36a69fd0772b7ddbeb": {
+      "source": "Open TradingView for XAU/USD. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لـ XAU/USD. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "f557a1d8c2be8584f39cfaf69746330ad9b082643d2b63b8b4b0b40ce8730105": {
+      "source": "FXStreet reported gold above $4,100 Thursday as Treasury yields eased after the election. Reuters subsequently described Friday profit-taking and an oil-led inflation concern, with gold quoted around $4,063 in its report. October US NFP and hourly earnings are the central catalysts: lower-than-expected jobs growth could reduce yields, while firmer wages could raise rate expectations. Distinguish dated reports from live bullion pricing.",
+      "translated": "أفاد موقع FXStreet بأن سعر الذهب تجاوز 4,100 دولار يوم الخميس مع تراجع عوائد سندات الخزانة بعد الانتخابات. وفي وقت لاحق، أشارت وكالة رويترز في تقريرها إلى عمليات جني الأرباح يوم الجمعة والمخاوف من التضخم المدفوعة بأسعار النفط، حيث سجل سعر الذهب حوالي 4,063 دولارًا. تعد بيانات الوظائف غير الزراعية الأمريكية لشهر أكتوبر والأجور بالساعة المحفزات الرئيسية: فقد يؤدي نمو الوظائف بأقل من المتوقع إلى انخفاض العائدات، في حين أن ارتفاع الأجور قد يزيد من توقعات رفع أسعار الفائدة. يجب التمييز بين التقارير القديمة وأسعار الذهب الحية.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "b0221d7d09b85a7bc9140d52855aec5ee258b13b98a3d2557eabea887b5e385b": {
+      "source": "A weak NFP with declining real yields could favour a rebound if gold recaptures its live intraday resistance and holds a higher low.",
+      "translated": "قد يؤدي صدور بيانات الوظائف غير الزراعية (NFP) الضعيفة، إلى جانب انخفاض العوائد الحقيقية، إلى دعم حدوث انتعاش إذا استطاع الذهب استعادة مستوى المقاومة اليومي الحالي وحافظ على قاع أعلى.",
+      "updatedAt": "2026-11-07T16:54:06.325Z"
+    },
+    "93553514b88f0bbc0b83dcfdab94627b157938d1be0c5e6f96108275641680f0": {
+      "source": "Thursdayâ€™s Dow decline of 1,833.06 points (3.44%) reflected broader risk aversion amid AI/data-centre policy concerns after the midterms, although the Nasdaq suffered more. US payrolls, Treasury yields and the breadth of any Friday rebound will determine whether the decline stabilises. This section uses DJIA cash closes and must not be represented as a real-time US30 CFD quote.",
+      "translated": "عكس انخفاض مؤشر داو جونز يوم الخميس بمقدار 1,833.06 نقطة (3.44٪) تراجعًا عامًّا في الرغبة في المخاطرة وسط مخاوف بشأن سياسات الذكاء الاصطناعي ومراكز البيانات في أعقاب انتخابات التجديد النصفي، على الرغم من أن مؤشر ناسداك كان الأكثر تضررًا. وستحدد أرقام الوظائف في الولايات المتحدة، وعوائد سندات الخزانة، ومدى أي انتعاش يوم الجمعة ما إذا كان هذا الانخفاض سيستقر أم لا. يستخدم هذا القسم أسعار الإغلاق النقدية لمؤشر داو جونز الصناعي (DJIA)، ولا يجب اعتبارها أسعارًا فورية لعقود الفروقات (CFD) على مؤشر US30.",
+      "updatedAt": "2026-11-07T16:54:07.265Z"
+    },
+    "213b1c3714507f5badf1051fed0f2de59939df4782354bd986f4c653d883ba1e": {
+      "source": "A weaker-than-expected payrolls print and stabilising market breadth could allow a relief rally from Thursdayâ€™s decline; confirm using live index levels.",
+      "translated": "قد يؤدي صدور بيانات الوظائف التي جاءت أضعف من المتوقع، إلى جانب استقرار نطاق السوق، إلى حدوث انتعاش مؤقت بعد انخفاض يوم الخميس؛ يرجى التأكد من ذلك بالرجوع إلى مستويات المؤشرات الحية.",
+      "updatedAt": "2026-11-07T16:54:07.265Z"
+    },
+    "a4e647e22eba4b87adda16fb3e054fdb2cfc5ad391aa98e3023f6e79588fb580": {
+      "source": "Strong yields or continued policy-related stock selling could extend pressure below Thursdayâ€™s closing region; watch live price and cash/futures basis.",
+      "translated": "قد تؤدي المكاسب القوية أو استمرار عمليات بيع الأسهم المرتبطة بالسياسات إلى تفاقم الضغط تحت مستوى إغلاق يوم الخميس؛ تابعوا الأسعار المباشرة وفارق السعر بين السوق الفورية والسوق الآجلة.",
+      "updatedAt": "2026-11-07T16:54:07.265Z"
+    },
+    "3a25b3c57fb0e237cd869e409d5b67cc5403607d2c40f6838829b925f829ecf3": {
+      "source": "At 13:30 UTC on Friday, 6 November, the US October Nonfarm Payrolls report is scheduled. FXStreetâ€™s calendar lists a +65,000 payroll consensus against a prior +29,000, with unemployment expected at 4.2% versus 4.2% previously. Average hourly earnings are expected to rise 0.3% month over month compared with 0.1% previously. At 15:00 UTC, preliminary November University of Michigan consumer sentiment and inflation expectations are due. A weak payroll result could lower US yields and offer relief for gold and growth shares, although recession worries could offset that support. A strong jobs/wages report could support the dollar and yields and keep technology stocks under pressure. Market reaction depends on the full report, revisions and prevailing risk sentiment.",
+      "translated": "من المقرر صدور تقرير الوظائف غير الزراعية في الولايات المتحدة لشهر أكتوبر في الساعة 13:30 بالتوقيت العالمي المنسق (UTC) يوم الجمعة، 6 نوفمبر. ويشير تقويم FXStreet إلى توقعات إجماعية بزيادة عدد الوظائف بمقدار +65,000 مقارنة بـ +29,000 في التقرير السابق، مع توقع أن يظل معدل البطالة عند 4.2% مقابل 4.2% سابقًا. ومن المتوقع أن يرتفع متوسط الأجر في الساعة بنسبة 0.3% على أساس شهري مقارنة بـ 0.1% سابقًا. وفي الساعة 15:00 بالتوقيت العالمي المنسق (UTC)، من المقرر صدور التوقعات الأولية لمؤشر ثقة المستهلك وتوقعات التضخم لشهر نوفمبر الصادرة عن جامعة ميشيغان. وقد تؤدي نتائج الوظائف الضعيفة إلى انخفاض عوائد السندات الأمريكية وتوفر بعض الراحة للذهب وأسهم النمو، على الرغم من أن مخاوف الركود قد تقوض هذا الدعم. قد يدعم تقرير قوي عن الوظائف والأجور الدولار والعوائد ويبقي أسهم شركات التكنولوجيا تحت الضغط. تعتمد ردود فعل السوق على التقرير الكامل، والمراجعات، ومزاج المخاطرة السائد.",
+      "updatedAt": "2026-11-07T16:54:07.265Z"
+    },
+    "688b75f83120ad86788e269dc3f363e82bdc3a7e636f7235dca09d7910691575": {
+      "source": "Overall bias: Risk-off and data-dependent following the sharp US technology sell-off. Wall Street reversed Wednesday’s rally on Thursday QXSECRETTOKENAQX November: the S&P QXSECRETTOKENBQX fell QXSECRETTOKENCQX to QXSECRETTOKENDQX the Dow lost QXSECRETTOKENEQX to QXSECRETTOKENFQX and the Nasdaq Composite sank QXSECRETTOKENGQX to QXSECRETTOKENHQX according to AP and Reuters. The decline was concentrated in AI, semiconductor and data-centre-related shares as markets considered potential policy changes following the US midterm election results. FXStreet’s late-Thursday market overview put the Dollar Index around QXSECRETTOKENIQX QXSECRETTOKENJQX around support at QXSECRETTOKENKQX and QXSECRETTOKENLQX near QXSECRETTOKENMQX; Friday’s feed has the pound around the mid-QXSECRETTOKENNQX0s. Gold traded above QXSECRETTOKENOQX in Thursday coverage but eased in Friday reporting as rising oil revived inflation worries. FXStreet reported December QXSECRETTOKENPQX futures recovering to above QXSECRETTOKENQQX after an earlier slide near QXSECRETTOKENRQX amid changing US–Iran/Hormuz headlines. The dominant scheduled release is the US October nonfarm payrolls report at QXSECRETTOKENSQX:QXSECRETTOKENTQX UTC, followed by preliminary November University of Michigan consumer sentiment at QXSECRETTOKENUQX:QXSECRETTOKENVQX UTC. Pre-release prices, dated news references, and the previous US cash close must not be confused with live quotes.",
+      "translated": "الاتجاه العام: تراجع الرغبة في المخاطرة وتركيز على البيانات في أعقاب موجة البيع الحادة التي شهدتها أسهم التكنولوجيا الأمريكية. عكست وول ستريت يوم الخميس اتجاه الارتفاع الذي سجلته يوم الأربعاء QXSECRETTOKENAQX نوفمبر: انخفض مؤشر S&P QXSECRETTOKENBQX من QXSECRETTOKENCQX إلى QXSECRETTOKENDQX، وخسر مؤشر داو جونز من QXSECRETTOKENEQX إلى QXSECRETTOKENFQX، وهبط مؤشر ناسداك المركب من QXSECRETTOKENGQX إلى QXSECRETTOKENHQX وفقًا لوكالتي AP ورويترز. تركز الانخفاض في أسهم شركات الذكاء الاصطناعي وأشباه الموصلات والمراكز البياناتية، حيث أخذت الأسواق في الحسبان التغييرات المحتملة في السياسات في أعقاب نتائج انتخابات التجديد النصفي الأمريكية. أشارت نظرة FXStreet العامة على السوق في وقت متأخر من يوم الخميس إلى أن مؤشر الدولار كان عند مستوى QXSECRETTOKENIQX وQXSECRETTOKENJQX، بالقرب من مستوى الدعم عند QXSECRETTOKENKQX وQXSECRETTOKENLQX بالقرب من QXSECRETTOKENMQX؛ وتشير بيانات يوم الجمعة إلى أن الجنيه الاسترليني يتداول في منتصف مستوى QXSECRETTOKENNQX0s. تم تداول الذهب فوق مستوى QXSECRETTOKENOQX في تغطية يوم الخميس، لكنه تراجع في تقرير يوم الجمعة حيث أدى ارتفاع أسعار النفط إلى تجدد المخاوف بشأن التضخم. وأفادت FXStreet أن العقود الآجلة لشهر ديسمبر QXSECRETTOKENPQX تعافت لتتجاوز مستوى QXSECRETTOKENQQX بعد انخفاض سابق بالقرب من QXSECRETTOKENRQX وسط تغير العناوين الرئيسية المتعلقة بالعلاقات بين الولايات المتحدة وإيران ومضيق هرمز. أهم البيانات المقرر إصدارها هو تقرير الوظائف غير الزراعية في الولايات المتحدة لشهر أكتوبر عند QXSECRETTOKENSQX:QXSECRETTOKENTQX بتوقيت UTC، يليه مؤشر ثقة المستهلك الأولي لشهر نوفمبر الصادر عن جامعة ميشيغان عند QXSECRETTOKENUQX:QXSECRETTOKENVQX بتوقيت UTC. يجب عدم الخلط بين الأسعار قبل الإصدار، والمراجع الإخبارية القديمة، وإغلاق السوق النقدي الأمريكي السابق، وبين الأسعار الحية.",
+      "updatedAt": "2026-11-07T17:01:24.535Z"
+    },
+    "254c173384d163f84a7e8c2171b230ed4576c5bc38b4adb78981615fce3d3aa8": {
+      "source": "INSTRUMENT",
+      "translated": "الآلة الموسيقية",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "9d34e44a3e5472b1d2cff3aed15c562dcc3f4258e647cd2b7f07f73ef8535e26": {
+      "source": "LAST VERIFIED REFERENCE",
+      "translated": "آخر مرجع تم التحقق منه",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "e719891faa4f8fed089773393d11e119fe074d592eb16f5ec2c6ba552195a077": {
+      "source": "DAILY BIAS",
+      "translated": "التحيز اليومي",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "c90cf437e19e102bcc4ff8848d50358808cf888a419ad70ccf280c43e61a6e34": {
+      "source": "MAIN DRIVER",
+      "translated": "المحرك الرئيسي",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "83a6ef0c4ed11c646623584934fe6eb6704b5d09f696bae7df24d27bc209781d": {
+      "source": "Around QXSECRETTOKENAQX support in QXSECRETTOKENBQX Nov FXStreet review; current quote not verified",
+      "translated": "حول دعم QXSECRETTOKENAQX في QXSECRETTOKENBQX — مراجعة FXStreet لشهر نوفمبر؛ السعر الحالي غير مؤكد",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "35e7f1cca554c92fb537ebf394fe9d3355102184bdcfde4a3199a6f3221f8590": {
+      "source": "Neutral / NFP-dependent",
+      "translated": "محايد / يعتمد على NFP",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "a3485f1e939fadeea7e209097b09233db54e0bfafc71d98f063c3fc99437c91c": {
+      "source": "US payrolls; dollar/yield reaction; euro area data",
+      "translated": "أرقام الوظائف في الولايات المتحدة؛ رد فعل الدولار والعائدات؛ بيانات منطقة اليورو",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "49ad8e38b30a83d487dabd785687e5ae49816702b2f8ea91b8765a6330bc9da1": {
+      "source": "Near mid-QXSECRETTOKENAQX0s in QXSECRETTOKENBQX Nov FXStreet headline; no live timestamp verified",
+      "translated": "قرب منتصف QXSECRETTOKENAQX0s في عنوان FXStreet لشهر نوفمبر تحت عنوان QXSECRETTOKENBQX؛ لم يتم التحقق من أي طابع زمني مباشر",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "922325f4c0481002d6c2546e98ea7a746bb60aa64b3260405e91d21124b16a3f": {
+      "source": "Neutral / event-sensitive",
+      "translated": "محايد / حساس للأحداث",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "17748570824104f4b0ba267e56682e2d8350a6e5c784f86192d05233db83ac92": {
+      "source": "BoE rate increase; NFP; risk sentiment",
+      "translated": "رفع سعر الفائدة من قبل بنك إنجلترا؛ تقرير الوظائف غير الزراعية؛ معنويات المخاطرة",
+      "updatedAt": "2026-11-07T17:01:25.244Z"
+    },
+    "f145bb1f1b4a7aaf55d9f0be59bd6cf804b19b4867476bc42b67df7f46690963": {
+      "source": "USD/JPY",
+      "translated": "الدولار الأمريكي مقابل الين الياباني",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "1d5befb2a4d7c66c4cf96d7f32bcef0d9d1c57ae92b852e544fcc12dde2c81f8": {
+      "source": "QXSECRETTOKENAQX weekly low to near QXSECRETTOKENBQX in QXSECRETTOKENCQX Nov Asian FXStreet report",
+      "translated": "الحد الأدنى الأسبوعي لـ QXSECRETTOKENAQX يقترب من QXSECRETTOKENBQX في تقرير FXStreet الخاص بشهر نوفمبر عن QXSECRETTOKENCQX",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "0fd64dba9054533f55d4ab32903345fb4b13f1af315137a1919a46b7c93ef5b8": {
+      "source": "Neutral to bearish / rebound risk",
+      "translated": "اتجاه محايد إلى هبوطي / خطر حدوث ارتداد",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "f01fcf023e750fcbc9cec02b00895c1b10f1f64228d77ccffe4c0cfaf9a492bf": {
+      "source": "US yields and jobs; BoJ policy; yen demand",
+      "translated": "العوائد الأمريكية وأرقام التوظيف؛ سياسة بنك اليابان المركزي؛ الطلب على الين",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "c6c0f3dab1b8e53deae399a698ca39ed9dd74eff33bb2975d817c85304d20a67": {
+      "source": "Above QXSECRETTOKENAQX in QXSECRETTOKENBQX Nov FXStreet coverage; Friday pullback reported",
+      "translated": "أعلى من QXSECRETTOKENAQX في تغطية FXStreet لشهر نوفمبر لـ QXSECRETTOKENBQX؛ تم الإبلاغ عن تراجع يوم الجمعة",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "1dbf977a8d010e5c3128006cdf5f1ddba1b44ad3f38c516586cd7bba1fe1f11a": {
+      "source": "Neutral to bullish / volatile",
+      "translated": "محايد إلى صعودي / متقلب",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "2a7bf744b217bdb0ac45d64efd457bf8e5058eb5716971d3b20cc6f54f150e22": {
+      "source": "Treasury yields; NFP; oil-driven inflation risk",
+      "translated": "عوائد سندات الخزانة؛ تقرير الوظائف غير الزراعية (NFP)؛ مخاطر التضخم الناجمة عن أسعار النفط",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "8a1727877cdea8e0a143fd2b5bf9d385cc0bc2c07954371403b24ffb8ec32b23": {
+      "source": "XAG/USD",
+      "translated": "XAG/USD",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "374133a5f8245fcf3b3d5b0696ca2c56ca0a7b3009a71abd34d3d4e1648fd1f6": {
+      "source": "Precise spot quote not verified; silver volatile",
+      "translated": "لم يتم التحقق من دقة السعر الفوري؛ وتقلب أسعار الفضة",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "e9b90df5f74a801ef238eb46e6a5e6f112d45a29ea463854c94699ad30699a1c": {
+      "source": "Neutral / elevated volatility",
+      "translated": "محايد / تقلب مرتفع",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "9e216cb0d15e1fc667c2a21b88d05f8159d8e1a34970fcbb0ae6503fc9ccbab5": {
+      "source": "Gold direction; US yields; industrial-growth risk",
+      "translated": "اتجاه الذهب؛ عوائد السندات الأمريكية؛ مخاطر النمو الصناعي",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "79e0aae1af8a34eeab85a22c5e245b02bae14643af380adf97c9030a9295e91a": {
+      "source": "QXSECRETTOKENAQX Oil",
+      "translated": "زيت QXSECRETTOKENAQX",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "94b1528ed57f80ce6c4837e4efe67c1c1f98eacbe17f4e048e95c54148130945": {
+      "source": "December QXSECRETTOKENAQX recovered above QXSECRETTOKENBQX/bbl in FXStreet QXSECRETTOKENCQX–QXSECRETTOKENDQX Nov coverage",
+      "translated": "ارتفع سعر عقد ديسمبر QXSECRETTOKENAQX فوق مستوى QXSECRETTOKENBQX للبرميل في تغطية FXStreet لعقود QXSECRETTOKENCQX وQXSECRETTOKENDQX لشهر نوفمبر",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "f3d783cd7c666837828b674223af2a7cba1d1e5c58c4e2d580fde3b6ae196e56": {
+      "source": "Neutral / headline-driven rebound",
+      "translated": "انتعاش محايد / مدفوع بالأخبار الرئيسية",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "a323c9334395002b9300f36e30af64204b111b7538d151f02b4cb82620e7815b": {
+      "source": "US–Iran diplomacy; Hormuz supply; energy inflation",
+      "translated": "الدبلوماسية بين الولايات المتحدة وإيران؛ الإمدادات عبر مضيق هرمز؛ تضخم أسعار الطاقة",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "d29067631841f8651b7909ab318ba0bb17edc23bbb42ae0188f2ce04ee948286": {
+      "source": "Dow cash close QXSECRETTOKENAQX on QXSECRETTOKENBQX Nov (-QXSECRETTOKENCQX)",
+      "translated": "إغلاق مؤشر داو جونز النقدي QXSECRETTOKENAQX على QXSECRETTOKENBQX نوفمبر (-QXSECRETTOKENCQX)",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "6f616e3ddbb0e6dfbd6e7e296b4f84df7e0673d71dbeb9974fa3a4e2b2640634": {
+      "source": "Bearish / oversold-rebound risk",
+      "translated": "اتجاه هبوطي / خطر الارتداد من منطقة ذروة البيع",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "0c30a88e0469dfddf721920e544719799d5b9b614e70b0c417cff5a955b74000": {
+      "source": "Equity risk appetite; NFP; yields",
+      "translated": "الاستعداد لتحمل مخاطر الأسهم؛ تقرير الوظائف غير الزراعية (NFP)؛ العائدات",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "1412dbe4c2c08c80adba26dc96a55548425cb97350d2d13b8a51f563528ebc1f": {
+      "source": "NASDAQ",
+      "translated": "ناسداك",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "f77c73f42e4d19cd5be95bef156638ffbb07c6dc6f2f45d1a1c1f4574ddc566e": {
+      "source": "Nasdaq Composite cash close QXSECRETTOKENAQX on QXSECRETTOKENBQX Nov (-QXSECRETTOKENCQX)",
+      "translated": "إغلاق مؤشر ناسداك المركب النقدي QXSECRETTOKENAQX على QXSECRETTOKENBQX نوفمبر (-QXSECRETTOKENCQX)",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "a50ac55166978fd3294148756047b314e1128c63be158ec510cf58e5ba246ae8": {
+      "source": "Bearish / high volatility",
+      "translated": "اتجاه هبوطي / تقلب شديد",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "89995c5aa3dc4117e0ca3d99f7be99838271ce72c707f3733eefff0b8a262fd0": {
+      "source": "AI regulation concerns; semiconductors; NFP",
+      "translated": "مخاوف بشأن تنظيم الذكاء الاصطناعي؛ أشباه الموصلات؛ تقرير الوظائف غير الزراعية (NFP)",
+      "updatedAt": "2026-11-07T17:01:25.245Z"
+    },
+    "07520f8c14e0ce19125603a2bd69c04a475528c9aa36c6c639a3af9f3fa841ad": {
+      "source": "TIME (UTC)",
+      "translated": "الوقت (UTC)",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "c7bdfde2c8ddc4b2f723cd187b639b81076e05d1bb47d668cd412bde34f31a7d": {
+      "source": "CCY",
+      "translated": "CCY",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "53fa57662ad7fc516bf5c3e7874740843892bb5d26e5e4268832f694ebf58e57": {
+      "source": "EVENT / PRE-RELEASE EXPECTATIONS",
+      "translated": "الحدث / التوقعات قبل الإصدار",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "f09ab558c79d4ada7b0f1ba987010b4f365edf0253767ce07a4efe7c16d3f123": {
+      "source": "IMPACT",
+      "translated": "التأثير",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "c7519c010c33c05f87e19160fe824eaca35a1989a0cc307cd9e845036623ef3e": {
+      "source": "QXSECRETTOKENAQX:QXSECRETTOKENBQX UTC",
+      "translated": "QXSECRETTOKENAQX:QXSECRETTOKENBQX (بتوقيت غرينتش)",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "57d4846cecee3fddcb443137723fd1b46d56e64331634ef3c922b72e57f3388e": {
+      "source": "EUR",
+      "translated": "اليورو",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "28f4d35c55cdc4d5eeb375e6d0523585eddebc96176121520b0aa93bb757e840": {
+      "source": "Germany industrial production (September); forecast QXSECRETTOKENAQX m/m versus previous +QXSECRETTOKENBQX, as displayed by FXStreet",
+      "translated": "الإنتاج الصناعي في ألمانيا (سبتمبر)؛ التوقعات QXSECRETTOKENAQX على أساس شهري مقارنة بالقيمة السابقة +QXSECRETTOKENBQX، وفقًا لما أوردته FXStreet",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "a26cdf3a6e709124385d4d7eb9bff6b897a58ed5597fbab779b89849dbe81b21": {
+      "source": "USD",
+      "translated": "الدولار الأمريكي",
+      "updatedAt": "2026-11-07T17:01:26.092Z"
+    },
+    "65cfb8dd0eb7ab90c04d9b020e5b8b81a6735dc040906f4e4647347471a0546a": {
+      "source": "Federal Reserve official John Williams speech; verify exact local schedule",
+      "translated": "خطاب جون ويليامز، المسؤول في مجلس الاحتياطي الفيدرالي؛ يرجى التحقق من الموعد المحلي الدقيق",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "af5af02e3c4f60a00d5dde03b748ebae4dc463bebd25ebbb636da8fd380bc3a4": {
+      "source": "US nonfarm payrolls (October); FXStreet calendar consensus +QXSECRETTOKENAQX5K, prior +QXSECRETTOKENBQX9K",
+      "translated": "أرقام الوظائف غير الزراعية في الولايات المتحدة (أكتوبر)؛ توقعات السوق وفقًا لتقويم FXStreet: +QXSECRETTOKENAQX5K، القراءة السابقة: +QXSECRETTOKENBQX9K",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "98950fca2b5e3ef4cb0d02a8eed936245620e3b88843d5e310c9127673f84f26": {
+      "source": "Very High",
+      "translated": "مرتفع جدًّا",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "c7ed358982d05d255908aa7d60f1cc89bc9b809552a2e6a351b693e4399ba249": {
+      "source": "US unemployment rate (October); FXStreet consensus QXSECRETTOKENAQX, previous QXSECRETTOKENBQX",
+      "translated": "معدل البطالة في الولايات المتحدة (أكتوبر)؛ توقعات FXStreet QXSECRETTOKENAQX، القراءة السابقة QXSECRETTOKENBQX",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "0b8ea639f0c7921d2b48ce623f7518202fa62b59529e8b62a3f697a0373b40cb": {
+      "source": "US average hourly earnings (October); consensus +QXSECRETTOKENAQX m/m; prior +QXSECRETTOKENBQX",
+      "translated": "متوسط الأجر في الساعة في الولايات المتحدة (أكتوبر)؛ توقعات السوق: +QXSECRETTOKENAQX مقارنة بالشهر السابق؛ القراءة السابقة: +QXSECRETTOKENBQX",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "46d7626fb905aa72c55071f5abc826c1d0df2fe85961566bb56de24a802d2312": {
+      "source": "University of Michigan consumer sentiment (November preliminary); consensus QXSECRETTOKENAQX previous QXSECRETTOKENBQX",
+      "translated": "مؤشر ثقة المستهلك بجامعة ميشيغان (البيانات الأولية لشهر نوفمبر)؛ التوقعات السوقية QXSECRETTOKENAQX، القيمة السابقة QXSECRETTOKENBQX",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "79d0d6c6cc6f24b2ba69b930bfb16a777b1b68ff75ffc7fe4f9e103c24c22436": {
+      "source": "University of Michigan QXSECRETTOKENAQX-year and QXSECRETTOKENBQX-year inflation expectations (preliminary)",
+      "translated": "توقعات التضخم لـQXSECRETTOKENAQX عام وQXSECRETTOKENBQX عام بجامعة ميشيغان (أرقام أولية)",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "14f2757b3622d574df22746ff01c955e1924e5c9c59118b325ae8fd82332b187": {
+      "source": "Fed official Michelle Bowman speech (published calendar)",
+      "translated": "خطاب ميشيل بومان، المسؤولة في مجلس الاحتياطي الفيدرالي (جدول زمني منشور)",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "a53110fb97644fb53a5925ed9033cf6081a034467ebe4db844d09aa57139772d": {
+      "source": "US consumer credit change (September); consensus +QXSECRETTOKENAQX2B; prior +QXSECRETTOKENBQX8B",
+      "translated": "تغير الائتمان الاستهلاكي في الولايات المتحدة (سبتمبر)؛ توقعات السوق: +QXSECRETTOKENAQX2B؛ القراءة السابقة: +QXSECRETTOKENBQX8B",
+      "updatedAt": "2026-11-07T17:01:26.093Z"
+    },
+    "13af9f8890ce48f6e45a65e0d8bbbb31545d47a0b46b64f4e9493705c68b920f": {
+      "source": "US dollar: The dollar fell in FXStreet’s QXSECRETTOKENAQX November evening review (QXSECRETTOKENBQX around QXSECRETTOKENCQX) but Reuters Friday Asian reporting described safe-haven buying following the AI-stock rout; the intraday direction is therefore mixed and source-time-dependent. Equities: AP recorded Thursday losses of QXSECRETTOKENDQX for the S&P QXSECRETTOKENEQX QXSECRETTOKENFQX for the Dow and QXSECRETTOKENGQX for the Nasdaq after an abrupt reversal of Wednesday’s rally. Foreign exchange: QXSECRETTOKENHQX recovered modestly from the QXSECRETTOKENIQX area in Thursday FXStreet coverage, sterling hovered around QXSECRETTOKENJQX and USD/JPY fell toward QXSECRETTOKENKQX before an Asian-session rebound. Rates and central banks: The Bank of England raised Bank Rate by QXSECRETTOKENLQX bps to QXSECRETTOKENMQX on Thursday; Japanese rate expectations remain relevant to yen strength. Precious metals: Gold pushed above QXSECRETTOKENNQX Thursday as yields fell, but was reported lower on Friday amid higher-oil inflation concerns; silver remains volatile. Energy: FXStreet reported December QXSECRETTOKENOQX recovering above QXSECRETTOKENPQX after touching about QXSECRETTOKENQQX; developments in US–Iran relations and the Strait of Hormuz can quickly change supply expectations. All references are dated and instrument-specific.",
+      "translated": "الدولار الأمريكي: انخفض الدولار في تقرير QXSECRETTOKENAQX المسائي لشهر نوفمبر الصادر عن FXStreet (QXSECRETTOKENBQX حول QXSECRETTOKENCQX)، لكن تقارير رويترز من آسيا يوم الجمعة أشارت إلى عمليات شراء الملاذ الآمن في أعقاب الهبوط الحاد لأسهم شركات الذكاء الاصطناعي؛ وبالتالي فإن الاتجاه خلال اليوم متباين ويعتمد على مصدر المعلومات وتوقيتها. الأسهم: سجلت وكالة أسوشيتد برس يوم الخميس خسائر بمقدار QXSECRETTOKENDQX لمؤشر S&P وQXSECRETTOKENEQX وQXSECRETTOKENFQX لمؤشر داو جونز وQXSECRETTOKENGQX لمؤشر ناسداك بعد انعكاس مفاجئ للارتفاع الذي شهده يوم الأربعاء. سوق الصرف الأجنبي: تعافى QXSECRETTOKENHQX بشكل متواضع من منطقة QXSECRETTOKENIQX في تغطية FXStreet ليوم الخميس، وحوم الجنيه الإسترليني حول QXSECRETTOKENJQX، وانخفض زوج USD/JPY نحو QXSECRETTOKENKQX قبل أن يرتد خلال الجلسة الآسيوية. الأسعار والبنوك المركزية: رفع بنك إنجلترا سعر الفائدة بمقدار QXSECRETTOKENLQX نقطة أساس إلى QXSECRETTOKENMQX يوم الخميس؛ ولا تزال توقعات أسعار الفائدة اليابانية ذات صلة بقوة الين. المعادن الثمينة: ارتفع الذهب فوق مستوى QXSECRETTOKENNQX يوم الخميس مع انخفاض العائدات، لكنه سجل انخفاضًا يوم الجمعة وسط مخاوف من ارتفاع تضخم أسعار النفط؛ ولا تزال الفضة متقلبة. الطاقة: أفادت FXStreet أن عقد ديسمبر QXSECRETTOKENOQX تعافى فوق QXSECRETTOKENPQX بعد أن لامس حوالي QXSECRETTOKENQQX؛ ويمكن للتطورات في العلاقات بين الولايات المتحدة وإيران ومضيق هرمز أن تغير توقعات العرض بسرعة. جميع الإشارات محددة التاريخ ومرتبطة بأداة مالية معينة.",
+      "updatedAt": "2026-11-07T17:01:27.726Z"
+    },
+    "97a8238127d105d516e9a48b5d34f410e0876272942a9947e3c4fe0a9e68059c": {
+      "source": "QXSECRETTOKENAQX Technical Framework",
+      "translated": "الإطار الفني لـ QXSECRETTOKENAQX",
+      "updatedAt": "2026-11-07T17:01:28.142Z"
+    },
+    "d9cf350579419b928724efb8632a73ff99c9c3bfe63a859e2a7e8ec986185543": {
+      "source": "Open TradingView for QXSECRETTOKENAQX. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لـ QXSECRETTOKENAQX. الرابط هو مجرد رابط إلى الرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما عند المقارنة بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T17:01:28.999Z"
+    },
+    "6adec126739ed79533a43e0b758fa69422407bb457af710c48b990636e320268": {
+      "source": "FXStreet noted that QXSECRETTOKENAQX stabilised around QXSECRETTOKENBQX late Thursday while the dollar remained unsettled after the election. Friday US payrolls and earnings will influence Fed rate pricing and short-dated Treasury yields. A weaker result could weigh on the dollar and support a euro rebound; a stronger report could reassert dollar demand. Germany’s industrial production is a secondary euro-area release. Avoid interpreting a previous-day technical reference as a live entry level.",
+      "translated": "وأشار موقع FXStreet إلى أن سعر QXSECRETTOKENAQX استقر عند مستوى QXSECRETTOKENBQX في وقت متأخر من يوم الخميس، في حين ظل الدولار متقلبًا في أعقاب الانتخابات. ومن المتوقع أن تؤثر بيانات الوظائف والأرباح الأمريكية التي ستصدر يوم الجمعة على توقعات أسعار الفائدة لدى بنك الاحتياطي الفيدرالي وعوائد سندات الخزانة قصيرة الأجل. وقد تؤدي النتائج الضعيفة إلى الضغط على الدولار ودعم انتعاش اليورو؛ في حين أن التقرير القوي قد يعيد تعزيز الطلب على الدولار. ويُعد الإنتاج الصناعي الألماني أحد المؤشرات الثانوية في منطقة اليورو. تجنب تفسير المؤشرات الفنية لليوم السابق على أنها مستويات دخول فورية.",
+      "updatedAt": "2026-11-07T17:01:30.044Z"
+    },
+    "8b60b2fc512c74937f26fcdc529db5ea7bb8a0c9b210bc6dd4eb4f1de0adab0d": {
+      "source": "If weaker US payrolls soften yields and QXSECRETTOKENAQX holds above its verified intraday base, a move through the current 4H swing high could support a recovery. Confirm live before use.",
+      "translated": "إذا أدى ضعف أرقام الوظائف الأمريكية إلى انخفاض العائدات، وظل مؤشر QXSECRETTOKENAQX فوق قاعدته اليومية المؤكدة، فإن اختراق أعلى مستوى متأرجح حالي على الرسم البياني لفترة 4 ساعات قد يدعم حدوث انتعاش. يرجى التأكد من صحة البيانات في الوقت الفعلي قبل الاستخدام.",
+      "updatedAt": "2026-11-07T17:01:30.873Z"
+    },
+    "7022637787dc1b373bf24d4d3ed9b382d6448a700588c67540a97b1502430439": {
+      "source": "If payrolls and wages exceed expectations, US yields and USD may firm; failure to hold the recent QXSECRETTOKENAQX reference area after confirmation could renew selling. The exact breakout point requires live chart verification.",
+      "translated": "إذا تجاوزت أرقام التوظيف والأجور التوقعات، فقد ترتفع عوائد السندات الأمريكية وسعر صرف الدولار الأمريكي؛ أما في حالة الفشل في الحفاظ على منطقة المرجع الأخيرة QXSECRETTOKENAQX بعد تأكيدها، فقد تتجدد موجة البيع. ويتطلب تحديد نقطة الاختراق الدقيقة التحقق من ذلك عبر الرسم البياني المباشر.",
+      "updatedAt": "2026-11-07T17:01:30.873Z"
+    },
+    "cbdec0cb902c80f4c66286ee7392239d0c20644bdedc101f59c9e922bf435575": {
+      "source": "The Bank of England increased Bank Rate to QXSECRETTOKENAQX on Thursday. Sterling was near QXSECRETTOKENBQX in FXStreet’s QXSECRETTOKENCQX November review and around the mid-QXSECRETTOKENDQX0s in a Friday news headline. Future UK rate expectations, US payrolls and risk aversion after the Nasdaq sell-off are the main near-term drivers. A hawkish BoE interpretation can help sterling, but broad dollar demand can offset it.",
+      "translated": "رفع بنك إنجلترا سعر الفائدة الرسمي إلى QXSECRETTOKENAQX يوم الخميس. وكان الجنيه الإسترليني قريبًا من مستوى QXSECRETTOKENBQX في تقرير QXSECRETTOKENCQX لشهر نوفمبر الصادر عن موقع FXStreet، وحول مستوى منتصف QXSECRETTOKENDQX0s في أحد عناوين الأخبار يوم الجمعة. وتعد التوقعات المستقبلية بشأن أسعار الفائدة في المملكة المتحدة، وبيانات الوظائف الأمريكية، ونزعة تجنب المخاطرة في أعقاب موجة البيع في مؤشر ناسداك، العوامل الرئيسية المؤثرة على المدى القريب. وقد يساعد التفسير المتشدد لسياسة بنك إنجلترا الجنيه الاسترليني، لكن الطلب الواسع على الدولار قد يعوض ذلك.",
+      "updatedAt": "2026-11-07T17:01:31.749Z"
+    },
+    "934a43c9a9862a7c25597f8f235368af59a2e62d6570506135076211764c6ed8": {
+      "source": "Sterling could advance if US NFP disappoints and the live QXSECRETTOKENAQX chart confirms a higher low and recovery through the latest resistance swing.",
+      "translated": "قد يرتفع الجنيه الإسترليني إذا جاءت أرقام الوظائف غير الزراعية الأمريكية مخيبة للآمال، وأكد الرسم البياني المباشر لـ QXSECRETTOKENAQX تشكيل قاع أعلى وارتدادًا فوق مستوى المقاومة المتأرجح الأخير.",
+      "updatedAt": "2026-11-07T17:01:32.457Z"
+    },
+    "c15603b3bc5374ac2a94d7ebb3b8f206b84e2a637e84b9c84e47b4079a4c11f3": {
+      "source": "A strong jobs report or renewed risk-off demand for USD could produce a lower high and renewed QXSECRETTOKENAQX selling; confirm a live break of intraday support.",
+      "translated": "قد يؤدي صدور تقرير قوي عن الوظائف أو تجدد الطلب على الدولار الأمريكي في ظل نزعة تجنب المخاطرة إلى تشكيل قمة أقل وتجدد عمليات البيع في QXSECRETTOKENAQX؛ مع تأكيد الاختراق الفعلي لمستوى الدعم خلال الجلسة.",
+      "updatedAt": "2026-11-07T17:01:32.458Z"
+    },
+    "2fe829ea9048ad146072400ac70ddf0f1d5c86cb8ab5bdf88523ce5e6c1b58e8": {
+      "source": "FXStreet Friday coverage described USD/JPY reversing a modest amount of its two-day drop after reaching about QXSECRETTOKENAQX Falling Treasury yields, expectations of further Bank of Japan tightening and intervention sensitivity support the yen. US payrolls can reverse the pair quickly if the market reprices the Fed outlook. A move near QXSECRETTOKENBQX is not proof that resistance will hold.",
+      "translated": "أشارت تغطية FXStreet ليوم الجمعة إلى أن زوج الدولار الأمريكي/الين الياباني (USD/JPY) عكس جزءًا متواضعًا من انخفاضه الذي استمر يومين بعد أن وصل إلى حوالي QXSECRETTOKENAQX، حيث يدعم الين انخفاض عوائد سندات الخزانة الأمريكية، والتوقعات بمزيد من التشديد النقدي من جانب بنك اليابان المركزي، وحساسية السوق تجاه التدخلات. وقد تؤدي بيانات الوظائف الأمريكية إلى عكس اتجاه الزوج بسرعة إذا أعاد السوق تقييم توقعات بنك الاحتياطي الفيدرالي. ولا يعتبر الاقتراب من مستوى QXSECRETTOKENBQX دليلاً على أن مستوى المقاومة سيصمد.",
+      "updatedAt": "2026-11-07T17:01:33.577Z"
+    },
+    "bedbedc6dd12eaa5c0aa74cc35ffccde2fc4c13a19a7be3002e138fec10e9452": {
+      "source": "Stronger US payrolls and rising yields could help USD/JPY sustain a move above a confirmed local QXSECRETTOKENAQX-region high. Beware intervention-sensitive volatility.",
+      "translated": "قد يساعد تحسن أرقام الوظائف الأمريكية وارتفاع العائدات زوج الدولار الأمريكي/الين الياباني على الحفاظ على اتجاهه فوق القمة المحلية المؤكدة في منطقة QXSECRETTOKENAQX. يجب توخي الحذر من التقلبات التي قد تنجم عن التدخلات.",
+      "updatedAt": "2026-11-07T17:01:34.608Z"
+    },
+    "d392f77c6e869db5c6412bc4bea3025091d5f4f47f495124d81e056c4ab9f2bb": {
+      "source": "Weak US labour figures, softer yields or firmer BoJ tightening expectations could bring renewed tests of the reported QXSECRETTOKENAQX low, subject to live confirmation.",
+      "translated": "قد تؤدي الأرقام الضعيفة لسوق العمل الأمريكي، أو انخفاض العائدات، أو تزايد التوقعات بتشديد السياسة النقدية من جانب بنك اليابان المركزي، إلى اختبارات جديدة لمستوى القاع المسجل QXSECRETTOKENAQX، رهناً بالتأكيد الفعلي.",
+      "updatedAt": "2026-11-07T17:01:34.608Z"
+    },
+    "0e6b265c197274d8c1a8e2c3c47eb32ecaca8c5192176c51f704376b13691bfe": {
+      "source": "FXStreet reported gold above QXSECRETTOKENAQX Thursday as Treasury yields eased after the election. Reuters subsequently described Friday profit-taking and an oil-led inflation concern, with gold quoted around QXSECRETTOKENBQX in its report. October US NFP and hourly earnings are the central catalysts: lower-than-expected jobs growth could reduce yields, while firmer wages could raise rate expectations. Distinguish dated reports from live bullion pricing.",
+      "translated": "أفادت «FXStreet» أن سعر الذهب تجاوز مستوى QXSECRETTOKENAQX يوم الخميس مع تراجع عوائد سندات الخزانة بعد الانتخابات. وفي وقت لاحق، أشارت «رويترز» في تقريرها إلى عمليات جني الأرباح يوم الجمعة والمخاوف من التضخم المدفوعة بأسعار النفط، حيث سجل سعر الذهب حوالي QXSECRETTOKENBQX. تعد أرقام الوظائف غير الزراعية الأمريكية لشهر أكتوبر والأجور بالساعة المحفزات الرئيسية: فقد يؤدي نمو الوظائف بأقل من المتوقع إلى انخفاض العائدات، في حين أن ارتفاع الأجور قد يزيد من توقعات رفع أسعار الفائدة. يجب التمييز بين التقارير القديمة وأسعار الذهب الحية.",
+      "updatedAt": "2026-11-07T17:01:35.503Z"
+    },
+    "e5a16f68579f675e592f3897984db148dd1bf4e2b687384995a1cd7d82a6f842": {
+      "source": "Strong payrolls or wage inflation, firmer yields and dollar demand could drive a deeper pullback; validate support with a fresh QXSECRETTOKENAQX chart.",
+      "translated": "قد تؤدي أرقام التوظيف القوية أو تضخم الأجور، وارتفاع العائدات، وزيادة الطلب على الدولار إلى تراجع أعمق؛ تحقق من مستوى الدعم من خلال الرسم البياني الجديد لـ QXSECRETTOKENAQX.",
+      "updatedAt": "2026-11-07T17:01:36.069Z"
+    },
+    "e6b08eeb674e18f327521102df54341f338abc05770310b400ead648783a3062": {
+      "source": "QXSECRETTOKENAQX Oil Technical Framework",
+      "translated": "الإطار الفني لزيت QXSECRETTOKENAQX",
+      "updatedAt": "2026-11-07T17:01:36.685Z"
+    },
+    "789506feb1cb8a9d0005a5ce3fca32a7022ce26d90d90fb51f3cebab0ca534a1": {
+      "source": "Open TradingView for QXSECRETTOKENAQX Oil. Chart hyperlink only; no licensed live price data or embedded TradingView image in this JSON. Verify timeframe, data feed and instrument, especially cash index versus CFD or oil futures contract.",
+      "translated": "افتح TradingView لمؤشر النفط QXSECRETTOKENAQX. الرابط هو مجرد رابط للرسم البياني؛ ولا يحتوي ملف JSON هذا على أي بيانات أسعار حية مرخصة أو صورة مدمجة من TradingView. تحقق من الإطار الزمني ومصدر البيانات والأداة المالية، لا سيما الفرق بين المؤشر النقدي وعقود الفروقات (CFD) أو عقود النفط الآجلة.",
+      "updatedAt": "2026-11-07T17:01:37.648Z"
+    },
+    "0f6e3a2d2e7c4ee71779e18878cf6f534641a751360beccfe9996a9d1e107ccf": {
+      "source": "FXStreet reported December QXSECRETTOKENAQX futures recovering above QXSECRETTOKENBQX after retreating toward QXSECRETTOKENCQX per barrel. The underlying news flow concerns possible diplomacy with Iran and risks around the Strait of Hormuz. A credible agreement could reduce the supply-risk premium; renewed disruption may cause abrupt gains. Reuters Friday reporting also highlighted how rising energy prices can reawaken inflation and rates concerns. Compare the same contract month when analysing prices.",
+      "translated": "أفادت FXStreet بأن العقود الآجلة لشهر ديسمبر لـ QXSECRETTOKENAQX تعافت لتتجاوز مستوى QXSECRETTOKENBQX بعد تراجعها نحو مستوى QXSECRETTOKENCQX للبرميل. وتتمحور الأخبار الأساسية حول احتمالات إجراء مفاوضات دبلوماسية مع إيران والمخاطر المحيطة بمضيق هرمز. وقد يؤدي التوصل إلى اتفاق موثوق إلى خفض علاوة مخاطر العرض؛ في حين أن تجدد الاضطرابات قد يتسبب في ارتفاعات مفاجئة. كما سلط تقرير لرويترز يوم الجمعة الضوء على كيفية قيام ارتفاع أسعار الطاقة بإثارة المخاوف مجددًا بشأن التضخم وأسعار الفائدة. قارن بين نفس شهر العقد عند تحليل الأسعار.",
+      "updatedAt": "2026-11-07T17:01:38.819Z"
+    },
+    "8b2ccdef9f6121900c87b7c0780e61643257e0095f451df4eec2f3fca0f88754": {
+      "source": "Credible de-escalation or a demand downgrade could renew pressure toward prior lows; use the chosen QXSECRETTOKENAQX contract and fresh market data.",
+      "translated": "قد يؤدي أي تراجع حقيقي في حدة التوتر أو انخفاض في الطلب إلى تجدد الضغط نحو المستويات المنخفضة السابقة؛ استخدم العقد المختار QXSECRETTOKENAQX وبيانات السوق الحديثة.",
+      "updatedAt": "2026-11-07T17:01:39.379Z"
+    },
+    "0fa6907347c8e4fc65bb4f2f78ee5511b54a7104d0c359b3deadd32282101f7b": {
+      "source": "MarketPulse translation memory verification 2026-11-07 unique cache probe",
+      "translated": "التحقق من ذاكرة الترجمة في MarketPulse 7 نوفمبر 2026 — فحص ذاكرة التخزين المؤقت الفريدة",
+      "updatedAt": "2026-11-07T17:01:40.193Z"
+    },
+    "5fbd6dbabde006af338665624fda9e30fd19f7973023a61c7981d163e899e8e3": {
+      "source": "Thursday’s Dow decline of QXSECRETTOKENAQX points (QXSECRETTOKENBQX) reflected broader risk aversion amid AI/data-centre policy concerns after the midterms, although the Nasdaq suffered more. US payrolls, Treasury yields and the breadth of any Friday rebound will determine whether the decline stabilises. This section uses DJIA cash closes and must not be represented as a real-time QXSECRETTOKENCQX CFD quote.",
+      "translated": "عكس انخفاض مؤشر داو جونز يوم الخميس بمقدار QXSECRETTOKENAQX نقطة (QXSECRETTOKENBQX) تراجعًا عامًّا في الرغبة في المخاطرة وسط مخاوف بشأن سياسات الذكاء الاصطناعي ومراكز البيانات في أعقاب انتخابات التجديد النصفي، على الرغم من أن مؤشر ناسداك كان الأكثر تضررًا. وستحدد أرقام الوظائف في الولايات المتحدة، وعوائد سندات الخزانة، ومدى أي انتعاش يوم الجمعة ما إذا كان الانخفاض سيستقر أم لا. يستخدم هذا القسم أسعار الإغلاق النقدية لمؤشر داو جونز الصناعي (DJIA)، ويجب ألا يُعتبر بمثابة عرض أسعار في الوقت الفعلي لعقود الفروقات (CFD) على مؤشر QXSECRETTOKENCQX.",
+      "updatedAt": "2026-11-07T17:01:40.220Z"
+    },
+    "9d0a5f724eb200b2e71739ecc797fa0df10b7e5f12d0ff63265f1230302fac37": {
+      "source": "A weaker-than-expected payrolls print and stabilising market breadth could allow a relief rally from Thursday’s decline; confirm using live index levels.",
+      "translated": "قد يؤدي صدور بيانات الوظائف التي جاءت أضعف من المتوقع، إلى جانب استقرار نطاق السوق، إلى حدوث ارتفاع تعويضي بعد انخفاض يوم الخميس؛ تأكد من ذلك من خلال مراقبة مستويات المؤشرات في الوقت الفعلي.",
+      "updatedAt": "2026-11-07T17:01:40.978Z"
+    },
+    "f1d42ec1001f0621094e37dae502cc97af25f9cae87f9c7b7a01141f58e87981": {
+      "source": "Strong yields or continued policy-related stock selling could extend pressure below Thursday’s closing region; watch live price and cash/futures basis.",
+      "translated": "قد تؤدي العوائد المرتفعة أو استمرار عمليات بيع الأسهم المرتبطة بالسياسات إلى تفاقم الضغط أسفل مستوى إغلاق يوم الخميس؛ يرجى مراقبة الأسعار المباشرة وفارق السعر بين السوق الفورية والسوق الآجلة.",
+      "updatedAt": "2026-11-07T17:01:40.978Z"
+    }
+  }
+}

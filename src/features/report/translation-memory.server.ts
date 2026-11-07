@@ -103,7 +103,7 @@ export function getTranslationMemory() {
   const configuredDirectory = process.env["TRANSLATION_MEMORY_DIR"];
   const directory = configuredDirectory
     ? resolve(configuredDirectory)
-    : resolve(process.cwd(), ".translation-cache");
+    : resolve(process.cwd(), "locales");
   configuredMemory ??= new FileTranslationMemory(directory);
   return configuredMemory;
 }
