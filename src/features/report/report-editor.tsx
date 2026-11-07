@@ -193,6 +193,8 @@ export function ReportEditor() {
   const [newType, setNewType] = useState<SectionType>("paragraph");
   const [leftOpen, setLeftOpen] = useState(true);
   const [rightOpen, setRightOpen] = useState(true);
+  const [draggedSectionId, setDraggedSectionId] = useState<string | null>(null);
+  const [dragOverSectionId, setDragOverSectionId] = useState<string | null>(null);
   const [mobilePanel, setMobilePanel] = useState<"sections" | "properties" | "utilities" | null>(
     null,
   );
@@ -629,6 +631,16 @@ export function ReportEditor() {
     sections.splice(index + direction, 0, item);
     update({ ...report, sections });
   }
+  function moveSectionTo(sourceId: string, targetId: string) {
+    const sourceIndex = report.sections.findIndex((section) => section.id === sourceId);
+    const targetIndex = report.sections.findIndex((section) => section.id === targetId);
+    if (sourceIndex < 0 || targetIndex < 0 || sourceIndex === targetIndex) return;
+    const sections = [...report.sections];
+    const [moved] = sections.splice(sourceIndex, 1);
+    if (!moved) return;
+    sections.splice(targetIndex, 0, moved);
+    update({ ...report, sections });
+  }
   function undo() {
     const previous = historyRef.current.at(-1);
     if (!previous) return;
@@ -947,8 +959,30 @@ export function ReportEditor() {
                 <Button
                   key={section.id}
                   variant="ghost"
-                  className={`section-nav ${selectedId === section.id ? "selected" : ""}`}
+                  className={`section-nav ${selectedId === section.id ? "selected" : ""} ${draggedSectionId === section.id ? "is-dragging" : ""} ${dragOverSectionId === section.id ? "drag-over" : ""}`}
                   onClick={() => select(section.id)}
+                  draggable
+                  onDragStart={(event) => {
+                    event.dataTransfer.effectAllowed = "move";
+                    event.dataTransfer.setData("text/plain", section.id);
+                    setDraggedSectionId(section.id);
+                  }}
+                  onDragOver={(event) => {
+                    event.preventDefault();
+                    event.dataTransfer.dropEffect = "move";
+                    if (draggedSectionId !== section.id) setDragOverSectionId(section.id);
+                  }}
+                  onDrop={(event) => {
+                    event.preventDefault();
+                    const sourceId = event.dataTransfer.getData("text/plain") || draggedSectionId;
+                    if (sourceId) moveSectionTo(sourceId, section.id);
+                    setDraggedSectionId(null);
+                    setDragOverSectionId(null);
+                  }}
+                  onDragEnd={() => {
+                    setDraggedSectionId(null);
+                    setDragOverSectionId(null);
+                  }}
                 >
                   <GripVertical className="section-grip" />
                   <span className="section-name">{section.title}</span>

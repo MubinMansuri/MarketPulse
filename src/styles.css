@@ -399,6 +399,21 @@ button {
   margin-bottom: 0.1875rem;
   text-align: left;
   font-weight: 400;
+  cursor: grab;
+  transition:
+    background-color 0.16s ease,
+    opacity 0.16s ease,
+    transform 0.16s ease;
+}
+.section-nav:active {
+  cursor: grabbing;
+}
+.section-nav.is-dragging {
+  opacity: 0.45;
+}
+.section-nav.drag-over {
+  background: color-mix(in oklch, var(--primary) 16%, var(--card));
+  transform: translateY(0.125rem);
 }
 .section-nav.selected {
   background: var(--accent);
@@ -965,6 +980,16 @@ button {
   padding: 1.25rem;
   border-top: 0.0625rem solid var(--border);
 }
+.properties-sidebar .sidebar-heading {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--card);
+  border-bottom: 0.0625rem solid var(--border);
+}
+.properties-sidebar .property-group:has(.font-size-controls) {
+  background: color-mix(in oklch, var(--primary) 5%, var(--card));
+}
 .property-group-title {
   font-size: 0.6875rem;
   letter-spacing: 0.0625rem;
@@ -1055,8 +1080,8 @@ button {
   margin-top: 1.0625rem;
 }
 .section-actions button {
-  width: 2.125rem;
-  height: 1.875rem;
+  width: 2.5rem;
+  height: 2.5rem;
   color: var(--muted-foreground);
 }
 .section-actions svg {
@@ -1164,7 +1189,7 @@ button {
   display: flex;
   align-items: flex-start;
   gap: 0.6875rem;
-  min-height: 5.5rem;
+  min-height: 4.25rem;
   padding: 0.875rem;
   border: 0.0625rem solid var(--border);
   border-radius: 0.5rem;
@@ -1851,7 +1876,6 @@ button {
   border: 0.0625rem solid var(--border);
 }
 .editor-app[data-theme="gtm"] .chart-live-link {
-  margin-top: 0.75rem;
   color: var(--publication-ink);
   font-weight: 600;
   text-decoration-color: #cba94c;
