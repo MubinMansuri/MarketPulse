@@ -366,6 +366,20 @@ function retryAfterMilliseconds(response: Response, attempt: number): number {
   return Number.isFinite(seconds) && seconds >= 0 ? seconds * 1000 : 500 * 2 ** attempt;
 }
 
+async function deepLErrorReason(response: Response): Promise<string> {
+  let detail: string | undefined;
+  try {
+    const body = await response.text();
+    const parsed: unknown = JSON.parse(body);
+    if (parsed && typeof parsed === "object" && typeof (parsed as { message?: unknown }).message === "string") {
+      detail = (parsed as { message: string }).message.replace(/\s+/g, " ").trim().slice(0, 240);
+    }
+  } catch {
+    // Provider error bodies are optional. The status is still safe and useful.
+  }
+  return detail ? `DeepL rejected this request: ${detail}` : "DeepL returned HTTP " + response.status + ".";
+}
+
 export async function translateWithDeepL(
   request: TranslationRequest,
   apiUrl: string,
@@ -454,12 +468,24 @@ export async function translateManyWithDeepL(
         );
         continue;
       }
+      // A valid small DeepL request can still be rejected when a report batch
+      // crosses an undocumented provider/body boundary. Split only 400 batches;
+      // a single rejected field is then reported precisely without discarding
+      // translations for the rest of the report.
+      if (response.status === 400 && requests.length > 1) {
+        const midpoint = Math.ceil(requests.length / 2);
+        const [first, second] = await Promise.all([
+          translateManyWithDeepL(requests.slice(0, midpoint), apiUrl, apiKey),
+          translateManyWithDeepL(requests.slice(midpoint), apiUrl, apiKey),
+        ]);
+        return [...first, ...second];
+      }
       const reason =
         response.status === 429
           ? "DeepL is temporarily rate limiting requests. Please retry shortly."
           : response.status === 456
             ? "DeepL character quota has been reached."
-            : "DeepL returned HTTP " + response.status + ".";
+            : await deepLErrorReason(response);
       return requests.map(() => ({ ok: false, provider: "deepl", reason }));
     }
     return requests.map(() => ({

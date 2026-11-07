@@ -230,6 +230,35 @@ describe("DeepL server adapter", () => {
     ]);
   });
 
+  it("splits a rejected DeepL batch instead of failing every report field", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce({ ok: false, status: 400, text: async () => '{"message":"Request too large"}' })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => ({
+          translations: [{ text: "Uno <mt-protected>QXSECRETTOKENAQX</mt-protected>" }],
+        }),
+      })
+      .mockResolvedValueOnce({
+        ok: true,
+        json: async () => ({ translations: [{ text: "Dos" }] }),
+      });
+    vi.stubGlobal("fetch", fetchMock);
+
+    await expect(
+      translateManyWithDeepL(
+        [request, { ...request, text: "Second text" }],
+        "https://api-free.deepl.com",
+        "server-only-key",
+      ),
+    ).resolves.toEqual([
+      { ok: true, provider: "deepl", text: "Uno QXSECRETTOKENAQX" },
+      { ok: true, provider: "deepl", text: "Dos" },
+    ]);
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+  });
+
   it("separates mixed target languages into correct DeepL requests", async () => {
     const fetchMock = vi.fn().mockImplementation(async (_url, init) => {
       const body = JSON.parse(String(init?.body));
