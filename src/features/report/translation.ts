@@ -111,6 +111,7 @@ function getBackCoverText(
 }
 
 type TranslateBatch = (requests: TranslationRequest[]) => Promise<TranslationResponse[]>;
+const MAX_TRANSLATION_BATCH_ITEMS = 40;
 
 function createRequestBatcher(
   translateText: (request: TranslationRequest) => Promise<TranslationResponse>,
@@ -131,7 +132,7 @@ function createRequestBatcher(
       while (cursor < pending.length) {
         let size = 0;
         const chunk: typeof pending = [];
-        while (cursor < pending.length && chunk.length < 50) {
+        while (cursor < pending.length && chunk.length < MAX_TRANSLATION_BATCH_ITEMS) {
           const item = pending[cursor]!;
           const nextSize = size + new TextEncoder().encode(item.request.text).byteLength;
           if (chunk.length && nextSize > 100_000) break;

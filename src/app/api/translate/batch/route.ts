@@ -30,8 +30,10 @@ export async function POST(request: Request) {
   }
   const parsed = translationBatchRequestSchema.safeParse(await request.json().catch(() => null));
   if (!parsed.success) {
+    const issue = parsed.error.issues[0];
+    const path = issue?.path.length ? issue.path.join(".") : "request";
     return NextResponse.json(
-      { error: "Invalid translation batch." },
+      { error: `Invalid translation batch at ${path}: ${issue?.message ?? "invalid input"}` },
       { status: 400, headers: apiHeaders(rateLimit) },
     );
   }

@@ -17,7 +17,9 @@ export const translationRequestSchema = z.object({
   ).max(200),
 });
 export const translationBatchRequestSchema = z.object({
-  requests: z.array(translationRequestSchema).min(1).max(50),
+  // Keep comfortably below DeepL's documented 50-text request ceiling. The
+  // lower boundary also leaves room for XML escaping and provider metadata.
+  requests: z.array(translationRequestSchema).min(1).max(40),
 }).superRefine(({ requests }, context) => {
   const totalTextLength = requests.reduce((total, request) => total + request.text.length, 0);
   if (totalTextLength > 100_000) {
@@ -331,6 +333,21 @@ export function decodeDeepLProtectedMarkers(text: string): string {
   );
 }
 
+function escapeDeepLXmlText(text: string) {
+  return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+function decodeDeepLXmlText(text: string) {
+  return decodeDeepLProtectedMarkers(text)
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&");
+}
+
+function encodeDeepLXmlText(text: string) {
+  return encodeDeepLProtectedMarkers(escapeDeepLXmlText(text));
+}
+
 function preservesDeepLProtectedMarkers(source: string, translated: string) {
   const sourceMarkers = source.match(deepLProtectedMarkerPattern) ?? [];
   const translatedMarkers = translated.match(deepLProtectedMarkerPattern) ?? [];
@@ -347,7 +364,10 @@ export function buildDeepLRequest(
 ): { body: string; headers: Record<string, string> } {
   return {
     body: JSON.stringify({
-      text: texts.map(encodeDeepLProtectedMarkers),
+      // tag_handling=xml protects financial markers, so every report string
+      // must also be valid XML text. Financial commentary often contains raw
+      // ampersands (for example S&P 500), which otherwise causes HTTP 400.
+      text: texts.map(encodeDeepLXmlText),
       source_lang: "EN",
       target_lang: request.targetLocale === "es" ? "ES" : "AR",
       tag_handling: "xml",
@@ -452,7 +472,7 @@ export async function translateManyWithDeepL(
               reason: "DeepL returned a malformed translation response.",
             };
           }
-          const text = decodeDeepLProtectedMarkers(translation.text);
+          const text = decodeDeepLXmlText(translation.text);
           return preservesDeepLProtectedMarkers(requests[index]!.text, text)
             ? { ok: true, text, provider: "deepl" }
             : {

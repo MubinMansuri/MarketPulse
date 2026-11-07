@@ -126,6 +126,17 @@ describe("DeepL server adapter", () => {
     expect(decodeDeepLProtectedMarkers(encoded)).toBe("QXSECRETTOKENAQX / QXSECRETTOKENBQX");
   });
 
+  it("escapes XML-sensitive market copy before using DeepL XML tag handling", () => {
+    const prepared = buildDeepLRequest(
+      { ...request, text: "S&P 500 < 7,400 & EUR/USD is QXSECRETTOKENAQX" },
+      "server-only-key",
+    );
+
+    expect(JSON.parse(prepared.body).text).toEqual([
+      "S&amp;P 500 &lt; 7,400 &amp; EUR/USD is <mt-protected>QXSECRETTOKENAQX</mt-protected>",
+    ]);
+  });
+
   it("maps Arabic to AR and keeps credentials out of VITE client configuration", () => {
     const prepared = buildDeepLRequest({ ...request, targetLocale: "ar" }, "server-only-key");
     const serverAdapterSource = readFileSync(
