@@ -253,7 +253,7 @@ The next major editorial improvement is measured pagination and broader print ve
 
 ## License
 
-No open-source license file is currently included. Before public release, project maintainers should add a `LICENSE` file stating the intended terms. Until then, do not assume permission to reuse, redistribute, or contribute code beyond the owner's stated terms.
+MarketPulse Studio is licensed under the [MIT License](LICENSE).
 
 ## Financial and content disclaimer
 
