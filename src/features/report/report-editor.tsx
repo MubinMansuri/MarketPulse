@@ -1436,7 +1436,7 @@ export function ReportEditor() {
         </span>
       </footer>
       <Dialog open={addOpen} onOpenChange={setAddOpen}>
-        <DialogContent className="section-picker-dialog">
+        <DialogContent className="section-picker-dialog dialog-theme" data-theme={theme}>
           <DialogHeader>
             <DialogTitle>{ui.addSection}</DialogTitle>
             <DialogDescription>Choose a report building block for this edition.</DialogDescription>
@@ -1481,7 +1481,7 @@ export function ReportEditor() {
           }
         }}
       >
-        <DialogContent>
+        <DialogContent className="dialog-theme" data-theme={theme}>
           <DialogHeader>
             <DialogTitle>
               {pendingImport ? ui.replaceReport + "?" : ui.import + " file rejected"}
@@ -1521,7 +1521,7 @@ export function ReportEditor() {
         </DialogContent>
       </Dialog>
       <Dialog open={exportOpen} onOpenChange={setExportOpen}>
-        <DialogContent onClose={() => setExportOpen(false)}>
+        <DialogContent className="dialog-theme" data-theme={theme} onClose={() => setExportOpen(false)}>
           <DialogHeader>
             <DialogTitle>{ui.exportReport}</DialogTitle>
             <DialogDescription>
@@ -1561,7 +1561,7 @@ export function ReportEditor() {
         </DialogContent>
       </Dialog>
       <Dialog open={supportedJsonOpen} onOpenChange={setSupportedJsonOpen}>
-        <DialogContent>
+        <DialogContent className="dialog-theme" data-theme={theme}>
           <DialogHeader>
             <DialogTitle>Supported JSON Format</DialogTitle>
             <DialogDescription>

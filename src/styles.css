@@ -1203,13 +1203,18 @@ button {
     box-shadow 0.16s ease;
 }
 .section-template:hover {
-  border-color: color-mix(in oklch, var(--primary) 68%, var(--border));
-  background: var(--accent);
+  border-color: var(--border);
+  background: var(--muted);
+  box-shadow: 0 0.25rem 0.75rem oklch(0.2 0 0 / 0.06);
 }
 .section-template.selected {
   border-color: var(--primary);
-  background: color-mix(in oklch, var(--primary) 12%, var(--card));
+  background: color-mix(in oklch, var(--primary) 8%, var(--card));
   box-shadow: 0 0.5rem 1.25rem oklch(0.2 0 0 / 0.08);
+}
+.section-template.selected:hover {
+  border-color: var(--primary);
+  background: color-mix(in oklch, var(--primary) 8%, var(--card));
 }
 .section-template > svg {
   width: 1.25rem;
@@ -1490,7 +1495,8 @@ button {
     transition: none !important;
   }
 }
-.editor-app[data-theme="gtm"] {
+.editor-app[data-theme="gtm"],
+.dialog-theme[data-theme="gtm"] {
   --primary: oklch(0.79 0.14 82);
   --publication-ink: oklch(0.08 0 0);
   --foreground: oklch(0.16 0 0);
@@ -1901,7 +1907,8 @@ button {
     padding: 0.625rem 0.5625rem;
   }
 }
-.editor-app[data-theme="classic"] {
+.editor-app[data-theme="classic"],
+.dialog-theme[data-theme="classic"] {
   --background: oklch(0.985 0.002 160);
   --foreground: oklch(0.29 0.012 160);
   --primary: oklch(0.44 0.092 162);
