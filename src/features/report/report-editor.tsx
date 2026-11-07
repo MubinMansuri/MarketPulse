@@ -115,6 +115,13 @@ const sectionTemplates: Array<{
     description: "A market summary section",
     icon: LayoutPanelTop,
   },
+  { type: "divider", title: "Divider", description: "A quiet editorial separator", icon: FileText },
+  {
+    type: "spacer",
+    title: "Spacer",
+    description: "Add breathing room to a page",
+    icon: MoreHorizontal,
+  },
 ];
 
 async function requestTranslation<T>(endpoint: string, payload: unknown): Promise<T> {
@@ -1011,16 +1018,18 @@ export function ReportEditor() {
                             if (!preview) setSelectedId(section.id);
                           }}
                         >
-                          {section.type !== "cover" && (
-                            <ReportHeading>
-                              <EditableText
-                                text={section.title}
-                                label={`Section title ${section.id}`}
-                                editable={!preview}
-                                onChange={(title) => updateSection({ ...section, title })}
-                              />
-                            </ReportHeading>
-                          )}
+                          {section.type !== "cover" &&
+                            section.type !== "spacer" &&
+                            section.type !== "divider" && (
+                              <ReportHeading>
+                                <EditableText
+                                  text={section.title}
+                                  label={`Section title ${section.id}`}
+                                  editable={!preview}
+                                  onChange={(title) => updateSection({ ...section, title })}
+                                />
+                              </ReportHeading>
+                            )}
                           <ReportBlock
                             section={section}
                             editable={!preview}

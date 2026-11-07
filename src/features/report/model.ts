@@ -14,6 +14,8 @@ export const sectionTypes = [
   "sources",
   "methodology",
   "risk-disclosure",
+  "spacer",
+  "divider",
   "unknown",
 ] as const;
 export type SectionType = (typeof sectionTypes)[number];

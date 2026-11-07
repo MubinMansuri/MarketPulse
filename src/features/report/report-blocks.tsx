@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element -- report images can be user-imported data URLs and must remain embeddable in standalone HTML exports. */
 
 import { useState, type ReactNode } from "react";
-import { ImageIcon, TrendingUp, TrendingDown } from "lucide-react";
+import { ImageIcon, TrendingUp, TrendingDown, Upload } from "lucide-react";
 import type { CanonicalReport, ReportSection, TableData } from "./model";
 import { formatReportDate } from "./locale";
 import { getSectionDefinition } from "./report-registry";
@@ -253,7 +253,8 @@ export function ChartPlaceholder({ section, editable, onChange }: BlockProps) {
       )}
       {editable && (
         <label className="chart-image-edit editor-only">
-          Replace visual
+          <Upload size={15} />
+          <span>Replace visual</span>
           <input
             type="file"
             accept="image/png,image/jpeg,image/webp"
@@ -349,6 +350,8 @@ export function ReportBlock({ section, editable, onChange }: BlockProps) {
     );
   if (block === "chart")
     return <ChartPlaceholder section={section} editable={editable} onChange={onChange} />;
+  if (block === "spacer") return <div className="report-spacer" aria-label="Editorial spacing" />;
+  if (block === "divider") return <hr className="report-divider" />;
   if (block === "unknown")
     return <pre className="unknown-content">{JSON.stringify(section.data.original, null, 2)}</pre>;
   return <ReportParagraph>{text("text")}</ReportParagraph>;

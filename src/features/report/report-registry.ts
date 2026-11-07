@@ -1,6 +1,7 @@
 import type { KnownSectionType, SectionType } from "./model";
 
-export type EditorBlockKind = "cover" | "table" | "scenario" | "chart" | "text" | "unknown";
+export type EditorBlockKind =
+  "cover" | "table" | "scenario" | "chart" | "text" | "spacer" | "divider" | "unknown";
 export interface ReportSectionDefinition {
   label: string;
   block: EditorBlockKind;
@@ -20,6 +21,8 @@ export const reportSectionRegistry = {
   sources: { label: "Sources", block: "text" },
   methodology: { label: "Methodology", block: "text" },
   "risk-disclosure": { label: "Risk disclosure", block: "text" },
+  spacer: { label: "Spacer", block: "spacer" },
+  divider: { label: "Divider", block: "divider" },
 } satisfies Record<KnownSectionType, ReportSectionDefinition>;
 
 export function getSectionDefinition(type: SectionType): ReportSectionDefinition {

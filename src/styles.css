@@ -878,9 +878,27 @@ button {
 .chart-image-edit {
   position: relative;
   z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  gap: 0.5rem;
+  padding: 0 0.875rem;
+  border: 0.0625rem solid var(--primary);
+  border-radius: 0.375rem;
+  background: var(--card);
+  color: var(--foreground);
   cursor: pointer;
-  font-size: 0.625rem;
-  text-decoration: underline;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0.25rem 0.75rem oklch(0.2 0 0 / 0.08);
+}
+.chart-image-edit:hover {
+  background: var(--accent);
+}
+.chart-image-edit:focus-within {
+  outline: 0.125rem solid var(--primary);
+  outline-offset: 0.1875rem;
 }
 .chart-image-edit input {
   position: absolute;
@@ -891,6 +909,14 @@ button {
 .chart-upload-error {
   color: var(--destructive);
   font-size: 0.625rem;
+}
+.report-spacer {
+  height: 2.5rem;
+}
+.report-divider {
+  border: 0;
+  border-top: 0.0625rem solid var(--border);
+  margin: 1.5rem 0;
 }
 .chart-grid {
   position: absolute;
@@ -1855,6 +1881,13 @@ button {
 .editor-app[data-theme="classic"] .header-actions button:hover {
   color: var(--primary-foreground);
   background: var(--primary);
+}
+.editor-app[data-theme="classic"] .header-actions .export-action {
+  color: white;
+}
+.editor-app[data-theme="classic"] .mobile-utility-trigger {
+  color: var(--foreground);
+  border-color: var(--border);
 }
 .editor-app[data-theme="classic"] .report-page-cover {
   background: var(--card);
