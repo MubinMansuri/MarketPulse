@@ -283,7 +283,10 @@ button {
   gap: 0.1875rem;
 }
 .mobile-editor-actions,
-.mobile-panel-scrim {
+.mobile-panel-scrim,
+.mobile-utility-trigger,
+.mobile-utility-panel,
+.mobile-editor-dock {
   display: none;
 }
 .workspace-tools button {
@@ -2101,5 +2104,140 @@ button {
   * {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
+  }
+}
+
+@media (max-width: 40rem) {
+  .editor-app {
+    min-height: 0;
+  }
+  .app-header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 2.75rem;
+    grid-template-areas:
+      "brand tools"
+      "document document";
+    min-height: 0;
+    padding: 0.75rem 1rem;
+    gap: 0.375rem 0.75rem;
+  }
+  .app-brand {
+    grid-area: brand;
+    font-size: 1.125rem;
+  }
+  .header-document {
+    grid-area: document;
+    min-width: 0;
+  }
+  .document-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.8125rem;
+  }
+  .document-meta {
+    margin-top: 0.1875rem;
+    font-size: 0.6875rem;
+  }
+  .header-separator,
+  .header-actions,
+  .mobile-editor-actions {
+    display: none;
+  }
+  .mobile-utility-trigger {
+    display: inline-flex;
+    grid-area: tools;
+    width: 2.75rem;
+    height: 2.75rem;
+    color: white;
+    border: 0.0625rem solid oklch(0.42 0 0);
+  }
+  .workspace-bar {
+    min-height: 3rem;
+    height: auto;
+    padding: 0.375rem 0.875rem;
+  }
+  .workspace-label {
+    font-size: 0.6875rem;
+  }
+  .workspace-tools {
+    overflow: visible;
+  }
+  .workspace-tools > :not(.theme-control) {
+    display: none;
+  }
+  .theme-control {
+    margin-right: 0;
+    font-size: 0.6875rem;
+  }
+  .theme-control select {
+    height: 2.25rem;
+    max-width: 7.5rem;
+  }
+  .mobile-utility-panel {
+    display: none;
+  }
+  .mobile-panel-utilities .mobile-utility-panel {
+    display: grid;
+    gap: 0.75rem;
+    position: fixed;
+    z-index: 21;
+    inset: auto 0.75rem max(0.75rem, env(safe-area-inset-bottom)) 0.75rem;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    background: var(--card);
+    box-shadow: 0 1rem 2.5rem rgb(0 0 0 / 0.24);
+  }
+  .mobile-utility-panel-heading {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .mobile-utility-panel-heading > div {
+    display: grid;
+    gap: 0.1875rem;
+  }
+  .mobile-utility-panel-heading span {
+    color: var(--muted-foreground);
+    font-size: 0.75rem;
+    line-height: 1.4;
+  }
+  .mobile-utility-panel > button:not(:first-child) {
+    min-height: 2.75rem;
+    justify-content: flex-start;
+  }
+  .mobile-editor-dock {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    flex-shrink: 0;
+    gap: 0.125rem;
+    padding: 0.375rem 0.5rem max(0.375rem, env(safe-area-inset-bottom));
+    border-top: 0.0625rem solid var(--border);
+    background: var(--card);
+  }
+  .mobile-editor-dock button {
+    display: grid;
+    min-height: 3.25rem;
+    gap: 0.125rem;
+    padding: 0.25rem 0.125rem;
+    color: var(--muted-foreground);
+    font-size: 0.625rem;
+    line-height: 1.1;
+    white-space: normal;
+  }
+  .mobile-editor-dock button svg {
+    width: 1.125rem;
+    height: 1.125rem;
+  }
+  .mobile-editor-dock button[aria-pressed="true"] {
+    color: var(--primary);
+    background: var(--accent);
+  }
+  .app-statusbar {
+    display: none;
+  }
+  .canvas-workspace {
+    padding-bottom: 0.875rem;
   }
 }

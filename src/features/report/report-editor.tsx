@@ -25,6 +25,7 @@ import {
   AlertCircle,
   ChartColumn,
   LayoutPanelTop,
+  MoreHorizontal,
   PanelLeftClose,
   PanelRightClose,
   TextQuote,
@@ -185,7 +186,9 @@ export function ReportEditor() {
   const [newType, setNewType] = useState<SectionType>("paragraph");
   const [leftOpen, setLeftOpen] = useState(true);
   const [rightOpen, setRightOpen] = useState(true);
-  const [mobilePanel, setMobilePanel] = useState<"sections" | "properties" | null>(null);
+  const [mobilePanel, setMobilePanel] = useState<"sections" | "properties" | "utilities" | null>(
+    null,
+  );
   const [pendingImport, setPendingImport] = useState<CanonicalReport | null>(null);
   const [importIssues, setImportIssues] = useState<ValidationIssue[]>([]);
   const [importFileName, setImportFileName] = useState("");
@@ -702,6 +705,18 @@ export function ReportEditor() {
             </span>
           </div>
         </div>
+        <Button
+          variant="ghost"
+          size="icon"
+          className="mobile-utility-trigger"
+          aria-label="Open report tools"
+          aria-expanded={mobilePanel === "utilities"}
+          onClick={() =>
+            setMobilePanel((current) => (current === "utilities" ? null : "utilities"))
+          }
+        >
+          <MoreHorizontal />
+        </Button>
         <div className="header-actions">
           <input
             id="report-import-input"
@@ -874,6 +889,44 @@ export function ReportEditor() {
           onClick={() => setMobilePanel(null)}
         />
       )}
+      <aside className="mobile-utility-panel" aria-label="Report tools">
+        <div className="mobile-utility-panel-heading">
+          <div>
+            <strong>Report tools</strong>
+            <span>Import a report or use the canonical schema.</span>
+          </div>
+          <Button
+            variant="ghost"
+            size="icon"
+            aria-label="Close report tools"
+            onClick={() => setMobilePanel(null)}
+          >
+            <MoreHorizontal />
+          </Button>
+        </div>
+        <Button
+          variant="outline"
+          onClick={() => {
+            setMobilePanel(null);
+            document.getElementById("report-import-input")?.click();
+          }}
+        >
+          <Upload />
+          Import JSON or PDF
+        </Button>
+        {theme === "gtm" && (
+          <Button
+            variant="outline"
+            onClick={() => {
+              setMobilePanel(null);
+              setSupportedJsonOpen(true);
+            }}
+          >
+            <FileText />
+            Open format guide
+          </Button>
+        )}
+      </aside>
       <div className="editor-layout">
         {!preview && leftOpen && (
           <aside className="structure-sidebar">
@@ -1278,6 +1331,50 @@ export function ReportEditor() {
           </aside>
         )}
       </div>
+      {!preview && (
+        <nav className="mobile-editor-dock" aria-label="Editor actions">
+          <Button
+            variant="ghost"
+            aria-pressed={mobilePanel === "sections"}
+            onClick={() => {
+              setLeftOpen(true);
+              setMobilePanel((current) => (current === "sections" ? null : "sections"));
+            }}
+          >
+            <PanelLeftClose />
+            <span>Sections</span>
+          </Button>
+          <Button variant="ghost" onClick={() => setAddOpen(true)}>
+            <Plus />
+            <span>Add</span>
+          </Button>
+          <Button
+            variant="ghost"
+            aria-pressed={mobilePanel === "properties"}
+            onClick={() => {
+              setRightOpen(true);
+              setMobilePanel((current) => (current === "properties" ? null : "properties"));
+            }}
+          >
+            <Settings2 />
+            <span>Properties</span>
+          </Button>
+          <Button variant="ghost" onClick={() => setPreview(true)}>
+            <Eye />
+            <span>Preview</span>
+          </Button>
+          <Button
+            variant="ghost"
+            onClick={() => {
+              setExportError("");
+              setExportOpen(true);
+            }}
+          >
+            <Download />
+            <span>Export</span>
+          </Button>
+        </nav>
+      )}
       <footer className="app-statusbar">
         <span>
           <span className="canvas-dot" />
