@@ -36,11 +36,11 @@
   --primary-foreground: oklch(0.12 0 0);
   --secondary: oklch(0.95 0.01 80);
   --muted: oklch(0.965 0.002 80);
-  --muted-foreground: oklch(0.48 0.008 80);
+  --muted-foreground: oklch(0.42 0.008 80);
   --accent: oklch(0.96 0.025 80);
   --destructive: oklch(0.55 0.15 25);
   --border: oklch(0.88 0.005 80);
-  --warning: oklch(0.61 0.12 76);
+  --warning: oklch(0.50 0.12 76);
   --canvas: oklch(0.91 0.002 80);
   --publication-ink: oklch(0.1 0.002 80);
   --positive: oklch(0.46 0.1 162);
@@ -59,6 +59,14 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   font-size: .875rem;
+}
+::selection {
+  background: color-mix(in oklch, var(--primary) 42%, white);
+  color: var(--publication-ink);
+}
+:focus-visible {
+  outline: .125rem solid var(--primary);
+  outline-offset: .1875rem;
 }
 .system-page {
   display: grid;
@@ -250,6 +258,10 @@ button {
   display: flex;
   align-items: center;
   gap: .1875rem;
+}
+.mobile-editor-actions,
+.mobile-panel-scrim {
+  display: none;
 }
 .workspace-tools button {
   height: 1.75rem;
@@ -1163,9 +1175,10 @@ button {
   .header-actions {
     width: 100%;
     justify-content: flex-end;
+    flex-wrap: wrap;
   }
   .header-actions button {
-    height: 1.8125rem;
+    min-height: 2.75rem;
   }
   .structure-sidebar {
     display: none;
@@ -1176,19 +1189,29 @@ button {
   }
   .workspace-bar {
     padding: 0 .75rem;
+    gap: .5rem;
   }
   .edition-name,
   .workspace-breadcrumb {
     display: none;
   }
   .workspace-label {
-    font-size: .5rem;
+    flex-shrink: 0;
+    font-size: .75rem;
+  }
+  .workspace-tools {
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: auto;
+    scrollbar-width: thin;
   }
   .workspace-tools .tool-separator {
     margin: 0 .1875rem;
   }
   .workspace-tools button {
-    width: 1.4375rem;
+    width: 2.75rem;
+    height: 2.75rem;
+    flex-shrink: 0;
   }
   .workspace-tools button[aria-label*="sidebar"] {
     display: none;
@@ -1197,6 +1220,12 @@ button {
     padding: .9375rem .875rem 1.875rem;
   }
   .report-pages {
+    width: 100%;
+  }
+  .zoom-65 .report-pages,
+  .zoom-75 .report-pages,
+  .zoom-95 .report-pages,
+  .zoom-105 .report-pages {
     width: 100%;
   }
   .report-page {
@@ -1213,14 +1242,6 @@ button {
   .report-cover h1 {
     font-size: 1.6875rem;
   }
-  .report-table th {
-    font-size: .375rem;
-    padding: .5rem .375rem;
-  }
-  .report-table td {
-    font-size: .5625rem;
-    padding: .625rem .375rem;
-  }
   .publication-brand {
     font-size: 1.5625rem;
   }
@@ -1232,6 +1253,42 @@ button {
   }
   .report-scenarios {
     grid-template-columns: 1fr;
+  }
+  .mobile-editor-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .5rem;
+    padding: .5rem .875rem;
+    background: var(--card);
+    border-bottom: .0625rem solid var(--border);
+  }
+  .mobile-editor-actions button {
+    min-height: 2.75rem;
+    width: 100%;
+  }
+  .mobile-panel-scrim {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 20;
+    border: 0;
+    background: rgb(0 0 0 / .34);
+    cursor: pointer;
+  }
+  .mobile-panel-sections .structure-sidebar,
+  .mobile-panel-properties .properties-sidebar {
+    display: flex;
+    position: fixed;
+    z-index: 21;
+    inset: 0 0 0 auto;
+    width: min(23rem, calc(100vw - 1.25rem));
+    border: 0;
+    border-left: .0625rem solid var(--border);
+    box-shadow: -.75rem 0 1.875rem rgb(0 0 0 / .16);
+    overscroll-behavior: contain;
+  }
+  .mobile-panel-properties .properties-sidebar {
+    display: block;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -1736,6 +1793,51 @@ button {
 .editor-app[data-theme="classic"] .report-page-cover .publication-footer {
   border-color: var(--border);
   color: var(--muted-foreground);
+}
+@media screen {
+  /* The publication stays print-proportional at export. The interactive canvas
+     uses a larger, editorial reading scale so authors are not editing 7–11px text. */
+  .canvas-workspace .report-heading,
+  .canvas-workspace .report-cover h1,
+  .canvas-workspace .report-page-back-cover h2 {
+    text-wrap: balance;
+  }
+  .canvas-workspace .report-paragraph {
+    max-width: 33rem;
+    font-size: calc(.8125rem * var(--section-font-scale));
+    line-height: 1.68;
+    text-wrap: pretty;
+  }
+  .editor-app[data-theme="gtm"] .canvas-workspace .report-paragraph {
+    max-width: 33rem;
+    font-size: calc(.8125rem * var(--section-font-scale));
+  }
+  .canvas-workspace .report-table {
+    font-size: calc(.7813rem * var(--section-font-scale));
+  }
+  .canvas-workspace .report-table th,
+  .editor-app[data-theme="gtm"] .canvas-workspace .report-table th {
+    font-size: calc(.6875rem * var(--section-font-scale));
+  }
+  .canvas-workspace .report-table td,
+  .editor-app[data-theme="gtm"] .canvas-workspace .report-table td {
+    font-size: calc(.7813rem * var(--section-font-scale));
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+    word-break: normal;
+  }
+  .canvas-workspace .publication-brand,
+  .canvas-workspace .publication-date,
+  .canvas-workspace .publication-date strong,
+  .canvas-workspace .market-reference-strip dt,
+  .canvas-workspace .market-reference-strip dd {
+    font-size: .6875rem;
+  }
+  .canvas-workspace .publication-footer,
+  .canvas-workspace .page-label,
+  .canvas-workspace .canvas-end {
+    font-size: .625rem;
+  }
 }
 @page {
   size: A4 portrait;

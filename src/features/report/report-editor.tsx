@@ -138,6 +138,7 @@ export function ReportEditor() {
   const [newType, setNewType] = useState<SectionType>("paragraph");
   const [leftOpen, setLeftOpen] = useState(true);
   const [rightOpen, setRightOpen] = useState(true);
+  const [mobilePanel, setMobilePanel] = useState<"sections" | "properties" | null>(null);
   const [pendingImport, setPendingImport] = useState<CanonicalReport | null>(null);
   const [importIssues, setImportIssues] = useState<ValidationIssue[]>([]);
   const [importFileName, setImportFileName] = useState("");
@@ -542,6 +543,7 @@ export function ReportEditor() {
   }
   function select(id: string) {
     setSelectedId(id);
+    setMobilePanel(null);
     const pageIndex = pages.findIndex((sections) => sections.some((section) => section.id === id));
     if (pageIndex < 0) return;
     if (!shouldVirtualize) {
@@ -628,7 +630,7 @@ export function ReportEditor() {
       lang={interfaceLocale}
       dir={isRtlLocale(interfaceLocale) ? "rtl" : "ltr"}
       data-theme={theme}
-      className={`editor-app ${preview ? "is-preview" : ""} ${leftOpen ? "" : "left-hidden"} ${rightOpen ? "" : "right-hidden"}`}
+      className={`editor-app ${preview ? "is-preview" : ""} ${leftOpen ? "" : "left-hidden"} ${rightOpen ? "" : "right-hidden"} mobile-panel-${mobilePanel ?? "closed"}`}
     >
       <header className="app-header">
         <div className="app-brand">
@@ -778,6 +780,40 @@ export function ReportEditor() {
           </Button>
         </div>
       </div>
+      {!preview && (
+        <div className="mobile-editor-actions" aria-label="Mobile editor controls">
+          <Button
+            variant={mobilePanel === "sections" ? "secondary" : "outline"}
+            onClick={() => {
+              setLeftOpen(true);
+              setMobilePanel((current) => (current === "sections" ? null : "sections"));
+            }}
+            aria-pressed={mobilePanel === "sections"}
+          >
+            <PanelLeftClose />
+            Sections
+          </Button>
+          <Button
+            variant={mobilePanel === "properties" ? "secondary" : "outline"}
+            onClick={() => {
+              setRightOpen(true);
+              setMobilePanel((current) => (current === "properties" ? null : "properties"));
+            }}
+            aria-pressed={mobilePanel === "properties"}
+          >
+            <Settings2 />
+            Properties
+          </Button>
+        </div>
+      )}
+      {mobilePanel && (
+        <button
+          type="button"
+          className="mobile-panel-scrim"
+          aria-label="Close mobile editor panel"
+          onClick={() => setMobilePanel(null)}
+        />
+      )}
       <div className="editor-layout">
         {!preview && leftOpen && (
           <aside className="structure-sidebar">
