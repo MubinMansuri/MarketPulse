@@ -19,6 +19,9 @@ node_modules
 !.env.example
 .docker/
 
+# Runtime DeepL translation memory. This can contain report copy, so it stays local.
+.translation-cache/
+
 # Local browser test artifacts
 .playwright-mcp/
 ui-audit-*.png

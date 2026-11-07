@@ -1,5 +1,6 @@
 import { z } from "zod";
 import type { TranslationRequest, TranslationResponse } from "./translation";
+import { getTranslationMemory, type TranslationMemoryLocale } from "./translation-memory.server";
 
 export const translationRequestSchema = z.object({
   text: z.string().min(1).max(20000),
@@ -303,7 +304,8 @@ async function translateWithMyMemory(
 }
 
 export function buildDeepLUrl(apiUrl: string): string {
-  return apiUrl.replace(/\/+$/, "") + "/v2/translate";
+  const baseUrl = apiUrl.replace(/\/+$/, "");
+  return /\/v2\/translate$/i.test(baseUrl) ? baseUrl : baseUrl + "/v2/translate";
 }
 
 const deepLProtectedMarkerPattern = /QXSECRETTOKEN([A-Z]+)QX/g;
@@ -326,6 +328,15 @@ export function decodeDeepLProtectedMarkers(text: string): string {
       "g",
     ),
     "$1",
+  );
+}
+
+function preservesDeepLProtectedMarkers(source: string, translated: string) {
+  const sourceMarkers = source.match(deepLProtectedMarkerPattern) ?? [];
+  const translatedMarkers = translated.match(deepLProtectedMarkerPattern) ?? [];
+  return (
+    sourceMarkers.length === translatedMarkers.length &&
+    sourceMarkers.every((marker, index) => marker === translatedMarkers[index])
   );
 }
 
@@ -370,6 +381,28 @@ export async function translateManyWithDeepL(
   apiKey: string,
 ): Promise<TranslationResponse[]> {
   if (!requests.length) return [];
+  const groups = new Map<TranslationMemoryLocale, Array<{ index: number; request: TranslationRequest }>>();
+  requests.forEach((request, index) => {
+    const group = groups.get(request.targetLocale) ?? [];
+    group.push({ index, request });
+    groups.set(request.targetLocale, group);
+  });
+  if (groups.size > 1) {
+    const responses = new Array<TranslationResponse>(requests.length);
+    await Promise.all(
+      [...groups.values()].map(async (group) => {
+        const translated = await translateManyWithDeepL(
+          group.map(({ request }) => request),
+          apiUrl,
+          apiKey,
+        );
+        group.forEach(({ index }, responseIndex) => {
+          responses[index] = translated[responseIndex]!;
+        });
+      }),
+    );
+    return responses;
+  }
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), 15000);
   try {
@@ -397,15 +430,23 @@ export async function translateManyWithDeepL(
             reason: "DeepL returned a malformed translation response.",
           }));
         }
-        return translations.map((translation) =>
-          typeof translation.text === "string" && translation.text.trim()
-            ? { ok: true, text: decodeDeepLProtectedMarkers(translation.text), provider: "deepl" }
+        return translations.map((translation, index) => {
+          if (typeof translation.text !== "string" || !translation.text.trim()) {
+            return {
+              ok: false,
+              provider: "deepl",
+              reason: "DeepL returned a malformed translation response.",
+            };
+          }
+          const text = decodeDeepLProtectedMarkers(translation.text);
+          return preservesDeepLProtectedMarkers(requests[index]!.text, text)
+            ? { ok: true, text, provider: "deepl" }
             : {
                 ok: false,
                 provider: "deepl",
-                reason: "DeepL returned a malformed translation response.",
-              },
-        );
+                reason: "DeepL changed protected financial values; the text was not cached.",
+              };
+        });
       }
       if ((response.status === 429 || response.status === 529) && attempt < 2) {
         await new Promise((resolve) =>
@@ -438,6 +479,69 @@ export async function translateManyWithDeepL(
   } finally {
     clearTimeout(timeout);
   }
+}
+
+export async function translateDeepLWithMemory(
+  requests: TranslationRequest[],
+  apiUrl: string,
+  apiKey: string,
+): Promise<TranslationResponse[]> {
+  const memory = getTranslationMemory();
+  const responses = new Array<TranslationResponse>(requests.length);
+  const misses = new Map<
+    string,
+    { locale: TranslationMemoryLocale; request: TranslationRequest; indexes: number[] }
+  >();
+
+  await Promise.all(
+    requests.map(async (request, index) => {
+      const cached = await memory.get(request.targetLocale, request.text);
+      if (cached !== undefined) {
+        responses[index] = { ok: true, text: cached, provider: "translation-memory" };
+        return;
+      }
+      const key = `${request.targetLocale}\u0000${request.text}`;
+      const existing = misses.get(key);
+      if (existing) {
+        existing.indexes.push(index);
+      } else {
+        misses.set(key, { locale: request.targetLocale, request, indexes: [index] });
+      }
+    }),
+  );
+
+  const missesByLocale = new Map<
+    TranslationMemoryLocale,
+    Array<{ locale: TranslationMemoryLocale; request: TranslationRequest; indexes: number[] }>
+  >();
+  misses.forEach((miss) => {
+    const group = missesByLocale.get(miss.locale) ?? [];
+    group.push(miss);
+    missesByLocale.set(miss.locale, group);
+  });
+
+  await Promise.all(
+    [...missesByLocale.values()].map(async (group) => {
+      const translated = await translateManyWithDeepL(
+        group.map(({ request }) => request),
+        apiUrl,
+        apiKey,
+      );
+      await Promise.all(
+        group.map(async (miss, responseIndex) => {
+          const response = translated[responseIndex]!;
+          miss.indexes.forEach((index) => {
+            responses[index] = response;
+          });
+          if (response.ok && response.text !== undefined) {
+            await memory.set(miss.locale, miss.request.text, response.text);
+          }
+        }),
+      );
+    }),
+  );
+
+  return responses;
 }
 
 const providers: Record<
@@ -508,15 +612,30 @@ const providers: Record<
 export async function translateWithConfiguredProvider(request: TranslationRequest) {
   const data = translationRequestSchema.parse(request) as TranslationRequest;
   const providerName = (env("TRANSLATION_PROVIDER") ?? "libretranslate") as ProviderName;
-  const provider = providers[providerName] ?? providers.libretranslate;
-  return provider({
+  const normalizedRequest = {
     ...data,
     terminology: data.terminology.map((term) => ({
       source: term.source,
       protected: term.protected ?? false,
       ...(term.translations ? { translations: term.translations } : {}),
     })),
-  });
+  } satisfies TranslationRequest;
+  if (providerName === "deepl") {
+    const apiUrl = env("TRANSLATION_API_URL");
+    const apiKey = env("TRANSLATION_API_KEY");
+    if (!apiUrl || !apiKey) {
+      return {
+        ok: false,
+        provider: "deepl",
+        reason: !apiUrl
+          ? "DeepL URL is not configured on the server."
+          : "DeepL API key is not configured on the server.",
+      };
+    }
+    return (await translateDeepLWithMemory([normalizedRequest], apiUrl, apiKey))[0]!;
+  }
+  const provider = providers[providerName] ?? providers.libretranslate;
+  return provider(normalizedRequest);
 }
 
 export async function translateBatchWithConfiguredProvider(requests: TranslationRequest[]) {
@@ -536,7 +655,7 @@ export async function translateBatchWithConfiguredProvider(requests: Translation
           : "DeepL API key is not configured on the server.",
       }));
     }
-    return translateManyWithDeepL(data.requests, apiUrl, apiKey);
+    return translateDeepLWithMemory(data.requests, apiUrl, apiKey);
   }
   const provider = providers[providerName] ?? providers.libretranslate;
   return Promise.all(data.requests.map((request) => provider(request)));

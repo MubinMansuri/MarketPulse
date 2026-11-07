@@ -1,5 +1,7 @@
 import { readFileSync } from "node:fs";
-import { resolve } from "node:path";
+import { mkdtemp, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join, resolve } from "node:path";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import {
   buildDeepLRequest,
@@ -9,8 +11,11 @@ import {
   buildMyMemoryUrl,
   decodeDeepLProtectedMarkers,
   encodeDeepLProtectedMarkers,
+  translateBatchWithConfiguredProvider,
+  translateManyWithDeepL,
   translateWithDeepL,
 } from "./translation.server";
+import { resetTranslationMemoryForTests } from "./translation-memory.server";
 
 afterEach(() => {
   vi.unstubAllGlobals();
@@ -99,6 +104,9 @@ describe("DeepL server adapter", () => {
     expect(buildDeepLUrl("https://api-free.deepl.com/")).toBe(
       "https://api-free.deepl.com/v2/translate",
     );
+    expect(buildDeepLUrl("https://api-free.deepl.com/v2/translate")).toBe(
+      "https://api-free.deepl.com/v2/translate",
+    );
     expect(prepared.headers["authorization"]).toBe("DeepL-Auth-Key server-only-key");
     expect(prepared.headers["content-type"]).toBe("application/json");
     expect(JSON.parse(prepared.body)).toEqual({
@@ -174,6 +182,24 @@ describe("DeepL server adapter", () => {
     });
   });
 
+  it("rejects a DeepL response that changed a protected financial marker", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi.fn().mockResolvedValue({
+        ok: true,
+        json: async () => ({ translations: [{ text: "EUR/USD is above changed token." }] }),
+      }),
+    );
+
+    await expect(
+      translateWithDeepL(request, "https://api-free.deepl.com", "key"),
+    ).resolves.toMatchObject({
+      ok: false,
+      provider: "deepl",
+      reason: "DeepL changed protected financial values; the text was not cached.",
+    });
+  });
+
   it("batches multiple texts into one DeepL request", async () => {
     const { translateManyWithDeepL } = await import("./translation.server");
     const fetchMock = vi.fn().mockResolvedValue({
@@ -202,5 +228,62 @@ describe("DeepL server adapter", () => {
       "EUR/USD is above <mt-protected>QXSECRETTOKENAQX</mt-protected>.",
       "Second text",
     ]);
+  });
+
+  it("separates mixed target languages into correct DeepL requests", async () => {
+    const fetchMock = vi.fn().mockImplementation(async (_url, init) => {
+      const body = JSON.parse(String(init?.body));
+      return {
+        ok: true,
+        json: async () => ({ translations: body.text.map((text: string) => ({ text })) }),
+      };
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    await translateManyWithDeepL(
+      [request, { ...request, targetLocale: "ar" as const, text: "Second text" }],
+      "https://api-free.deepl.com",
+      "server-only-key",
+    );
+
+    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(fetchMock.mock.calls.map((call) => JSON.parse(call[1]?.body).target_lang).sort()).toEqual([
+      "AR",
+      "ES",
+    ]);
+  });
+
+  it("uses language memory before calling DeepL again", async () => {
+    const directory = await mkdtemp(join(tmpdir(), "marketpulse-deepl-cache-"));
+    const previous = {
+      provider: process.env["TRANSLATION_PROVIDER"],
+      url: process.env["TRANSLATION_API_URL"],
+      key: process.env["TRANSLATION_API_KEY"],
+      directory: process.env["TRANSLATION_MEMORY_DIR"],
+    };
+    process.env["TRANSLATION_PROVIDER"] = "deepl";
+    process.env["TRANSLATION_API_URL"] = "https://api-free.deepl.com";
+    process.env["TRANSLATION_API_KEY"] = "server-only-key";
+    process.env["TRANSLATION_MEMORY_DIR"] = directory;
+    resetTranslationMemoryForTests();
+    const fetchMock = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ translations: [{ text: "Perspectiva" }] }),
+    });
+    vi.stubGlobal("fetch", fetchMock);
+
+    try {
+      await translateBatchWithConfiguredProvider([{ ...request, text: "Market outlook" }]);
+      await translateBatchWithConfiguredProvider([{ ...request, text: "Market outlook" }]);
+      expect(fetchMock).toHaveBeenCalledTimes(1);
+      expect(readFileSync(join(directory, "es.json"), "utf8")).toContain("Perspectiva");
+    } finally {
+      process.env["TRANSLATION_PROVIDER"] = previous.provider;
+      process.env["TRANSLATION_API_URL"] = previous.url;
+      process.env["TRANSLATION_API_KEY"] = previous.key;
+      process.env["TRANSLATION_MEMORY_DIR"] = previous.directory;
+      resetTranslationMemoryForTests();
+      await rm(directory, { recursive: true, force: true });
+    }
   });
 });

@@ -113,7 +113,7 @@ describe("Phase 2 and 3 report import", () => {
   });
 
   it("registers every supported section type", () => {
-    expect(Object.keys(reportSectionRegistry)).toHaveLength(13);
+    expect(Object.keys(reportSectionRegistry)).toHaveLength(15);
     expect(reportSectionRegistry["economic-calendar"].block).toBe("table");
   });
 
