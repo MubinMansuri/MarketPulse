@@ -29,8 +29,8 @@ The project keeps report content in a typed JSON model, separate from the visual
 ### Install and run
 
 ```bash
-git clone https://github.com/OWNER/REPOSITORY.git
-cd REPOSITORY
+git clone https://github.com/MubinMansuri/MarketPulse.git
+cd MarketPulse
 npm ci
 cp .env.example .env
 npm run dev
