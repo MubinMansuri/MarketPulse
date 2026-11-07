@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-unknown",
+  "date": "2026-10-10",
+  "sourceLocale": "en",
+  "locale": "en",
+  "metadata": { "title": "Unknown Content Review", "edition": "REVIEW" },
+  "sections": [
+    { "id": "cover", "type": "cover", "title": "Overview", "data": { "text": "Review report", "caption": "Unknown content is retained." } },
+    { "id": "custom-grid", "type": "vendor-grid", "title": "Vendor grid", "data": { "columns": ["A", "B"], "rows": [[1, 2]] } },
+    { "id": "commentary", "type": "paragraph", "title": "Commentary", "data": { "text": "This is intentionally longer commentary to exercise grouping and editable content without relying on a hardcoded fixture length or section count." } }
+  ]
+}

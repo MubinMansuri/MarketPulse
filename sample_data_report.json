@@ -1,0 +1,8416 @@
+{
+  "schema": "pdf-layout-json",
+  "schemaVersion": "1.0.0",
+  "createdAt": "2026-10-13T06:39:15.870Z",
+  "source": {
+    "name": "GTM_Daily_Market_Report_2026-09-23.pdf",
+    "sizeBytes": 612303,
+    "mimeType": "application/pdf"
+  },
+  "metadata": {
+    "title": "GTM_Daily_Market_Report_2026-09-23",
+    "author": null,
+    "subject": null,
+    "creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "producer": "Skia/PDF m153",
+    "pdfVersion": null,
+    "pageCount": 13
+  },
+  "coordinateSystem": {
+    "unit": "pdf-point",
+    "origin": "top-left",
+    "rotationApplied": true
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p1-t0",
+        "p1-t1",
+        "p1-t2"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 2,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p2-t0",
+        "p2-t1",
+        "p2-t2",
+        "p2-t3",
+        "p2-t4",
+        "p2-t5",
+        "p2-t6",
+        "p2-t7",
+        "p2-t8",
+        "p2-t9",
+        "p2-t10",
+        "p2-t11",
+        "p2-t12",
+        "p2-t13",
+        "p2-t14",
+        "p2-t15",
+        "p2-t16",
+        "p2-t17",
+        "p2-t18",
+        "p2-t19",
+        "p2-t20",
+        "p2-t21",
+        "p2-t22",
+        "p2-t23",
+        "p2-t24",
+        "p2-t25",
+        "p2-t26",
+        "p2-t27",
+        "p2-t28",
+        "p2-t29",
+        "p2-t30",
+        "p2-t31",
+        "p2-t32",
+        "p2-t33",
+        "p2-t34",
+        "p2-t35",
+        "p2-t36",
+        "p2-t37",
+        "p2-t38",
+        "p2-t39",
+        "p2-t40",
+        "p2-t41",
+        "p2-t42",
+        "p2-t43",
+        "p2-t44",
+        "p2-t45",
+        "p2-t46",
+        "p2-t47",
+        "p2-t48",
+        "p2-t49",
+        "p2-t50",
+        "p2-t51",
+        "p2-t53",
+        "p2-t52",
+        "p2-t55",
+        "p2-t56",
+        "p2-t57",
+        "p2-t54",
+        "p2-t58",
+        "p2-t59",
+        "p2-t60",
+        "p2-t61",
+        "p2-t62",
+        "p2-t64",
+        "p2-t63",
+        "p2-t65",
+        "p2-t67",
+        "p2-t68",
+        "p2-t69",
+        "p2-t66",
+        "p2-t71",
+        "p2-t70",
+        "p2-t73",
+        "p2-t74",
+        "p2-t75",
+        "p2-t72",
+        "p2-t76",
+        "p2-t77",
+        "p2-t78"
+      ],
+      "imageMetadata": {
+        "imageOperations": 0,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 3,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p3-t0",
+        "p3-t1",
+        "p3-t2",
+        "p3-t3",
+        "p3-t4",
+        "p3-t5",
+        "p3-t6",
+        "p3-t7",
+        "p3-t8",
+        "p3-t9",
+        "p3-t10",
+        "p3-t11"
+      ],
+      "imageMetadata": {
+        "imageOperations": 0,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 4,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p4-t0",
+        "p4-t1",
+        "p4-t2",
+        "p4-t3",
+        "p4-t4",
+        "p4-t5",
+        "p4-t6",
+        "p4-t7",
+        "p4-t8",
+        "p4-t9",
+        "p4-t10",
+        "p4-t11",
+        "p4-t12",
+        "p4-t13",
+        "p4-t14",
+        "p4-t19",
+        "p4-t15",
+        "p4-t20",
+        "p4-t16",
+        "p4-t21",
+        "p4-t17",
+        "p4-t22",
+        "p4-t18",
+        "p4-t23",
+        "p4-t24",
+        "p4-t25",
+        "p4-t26",
+        "p4-t27"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 5,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p5-t0",
+        "p5-t1",
+        "p5-t2",
+        "p5-t3",
+        "p5-t4",
+        "p5-t5",
+        "p5-t6",
+        "p5-t7",
+        "p5-t8",
+        "p5-t9",
+        "p5-t10",
+        "p5-t11",
+        "p5-t12",
+        "p5-t13",
+        "p5-t14",
+        "p5-t18",
+        "p5-t15",
+        "p5-t19",
+        "p5-t16",
+        "p5-t20",
+        "p5-t17",
+        "p5-t21",
+        "p5-t22",
+        "p5-t23",
+        "p5-t24",
+        "p5-t25"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 6,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p6-t0",
+        "p6-t1",
+        "p6-t2",
+        "p6-t3",
+        "p6-t4",
+        "p6-t5",
+        "p6-t6",
+        "p6-t7",
+        "p6-t8",
+        "p6-t9",
+        "p6-t10",
+        "p6-t11",
+        "p6-t12",
+        "p6-t13",
+        "p6-t14",
+        "p6-t19",
+        "p6-t15",
+        "p6-t20",
+        "p6-t16",
+        "p6-t21",
+        "p6-t17",
+        "p6-t22",
+        "p6-t18",
+        "p6-t23",
+        "p6-t24",
+        "p6-t25",
+        "p6-t26"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 7,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p7-t0",
+        "p7-t1",
+        "p7-t2",
+        "p7-t3",
+        "p7-t4",
+        "p7-t5",
+        "p7-t6",
+        "p7-t7",
+        "p7-t9",
+        "p7-t10",
+        "p7-t8",
+        "p7-t11",
+        "p7-t12",
+        "p7-t13",
+        "p7-t14",
+        "p7-t15",
+        "p7-t19",
+        "p7-t16",
+        "p7-t20",
+        "p7-t17",
+        "p7-t21",
+        "p7-t18",
+        "p7-t22",
+        "p7-t23",
+        "p7-t24",
+        "p7-t25",
+        "p7-t26"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 8,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p8-t0",
+        "p8-t1",
+        "p8-t2",
+        "p8-t3",
+        "p8-t4",
+        "p8-t5",
+        "p8-t6",
+        "p8-t7",
+        "p8-t8",
+        "p8-t9",
+        "p8-t10",
+        "p8-t11",
+        "p8-t12",
+        "p8-t13",
+        "p8-t14",
+        "p8-t19",
+        "p8-t15",
+        "p8-t20",
+        "p8-t16",
+        "p8-t21",
+        "p8-t17",
+        "p8-t22",
+        "p8-t18",
+        "p8-t23",
+        "p8-t24",
+        "p8-t25",
+        "p8-t26",
+        "p8-t27"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 9,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p9-t0",
+        "p9-t1",
+        "p9-t2",
+        "p9-t3",
+        "p9-t4",
+        "p9-t5",
+        "p9-t6",
+        "p9-t7",
+        "p9-t8",
+        "p9-t9",
+        "p9-t10",
+        "p9-t11",
+        "p9-t12",
+        "p9-t13",
+        "p9-t14",
+        "p9-t19",
+        "p9-t15",
+        "p9-t20",
+        "p9-t16",
+        "p9-t21",
+        "p9-t17",
+        "p9-t22",
+        "p9-t18",
+        "p9-t23",
+        "p9-t24",
+        "p9-t25",
+        "p9-t26",
+        "p9-t27"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 10,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p10-t0",
+        "p10-t1",
+        "p10-t2",
+        "p10-t3",
+        "p10-t4",
+        "p10-t5",
+        "p10-t6",
+        "p10-t7",
+        "p10-t8",
+        "p10-t9",
+        "p10-t10",
+        "p10-t11",
+        "p10-t12",
+        "p10-t13",
+        "p10-t14",
+        "p10-t18",
+        "p10-t15",
+        "p10-t19",
+        "p10-t16",
+        "p10-t20",
+        "p10-t17",
+        "p10-t21",
+        "p10-t22",
+        "p10-t23",
+        "p10-t24",
+        "p10-t25"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 11,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p11-t0",
+        "p11-t1",
+        "p11-t2",
+        "p11-t3",
+        "p11-t4",
+        "p11-t5",
+        "p11-t6",
+        "p11-t7",
+        "p11-t8",
+        "p11-t9",
+        "p11-t10",
+        "p11-t11",
+        "p11-t12",
+        "p11-t13",
+        "p11-t14",
+        "p11-t18",
+        "p11-t15",
+        "p11-t19",
+        "p11-t16",
+        "p11-t20",
+        "p11-t17",
+        "p11-t21",
+        "p11-t22",
+        "p11-t23",
+        "p11-t24",
+        "p11-t25"
+      ],
+      "imageMetadata": {
+        "imageOperations": 1,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 12,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p12-t0",
+        "p12-t1",
+        "p12-t2",
+        "p12-t3",
+        "p12-t4",
+        "p12-t5",
+        "p12-t6",
+        "p12-t7",
+        "p12-t8",
+        "p12-t9",
+        "p12-t10",
+        "p12-t11",
+        "p12-t12",
+        "p12-t13",
+        "p12-t14",
+        "p12-t15",
+        "p12-t16",
+        "p12-t17",
+        "p12-t18",
+        "p12-t19",
+        "p12-t23",
+        "p12-t20",
+        "p12-t21",
+        "p12-t22",
+        "p12-t24",
+        "p12-t25",
+        "p12-t26",
+        "p12-t27",
+        "p12-t28",
+        "p12-t29",
+        "p12-t30",
+        "p12-t31",
+        "p12-t32",
+        "p12-t33",
+        "p12-t34",
+        "p12-t35",
+        "p12-t36",
+        "p12-t37",
+        "p12-t38",
+        "p12-t39",
+        "p12-t40",
+        "p12-t41",
+        "p12-t42",
+        "p12-t43",
+        "p12-t44",
+        "p12-t45",
+        "p12-t46"
+      ],
+      "imageMetadata": {
+        "imageOperations": 0,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    },
+    {
+      "pageNumber": 13,
+      "width": 678.96,
+      "height": 960,
+      "rotation": 0,
+      "textBlockIds": [
+        "p13-t0",
+        "p13-t1",
+        "p13-t2",
+        "p13-t3",
+        "p13-t4",
+        "p13-t5",
+        "p13-t6",
+        "p13-t7",
+        "p13-t8",
+        "p13-t9",
+        "p13-t10",
+        "p13-t11",
+        "p13-t12"
+      ],
+      "imageMetadata": {
+        "imageOperations": 0,
+        "note": "PDF.js image paint-operation count; this extractor does not claim exact image bounding boxes."
+      },
+      "previewDataUrl": null
+    }
+  ],
+  "textBlocks": [
+    {
+      "id": "p1-t0",
+      "page": 1,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 76.99,
+        "y": 234.25,
+        "width": 304.28,
+        "height": 34.99
+      },
+      "fontSize": 34.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p1-t1",
+      "page": 1,
+      "text": "Prepared By Global Trend Markets",
+      "bbox": {
+        "x": 86.99,
+        "y": 317.75,
+        "width": 202.2,
+        "height": 13
+      },
+      "fontSize": 13,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p1-t2",
+      "page": 1,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 86.99,
+        "y": 367.75,
+        "width": 164.12,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p2-t0",
+      "page": 2,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p2-t1",
+      "page": 2,
+      "text": "Executive Market View",
+      "bbox": {
+        "x": 505.96,
+        "y": 19.7,
+        "width": 92.76,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p2-t2",
+      "page": 2,
+      "text": "02",
+      "bbox": {
+        "x": 623.47,
+        "y": 20,
+        "width": 10.24,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p2-t3",
+      "page": 2,
+      "text": "Executive Market View",
+      "bbox": {
+        "x": 58,
+        "y": 91.75,
+        "width": 116.81,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p2-t4",
+      "page": 2,
+      "text": "Overall tone: the US dollar remains firm near a two-month high as markets price the possibility of further Federal Reserve",
+      "bbox": {
+        "x": 45,
+        "y": 127.3,
+        "width": 586.1,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p2-t5",
+      "page": 2,
+      "text": "tightening. Equities retain support from AI-related demand, while oil is easing as Middle East supply prospects improve.",
+      "bbox": {
+        "x": 45,
+        "y": 143.05,
+        "width": 579.78,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p2-t6",
+      "page": 2,
+      "text": "Gold remains volatile around $4,340.",
+      "bbox": {
+        "x": 45,
+        "y": 158.05,
+        "width": 177.93,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p2-t7",
+      "page": 2,
+      "text": "Market Dashboard",
+      "bbox": {
+        "x": 58,
+        "y": 196.75,
+        "width": 95.4,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p2-t8",
+      "page": 2,
+      "text": "Asset",
+      "bbox": {
+        "x": 54.75,
+        "y": 238.35,
+        "width": 25,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p2-t9",
+      "page": 2,
+      "text": "Main Driver",
+      "bbox": {
+        "x": 201.74,
+        "y": 238.35,
+        "width": 49.68,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p2-t10",
+      "page": 2,
+      "text": "Daily Bias",
+      "bbox": {
+        "x": 348.73,
+        "y": 238.35,
+        "width": 41.36,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p2-t11",
+      "page": 2,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 495.71,
+        "y": 238.35,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p2-t12",
+      "page": 2,
+      "text": "EUR/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 263.85,
+        "width": 40.43,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p2-t13",
+      "page": 2,
+      "text": "USD and rate differential",
+      "bbox": {
+        "x": 201.74,
+        "y": 263.85,
+        "width": 102.64,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p2-t14",
+      "page": 2,
+      "text": "Soft / downside",
+      "bbox": {
+        "x": 348.73,
+        "y": 263.85,
+        "width": 65.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p2-t15",
+      "page": 2,
+      "text": "1.1446",
+      "bbox": {
+        "x": 495.71,
+        "y": 263.85,
+        "width": 24.36,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p2-t16",
+      "page": 2,
+      "text": "GBP/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 289.35,
+        "width": 40.72,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p2-t17",
+      "page": 2,
+      "text": "USD and BoE expectations",
+      "bbox": {
+        "x": 201.74,
+        "y": 289.35,
+        "width": 111.73,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p2-t18",
+      "page": 2,
+      "text": "Soft / downside",
+      "bbox": {
+        "x": 348.73,
+        "y": 289.35,
+        "width": 65.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p2-t19",
+      "page": 2,
+      "text": "1.3337",
+      "bbox": {
+        "x": 495.71,
+        "y": 289.35,
+        "width": 25.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p2-t20",
+      "page": 2,
+      "text": "USD/JPY",
+      "bbox": {
+        "x": 54.75,
+        "y": 314.1,
+        "width": 37.61,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p2-t21",
+      "page": 2,
+      "text": "Yields and intervention risk",
+      "bbox": {
+        "x": 201.74,
+        "y": 314.1,
+        "width": 112.76,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p2-t22",
+      "page": 2,
+      "text": "Volatile / upside",
+      "bbox": {
+        "x": 348.73,
+        "y": 314.1,
+        "width": 67.23,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p2-t23",
+      "page": 2,
+      "text": "157.6",
+      "bbox": {
+        "x": 495.71,
+        "y": 314.1,
+        "width": 19.6,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p2-t24",
+      "page": 2,
+      "text": "XAU/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 339.6,
+        "width": 41.09,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p2-t25",
+      "page": 2,
+      "text": "Yields and safe haven",
+      "bbox": {
+        "x": 201.74,
+        "y": 339.6,
+        "width": 89.79,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p2-t26",
+      "page": 2,
+      "text": "Neutral / volatile",
+      "bbox": {
+        "x": 348.73,
+        "y": 339.6,
+        "width": 68.74,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p2-t27",
+      "page": 2,
+      "text": "$4,341",
+      "bbox": {
+        "x": 495.71,
+        "y": 339.6,
+        "width": 26.54,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 27
+    },
+    {
+      "id": "p2-t28",
+      "page": 2,
+      "text": "XAG/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 364.35,
+        "width": 41.76,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 28
+    },
+    {
+      "id": "p2-t29",
+      "page": 2,
+      "text": "Precious-metals momentum",
+      "bbox": {
+        "x": 201.74,
+        "y": 364.35,
+        "width": 120.92,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 29
+    },
+    {
+      "id": "p2-t30",
+      "page": 2,
+      "text": "Positive / volatile",
+      "bbox": {
+        "x": 348.73,
+        "y": 364.35,
+        "width": 70.73,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 30
+    },
+    {
+      "id": "p2-t31",
+      "page": 2,
+      "text": "$66.5",
+      "bbox": {
+        "x": 495.71,
+        "y": 364.35,
+        "width": 23.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 31
+    },
+    {
+      "id": "p2-t32",
+      "page": 2,
+      "text": "WTI Oil",
+      "bbox": {
+        "x": 54.75,
+        "y": 389.85,
+        "width": 31.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 32
+    },
+    {
+      "id": "p2-t33",
+      "page": 2,
+      "text": "Middle East supply",
+      "bbox": {
+        "x": 201.74,
+        "y": 389.85,
+        "width": 78.6,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 33
+    },
+    {
+      "id": "p2-t34",
+      "page": 2,
+      "text": "Soft / volatile",
+      "bbox": {
+        "x": 348.73,
+        "y": 389.85,
+        "width": 55.32,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 34
+    },
+    {
+      "id": "p2-t35",
+      "page": 2,
+      "text": "~$90",
+      "bbox": {
+        "x": 495.71,
+        "y": 389.85,
+        "width": 22.17,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 35
+    },
+    {
+      "id": "p2-t36",
+      "page": 2,
+      "text": "US30",
+      "bbox": {
+        "x": 54.75,
+        "y": 414.6,
+        "width": 23.56,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 36
+    },
+    {
+      "id": "p2-t37",
+      "page": 2,
+      "text": "Oil, yields and risk appetite",
+      "bbox": {
+        "x": 201.74,
+        "y": 414.6,
+        "width": 111.25,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 37
+    },
+    {
+      "id": "p2-t38",
+      "page": 2,
+      "text": "Neutral",
+      "bbox": {
+        "x": 348.73,
+        "y": 414.6,
+        "width": 31.07,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 38
+    },
+    {
+      "id": "p2-t39",
+      "page": 2,
+      "text": "51,916",
+      "bbox": {
+        "x": 495.71,
+        "y": 414.6,
+        "width": 24.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 39
+    },
+    {
+      "id": "p2-t40",
+      "page": 2,
+      "text": "NASDAQ",
+      "bbox": {
+        "x": 54.75,
+        "y": 440.1,
+        "width": 38.71,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 40
+    },
+    {
+      "id": "p2-t41",
+      "page": 2,
+      "text": "Yields and AI sensitivity",
+      "bbox": {
+        "x": 201.74,
+        "y": 440.1,
+        "width": 98.37,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 41
+    },
+    {
+      "id": "p2-t42",
+      "page": 2,
+      "text": "Positive",
+      "bbox": {
+        "x": 348.73,
+        "y": 440.1,
+        "width": 33.06,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 42
+    },
+    {
+      "id": "p2-t43",
+      "page": 2,
+      "text": "27,244",
+      "bbox": {
+        "x": 495.71,
+        "y": 440.1,
+        "width": 26.47,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 43
+    },
+    {
+      "id": "p2-t44",
+      "page": 2,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 468.55,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 44
+    },
+    {
+      "id": "p2-t45",
+      "page": 2,
+      "text": "Economic Calendar & Market Overview",
+      "bbox": {
+        "x": 58,
+        "y": 508,
+        "width": 200.24,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 45
+    },
+    {
+      "id": "p2-t46",
+      "page": 2,
+      "text": "High-impact events — Cyprus time (EEST)",
+      "bbox": {
+        "x": 45,
+        "y": 543.55,
+        "width": 207.48,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 46
+    },
+    {
+      "id": "p2-t47",
+      "page": 2,
+      "text": "Impact",
+      "bbox": {
+        "x": 54.75,
+        "y": 575.85,
+        "width": 30.79,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 47
+    },
+    {
+      "id": "p2-t48",
+      "page": 2,
+      "text": "Event",
+      "bbox": {
+        "x": 172.34,
+        "y": 575.85,
+        "width": 24.78,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 48
+    },
+    {
+      "id": "p2-t49",
+      "page": 2,
+      "text": "Currency",
+      "bbox": {
+        "x": 289.92,
+        "y": 575.85,
+        "width": 40.43,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 49
+    },
+    {
+      "id": "p2-t50",
+      "page": 2,
+      "text": "Cyprus Time",
+      "bbox": {
+        "x": 407.51,
+        "y": 575.85,
+        "width": 55.52,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 50
+    },
+    {
+      "id": "p2-t51",
+      "page": 2,
+      "text": "Date",
+      "bbox": {
+        "x": 525.09,
+        "y": 575.85,
+        "width": 20.61,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 51
+    },
+    {
+      "id": "p2-t53",
+      "page": 2,
+      "text": "Flash German /",
+      "bbox": {
+        "x": 172.34,
+        "y": 601.35,
+        "width": 64.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 52
+    },
+    {
+      "id": "p2-t52",
+      "page": 2,
+      "text": "High",
+      "bbox": {
+        "x": 54.75,
+        "y": 606.6,
+        "width": 19.94,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 53
+    },
+    {
+      "id": "p2-t55",
+      "page": 2,
+      "text": "EUR",
+      "bbox": {
+        "x": 289.92,
+        "y": 606.6,
+        "width": 17.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 54
+    },
+    {
+      "id": "p2-t56",
+      "page": 2,
+      "text": "10:30–11:00",
+      "bbox": {
+        "x": 407.51,
+        "y": 606.6,
+        "width": 48.23,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 55
+    },
+    {
+      "id": "p2-t57",
+      "page": 2,
+      "text": "Wed 23 Sep",
+      "bbox": {
+        "x": 525.09,
+        "y": 606.6,
+        "width": 50.26,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 56
+    },
+    {
+      "id": "p2-t54",
+      "page": 2,
+      "text": "Eurozone PMI",
+      "bbox": {
+        "x": 172.34,
+        "y": 611.85,
+        "width": 58.08,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 57
+    },
+    {
+      "id": "p2-t58",
+      "page": 2,
+      "text": "High",
+      "bbox": {
+        "x": 54.75,
+        "y": 637.35,
+        "width": 19.94,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 58
+    },
+    {
+      "id": "p2-t59",
+      "page": 2,
+      "text": "Flash UK PMI",
+      "bbox": {
+        "x": 172.34,
+        "y": 637.35,
+        "width": 55.49,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 59
+    },
+    {
+      "id": "p2-t60",
+      "page": 2,
+      "text": "GBP",
+      "bbox": {
+        "x": 289.92,
+        "y": 637.35,
+        "width": 18.79,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 60
+    },
+    {
+      "id": "p2-t61",
+      "page": 2,
+      "text": "11:30",
+      "bbox": {
+        "x": 407.51,
+        "y": 637.35,
+        "width": 20.35,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 61
+    },
+    {
+      "id": "p2-t62",
+      "page": 2,
+      "text": "Wed 23 Sep",
+      "bbox": {
+        "x": 525.09,
+        "y": 637.35,
+        "width": 50.26,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 62
+    },
+    {
+      "id": "p2-t64",
+      "page": 2,
+      "text": "US Flash",
+      "bbox": {
+        "x": 172.34,
+        "y": 662.1,
+        "width": 36.25,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 63
+    },
+    {
+      "id": "p2-t63",
+      "page": 2,
+      "text": "High",
+      "bbox": {
+        "x": 54.75,
+        "y": 673.35,
+        "width": 19.94,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 64
+    },
+    {
+      "id": "p2-t65",
+      "page": 2,
+      "text": "Manufacturing &",
+      "bbox": {
+        "x": 172.34,
+        "y": 673.35,
+        "width": 70.95,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 65
+    },
+    {
+      "id": "p2-t67",
+      "page": 2,
+      "text": "USD",
+      "bbox": {
+        "x": 289.92,
+        "y": 673.35,
+        "width": 18.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 66
+    },
+    {
+      "id": "p2-t68",
+      "page": 2,
+      "text": "16:45",
+      "bbox": {
+        "x": 407.51,
+        "y": 673.35,
+        "width": 21.37,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 67
+    },
+    {
+      "id": "p2-t69",
+      "page": 2,
+      "text": "Wed 23 Sep",
+      "bbox": {
+        "x": 525.09,
+        "y": 673.35,
+        "width": 50.26,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 68
+    },
+    {
+      "id": "p2-t66",
+      "page": 2,
+      "text": "Services PMI",
+      "bbox": {
+        "x": 172.34,
+        "y": 684.6,
+        "width": 53.83,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 69
+    },
+    {
+      "id": "p2-t71",
+      "page": 2,
+      "text": "Fed Governor Michael",
+      "bbox": {
+        "x": 172.34,
+        "y": 709.35,
+        "width": 92.33,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 70
+    },
+    {
+      "id": "p2-t70",
+      "page": 2,
+      "text": "Medium",
+      "bbox": {
+        "x": 54.75,
+        "y": 714.6,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 71
+    },
+    {
+      "id": "p2-t73",
+      "page": 2,
+      "text": "USD",
+      "bbox": {
+        "x": 289.92,
+        "y": 714.6,
+        "width": 18.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 72
+    },
+    {
+      "id": "p2-t74",
+      "page": 2,
+      "text": "17:05",
+      "bbox": {
+        "x": 407.51,
+        "y": 714.6,
+        "width": 21.25,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 73
+    },
+    {
+      "id": "p2-t75",
+      "page": 2,
+      "text": "Wed 23 Sep",
+      "bbox": {
+        "x": 525.09,
+        "y": 714.6,
+        "width": 50.26,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 74
+    },
+    {
+      "id": "p2-t72",
+      "page": 2,
+      "text": "Barr speaks",
+      "bbox": {
+        "x": 172.34,
+        "y": 720.6,
+        "width": 48.35,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 75
+    },
+    {
+      "id": "p2-t76",
+      "page": 2,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 76
+    },
+    {
+      "id": "p2-t77",
+      "page": 2,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 77
+    },
+    {
+      "id": "p2-t78",
+      "page": 2,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 78
+    },
+    {
+      "id": "p3-t0",
+      "page": 3,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p3-t1",
+      "page": 3,
+      "text": "MARKET OVERVIEW",
+      "bbox": {
+        "x": 512.06,
+        "y": 19.7,
+        "width": 86.66,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p3-t2",
+      "page": 3,
+      "text": "03",
+      "bbox": {
+        "x": 623.25,
+        "y": 20,
+        "width": 10.46,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p3-t3",
+      "page": 3,
+      "text": "MARKET OVERVIEW",
+      "bbox": {
+        "x": 58,
+        "y": 91.75,
+        "width": 107.63,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p3-t4",
+      "page": 3,
+      "text": "USD remains firm near a two-month high. EUR/USD is around 1.1445 and GBP/USD around 1.3337. USD/JPY remains",
+      "bbox": {
+        "x": 45,
+        "y": 127.3,
+        "width": 558.42,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p3-t5",
+      "page": 3,
+      "text": "above 157, with intervention sensitivity near 160. Gold is near $4,340 and silver is around $66–67. WTI is near $90 as",
+      "bbox": {
+        "x": 45,
+        "y": 143.05,
+        "width": 557.56,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p3-t6",
+      "page": 3,
+      "text": "improving Middle East supply prospects reduce part of the geopolitical risk premium. Nasdaq momentum remains",
+      "bbox": {
+        "x": 45,
+        "y": 158.05,
+        "width": 554.61,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p3-t7",
+      "page": 3,
+      "text": "supported by AI demand and the index recently reached a record high. Source: FXStreet / Reuters / TradingView context.",
+      "bbox": {
+        "x": 45,
+        "y": 173.05,
+        "width": 586.91,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p3-t8",
+      "page": 3,
+      "text": "Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 188.05,
+        "width": 135.69,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p3-t9",
+      "page": 3,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p3-t10",
+      "page": 3,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p3-t11",
+      "page": 3,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p4-t0",
+      "page": 4,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p4-t1",
+      "page": 4,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p4-t2",
+      "page": 4,
+      "text": "04",
+      "bbox": {
+        "x": 623.03,
+        "y": 20,
+        "width": 10.68,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p4-t3",
+      "page": 4,
+      "text": "EUR/USD",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 108.86,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p4-t4",
+      "page": 4,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p4-t5",
+      "page": 4,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p4-t6",
+      "page": 4,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p4-t7",
+      "page": 4,
+      "text": "Support: 1.1400 | Resistance: 1.1500",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 145.21,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p4-t8",
+      "page": 4,
+      "text": "1.1446",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 24.36,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p4-t9",
+      "page": 4,
+      "text": "Soft / downside",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 65.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p4-t10",
+      "page": 4,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p4-t11",
+      "page": 4,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p4-t12",
+      "page": 4,
+      "text": "EUR/USD remains under pressure near 1.1445 as the dollar holds a two-month high and markets price additional US",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 504.79,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p4-t13",
+      "page": 4,
+      "text": "tightening. Flash Eurozone and US PMIs are the next key catalysts.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 291.36,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p4-t14",
+      "page": 4,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p4-t19",
+      "page": 4,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p4-t15",
+      "page": 4,
+      "text": "Softer US activity data could reduce rate-hike expectations and",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 241.84,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p4-t20",
+      "page": 4,
+      "text": "Stronger US PMI data or higher Treasury yields could reinforce",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 237.27,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p4-t16",
+      "page": 4,
+      "text": "relieve",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 25.41,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p4-t21",
+      "page": 4,
+      "text": "USD demand.",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 53.35,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p4-t17",
+      "page": 4,
+      "text": "pressure on the euro. A move back above 1.1500 would improve",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 240.95,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p4-t22",
+      "page": 4,
+      "text": "A sustained break below recent support would weaken the",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 223.2,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p4-t18",
+      "page": 4,
+      "text": "the",
+      "bbox": {
+        "x": 86.74,
+        "y": 762.6,
+        "width": 12.94,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p4-t23",
+      "page": 4,
+      "text": "recovery structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 762.6,
+        "width": 72.42,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p4-t24",
+      "page": 4,
+      "text": "short-term structure. Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 798.55,
+        "width": 485.53,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p4-t25",
+      "page": 4,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p4-t26",
+      "page": 4,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p4-t27",
+      "page": 4,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 27
+    },
+    {
+      "id": "p5-t0",
+      "page": 5,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p5-t1",
+      "page": 5,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p5-t2",
+      "page": 5,
+      "text": "05",
+      "bbox": {
+        "x": 623.17,
+        "y": 20,
+        "width": 10.54,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p5-t3",
+      "page": 5,
+      "text": "GBP/USD",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 109.44,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p5-t4",
+      "page": 5,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p5-t5",
+      "page": 5,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p5-t6",
+      "page": 5,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p5-t7",
+      "page": 5,
+      "text": "Support: 1.3280 | Resistance: 1.3420",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 147.78,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p5-t8",
+      "page": 5,
+      "text": "1.3337",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 25.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p5-t9",
+      "page": 5,
+      "text": "Soft / downside",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 65.93,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p5-t10",
+      "page": 5,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p5-t11",
+      "page": 5,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p5-t12",
+      "page": 5,
+      "text": "Sterling has retreated toward late-July levels as the dollar strengthens. UK flash PMIs and the relative rate outlook remain the",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 547.17,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p5-t13",
+      "page": 5,
+      "text": "main domestic catalysts.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 109.09,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p5-t14",
+      "page": 5,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p5-t18",
+      "page": 5,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p5-t15",
+      "page": 5,
+      "text": "A softer US data pulse or stronger UK PMI could ease dollar",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 226.12,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p5-t19",
+      "page": 5,
+      "text": "Firm US data and yields could keep the dollar supported. Loss",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 234.16,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p5-t16",
+      "page": 5,
+      "text": "pressure.",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 35.36,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p5-t20",
+      "page": 5,
+      "text": "of recent",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 34.53,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p5-t17",
+      "page": 5,
+      "text": "Reclaiming 1.3420 would improve momentum.",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 177.05,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p5-t21",
+      "page": 5,
+      "text": "support would extend the downside structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 176.57,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p5-t22",
+      "page": 5,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 788.05,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p5-t23",
+      "page": 5,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p5-t24",
+      "page": 5,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p5-t25",
+      "page": 5,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p6-t0",
+      "page": 6,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p6-t1",
+      "page": 6,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p6-t2",
+      "page": 6,
+      "text": "06",
+      "bbox": {
+        "x": 622.83,
+        "y": 20,
+        "width": 10.89,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p6-t3",
+      "page": 6,
+      "text": "USD/JPY",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 99.91,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p6-t4",
+      "page": 6,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p6-t5",
+      "page": 6,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p6-t6",
+      "page": 6,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p6-t7",
+      "page": 6,
+      "text": "Support: 156.0 | Resistance: 160.0",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 138.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p6-t8",
+      "page": 6,
+      "text": "157.6",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 19.6,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p6-t9",
+      "page": 6,
+      "text": "Volatile / upside",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 67.23,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p6-t10",
+      "page": 6,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p6-t11",
+      "page": 6,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p6-t12",
+      "page": 6,
+      "text": "USD/JPY remains above 157 as higher US rate expectations support the dollar. The pair is also sensitive to Japanese official",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 536.51,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p6-t13",
+      "page": 6,
+      "text": "intervention risk as it approaches 160.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 165.69,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p6-t14",
+      "page": 6,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p6-t19",
+      "page": 6,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p6-t15",
+      "page": 6,
+      "text": "Higher US yields can keep the pair supported. A sustained",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 220.92,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p6-t20",
+      "page": 6,
+      "text": "A fall in US yields or stronger intervention warnings could pull",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 233.32,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p6-t16",
+      "page": 6,
+      "text": "break above 160",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 62.57,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p6-t21",
+      "page": 6,
+      "text": "the pair lower. A",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 61.22,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p6-t17",
+      "page": 6,
+      "text": "would increase upside momentum but also intervention",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 213.36,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p6-t22",
+      "page": 6,
+      "text": "break below 156 would weaken the current structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 201,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p6-t18",
+      "page": 6,
+      "text": "sensitivity.",
+      "bbox": {
+        "x": 86.74,
+        "y": 762.6,
+        "width": 40.44,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p6-t23",
+      "page": 6,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 798.55,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p6-t24",
+      "page": 6,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p6-t25",
+      "page": 6,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p6-t26",
+      "page": 6,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p7-t0",
+      "page": 7,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p7-t1",
+      "page": 7,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p7-t2",
+      "page": 7,
+      "text": "07",
+      "bbox": {
+        "x": 623.85,
+        "y": 20,
+        "width": 9.87,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p7-t3",
+      "page": 7,
+      "text": "XAU/USD - GOLD",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 201.08,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p7-t4",
+      "page": 7,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p7-t5",
+      "page": 7,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p7-t6",
+      "page": 7,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p7-t7",
+      "page": 7,
+      "text": "Support: $4,310 | Resistance: $4,390–",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 156.22,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p7-t9",
+      "page": 7,
+      "text": "$4,341",
+      "bbox": {
+        "x": 250.73,
+        "y": 167.85,
+        "width": 26.54,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p7-t10",
+      "page": 7,
+      "text": "Neutral / volatile",
+      "bbox": {
+        "x": 446.72,
+        "y": 167.85,
+        "width": 68.74,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p7-t8",
+      "page": 7,
+      "text": "$4,400",
+      "bbox": {
+        "x": 54.75,
+        "y": 173.85,
+        "width": 30.19,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p7-t11",
+      "page": 7,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 217,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p7-t12",
+      "page": 7,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 607,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p7-t13",
+      "page": 7,
+      "text": "Gold is trading around $4,340 with mixed momentum. A firm dollar and hawkish Fed expectations are headwinds, while",
+      "bbox": {
+        "x": 61.75,
+        "y": 659.3,
+        "width": 523.95,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p7-t14",
+      "page": 7,
+      "text": "geopolitical uncertainty and lower oil prices provide competing support.",
+      "bbox": {
+        "x": 61.75,
+        "y": 672.8,
+        "width": 317.29,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p7-t15",
+      "page": 7,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 720.55,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p7-t19",
+      "page": 7,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 720.55,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p7-t16",
+      "page": 7,
+      "text": "Softer US PMI data or lower yields could support a rebound. A",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 234.62,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p7-t20",
+      "page": 7,
+      "text": "Higher yields and a stronger dollar could pressure gold toward",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 236.32,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p7-t17",
+      "page": 7,
+      "text": "daily close",
+      "bbox": {
+        "x": 86.74,
+        "y": 747.6,
+        "width": 39.93,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p7-t21",
+      "page": 7,
+      "text": "$4,300. A loss",
+      "bbox": {
+        "x": 374.85,
+        "y": 747.6,
+        "width": 53.81,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p7-t18",
+      "page": 7,
+      "text": "above $4,390–$4,400 would improve the upside structure.",
+      "bbox": {
+        "x": 86.74,
+        "y": 762.6,
+        "width": 224.29,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p7-t22",
+      "page": 7,
+      "text": "of support would open room for a deeper correction.",
+      "bbox": {
+        "x": 374.85,
+        "y": 762.6,
+        "width": 200.06,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p7-t23",
+      "page": 7,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 798.55,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p7-t24",
+      "page": 7,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p7-t25",
+      "page": 7,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p7-t26",
+      "page": 7,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p8-t0",
+      "page": 8,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p8-t1",
+      "page": 8,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p8-t2",
+      "page": 8,
+      "text": "08",
+      "bbox": {
+        "x": 622.97,
+        "y": 20,
+        "width": 10.74,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p8-t3",
+      "page": 8,
+      "text": "XAG/USD - SILVER",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 213.58,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p8-t4",
+      "page": 8,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p8-t5",
+      "page": 8,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p8-t6",
+      "page": 8,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p8-t7",
+      "page": 8,
+      "text": "Support: $65.0 | Resistance: $68.0",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 142.03,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p8-t8",
+      "page": 8,
+      "text": "$66.5",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 23.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p8-t9",
+      "page": 8,
+      "text": "Positive / volatile",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 70.73,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p8-t10",
+      "page": 8,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p8-t11",
+      "page": 8,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p8-t12",
+      "page": 8,
+      "text": "Silver remains highly volatile after strong recent gains. It is supported by precious-metals momentum and industrial-demand",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 549.64,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p8-t13",
+      "page": 8,
+      "text": "expectations, but is sensitive to the dollar and real yields.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 248.97,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p8-t14",
+      "page": 8,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p8-t19",
+      "page": 8,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p8-t15",
+      "page": 8,
+      "text": "Holding above the recent breakout area and renewed gold",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 221.61,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p8-t20",
+      "page": 8,
+      "text": "A stronger dollar and renewed yield pressure could produce a",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 234.35,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p8-t16",
+      "page": 8,
+      "text": "strength could",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 56.3,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p8-t21",
+      "page": 8,
+      "text": "sharper",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 29.58,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p8-t17",
+      "page": 8,
+      "text": "support continuation. A break above $68 would improve",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 214.7,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p8-t22",
+      "page": 8,
+      "text": "correction. Failure below $65 would weaken the recent",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 208.2,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p8-t18",
+      "page": 8,
+      "text": "momentum.",
+      "bbox": {
+        "x": 86.74,
+        "y": 762.6,
+        "width": 47.68,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p8-t23",
+      "page": 8,
+      "text": "structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 762.6,
+        "width": 37.19,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p8-t24",
+      "page": 8,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 798.55,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p8-t25",
+      "page": 8,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p8-t26",
+      "page": 8,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p8-t27",
+      "page": 8,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 27
+    },
+    {
+      "id": "p9-t0",
+      "page": 9,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p9-t1",
+      "page": 9,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p9-t2",
+      "page": 9,
+      "text": "09",
+      "bbox": {
+        "x": 622.73,
+        "y": 20,
+        "width": 10.98,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p9-t3",
+      "page": 9,
+      "text": "US OIL - WTI",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 144.76,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p9-t4",
+      "page": 9,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p9-t5",
+      "page": 9,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p9-t6",
+      "page": 9,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p9-t7",
+      "page": 9,
+      "text": "Support: $88 | Resistance: $94–$96",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 148.9,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p9-t8",
+      "page": 9,
+      "text": "~$90",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 22.17,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p9-t9",
+      "page": 9,
+      "text": "Soft / volatile",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 55.32,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p9-t10",
+      "page": 9,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p9-t11",
+      "page": 9,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p9-t12",
+      "page": 9,
+      "text": "WTI has fallen toward $90 as reports of improving Middle East supply and possible diplomatic progress reduce part of the",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 534.99,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p9-t13",
+      "page": 9,
+      "text": "geopolitical risk premium.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 114.15,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p9-t14",
+      "page": 9,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p9-t19",
+      "page": 9,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p9-t15",
+      "page": 9,
+      "text": "Renewed supply-risk headlines could restore the risk premium.",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 240,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p9-t20",
+      "page": 9,
+      "text": "Further supply normalization or weaker growth expectations",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 230.72,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p9-t16",
+      "page": 9,
+      "text": "Holding above",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 55.4,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p9-t21",
+      "page": 9,
+      "text": "could extend the",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 64.72,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p9-t17",
+      "page": 9,
+      "text": "$88 and reclaiming $94–$96 would improve the upside",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 211.38,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p9-t22",
+      "page": 9,
+      "text": "decline. Losing $88 would weaken the recent support",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 203.85,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p9-t18",
+      "page": 9,
+      "text": "structure.",
+      "bbox": {
+        "x": 86.74,
+        "y": 762.6,
+        "width": 37.19,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p9-t23",
+      "page": 9,
+      "text": "structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 762.6,
+        "width": 37.19,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p9-t24",
+      "page": 9,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 798.55,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p9-t25",
+      "page": 9,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p9-t26",
+      "page": 9,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p9-t27",
+      "page": 9,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 27
+    },
+    {
+      "id": "p10-t0",
+      "page": 10,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p10-t1",
+      "page": 10,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p10-t2",
+      "page": 10,
+      "text": "10",
+      "bbox": {
+        "x": 624.73,
+        "y": 20,
+        "width": 8.98,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p10-t3",
+      "page": 10,
+      "text": "US30 - DOW JONES",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 227.5,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p10-t4",
+      "page": 10,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p10-t5",
+      "page": 10,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p10-t6",
+      "page": 10,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p10-t7",
+      "page": 10,
+      "text": "Support: 51,700 | Resistance: 52,400",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 150.09,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p10-t8",
+      "page": 10,
+      "text": "51,916",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 24.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p10-t9",
+      "page": 10,
+      "text": "Neutral",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 31.07,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p10-t10",
+      "page": 10,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p10-t11",
+      "page": 10,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p10-t12",
+      "page": 10,
+      "text": "The Dow remains sensitive to Treasury yields and oil. Lower oil can reduce inflation pressure, while higher yields can constrain",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 549.96,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p10-t13",
+      "page": 10,
+      "text": "equity valuations.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 77.45,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p10-t14",
+      "page": 10,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p10-t18",
+      "page": 10,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p10-t15",
+      "page": 10,
+      "text": "Lower yields and stable earnings sentiment could support a",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 226.64,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p10-t19",
+      "page": 10,
+      "text": "A renewed rise in yields or a break below 51,700 could lead to a",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 236.75,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p10-t16",
+      "page": 10,
+      "text": "rebound. Holding",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 66.96,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p10-t20",
+      "page": 10,
+      "text": "deeper",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 27.54,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p10-t17",
+      "page": 10,
+      "text": "above 51,700 keeps the consolidation structure intact.",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 205.29,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p10-t21",
+      "page": 10,
+      "text": "pullback.",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 34.57,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p10-t22",
+      "page": 10,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 788.05,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p10-t23",
+      "page": 10,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p10-t24",
+      "page": 10,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p10-t25",
+      "page": 10,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p11-t0",
+      "page": 11,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p11-t1",
+      "page": 11,
+      "text": "Daily Market Report",
+      "bbox": {
+        "x": 517.83,
+        "y": 19.7,
+        "width": 80.88,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p11-t2",
+      "page": 11,
+      "text": "11",
+      "bbox": {
+        "x": 627.16,
+        "y": 20,
+        "width": 6.54,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p11-t3",
+      "page": 11,
+      "text": "NASDAQ",
+      "bbox": {
+        "x": 45,
+        "y": 84.5,
+        "width": 103.96,
+        "height": 25
+      },
+      "fontSize": 25,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p11-t4",
+      "page": 11,
+      "text": "Key Levels",
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 45.16,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p11-t5",
+      "page": 11,
+      "text": "Price / Reference",
+      "bbox": {
+        "x": 250.73,
+        "y": 137.1,
+        "width": 74.44,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p11-t6",
+      "page": 11,
+      "text": "Bias",
+      "bbox": {
+        "x": 446.72,
+        "y": 137.1,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p11-t7",
+      "page": 11,
+      "text": "Support: 27,000 | Resistance: 27,400",
+      "bbox": {
+        "x": 54.75,
+        "y": 162.6,
+        "width": 151.14,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p11-t8",
+      "page": 11,
+      "text": "27,244",
+      "bbox": {
+        "x": 250.73,
+        "y": 162.6,
+        "width": 26.47,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p11-t9",
+      "page": 11,
+      "text": "Positive / rate-sensitive",
+      "bbox": {
+        "x": 446.72,
+        "y": 162.6,
+        "width": 98.36,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p11-t10",
+      "page": 11,
+      "text": "TRADINGVIEW LIVE CHART",
+      "bbox": {
+        "x": 58,
+        "y": 206.5,
+        "width": 144.16,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p11-t11",
+      "page": 11,
+      "text": "Fundamental View",
+      "bbox": {
+        "x": 58,
+        "y": 595.75,
+        "width": 96.52,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p11-t12",
+      "page": 11,
+      "text": "Nasdaq momentum remains supported by AI-related demand and resilient corporate earnings. The index recently reached a",
+      "bbox": {
+        "x": 61.75,
+        "y": 648.05,
+        "width": 548.21,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p11-t13",
+      "page": 11,
+      "text": "record high, while yields remain the key macro sensitivity.",
+      "bbox": {
+        "x": 61.75,
+        "y": 661.55,
+        "width": 252.07,
+        "height": 9.7
+      },
+      "fontSize": 9.7,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p11-t14",
+      "page": 11,
+      "text": "BULLISH SCENARIO",
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 87.64,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p11-t18",
+      "page": 11,
+      "text": "BEARISH / RISK SCENARIO",
+      "bbox": {
+        "x": 361.85,
+        "y": 709.3,
+        "width": 117.59,
+        "height": 9.19
+      },
+      "fontSize": 9.19,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p11-t15",
+      "page": 11,
+      "text": "Continued AI demand and softer yields could support further",
+      "bbox": {
+        "x": 86.74,
+        "y": 726.6,
+        "width": 233.69,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p11-t19",
+      "page": 11,
+      "text": "Higher real yields could pressure technology valuations. Losing",
+      "bbox": {
+        "x": 374.85,
+        "y": 726.6,
+        "width": 239.62,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p11-t16",
+      "page": 11,
+      "text": "strength. A break",
+      "bbox": {
+        "x": 86.74,
+        "y": 737.1,
+        "width": 66.26,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p11-t20",
+      "page": 11,
+      "text": "27,000 would",
+      "bbox": {
+        "x": 374.85,
+        "y": 737.1,
+        "width": 51.6,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p11-t17",
+      "page": 11,
+      "text": "above 27,400 would improve momentum.",
+      "bbox": {
+        "x": 86.74,
+        "y": 751.35,
+        "width": 158.81,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p11-t21",
+      "page": 11,
+      "text": "weaken the short-term recovery structure.",
+      "bbox": {
+        "x": 374.85,
+        "y": 751.35,
+        "width": 162.01,
+        "height": 8.4
+      },
+      "fontSize": 8.4,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p11-t22",
+      "page": 11,
+      "text": "Source: FXStreet / Reuters / TradingView context. Verify live prices before use.",
+      "bbox": {
+        "x": 45,
+        "y": 788.05,
+        "width": 380.37,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p11-t23",
+      "page": 11,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p11-t24",
+      "page": 11,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p11-t25",
+      "page": 11,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p12-t0",
+      "page": 12,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 45,
+        "y": 19,
+        "width": 123.24,
+        "height": 9.49
+      },
+      "fontSize": 9.49,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p12-t1",
+      "page": 12,
+      "text": "Daily Bias Matrix",
+      "bbox": {
+        "x": 531.76,
+        "y": 19.7,
+        "width": 66.96,
+        "height": 8.8
+      },
+      "fontSize": 8.8,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p12-t2",
+      "page": 12,
+      "text": "12",
+      "bbox": {
+        "x": 625.76,
+        "y": 20,
+        "width": 7.95,
+        "height": 8.5
+      },
+      "fontSize": 8.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p12-t3",
+      "page": 12,
+      "text": "Daily Bias Matrix",
+      "bbox": {
+        "x": 58,
+        "y": 91.75,
+        "width": 84.15,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p12-t4",
+      "page": 12,
+      "text": "Instrument",
+      "bbox": {
+        "x": 54.75,
+        "y": 133.35,
+        "width": 48.86,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p12-t5",
+      "page": 12,
+      "text": "Bias",
+      "bbox": {
+        "x": 201.74,
+        "y": 133.35,
+        "width": 17.91,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p12-t6",
+      "page": 12,
+      "text": "Confidence",
+      "bbox": {
+        "x": 348.73,
+        "y": 133.35,
+        "width": 50.52,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p12-t7",
+      "page": 12,
+      "text": "Main Catalyst",
+      "bbox": {
+        "x": 495.71,
+        "y": 133.35,
+        "width": 59.39,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p12-t8",
+      "page": 12,
+      "text": "EUR/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 158.85,
+        "width": 40.43,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p12-t9",
+      "page": 12,
+      "text": "Downside",
+      "bbox": {
+        "x": 201.74,
+        "y": 158.85,
+        "width": 41.86,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p12-t10",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 158.85,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p12-t11",
+      "page": 12,
+      "text": "USD and rate differential",
+      "bbox": {
+        "x": 495.71,
+        "y": 158.85,
+        "width": 102.64,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p12-t12",
+      "page": 12,
+      "text": "GBP/USD",
+      "bbox": {
+        "x": 54.75,
+        "y": 183.6,
+        "width": 40.72,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    },
+    {
+      "id": "p12-t13",
+      "page": 12,
+      "text": "Downside",
+      "bbox": {
+        "x": 201.74,
+        "y": 183.6,
+        "width": 41.86,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 13
+    },
+    {
+      "id": "p12-t14",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 183.6,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 14
+    },
+    {
+      "id": "p12-t15",
+      "page": 12,
+      "text": "USD and BoE outlook",
+      "bbox": {
+        "x": 495.71,
+        "y": 183.6,
+        "width": 89.26,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 15
+    },
+    {
+      "id": "p12-t16",
+      "page": 12,
+      "text": "USD/JPY",
+      "bbox": {
+        "x": 54.75,
+        "y": 209.1,
+        "width": 37.61,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 16
+    },
+    {
+      "id": "p12-t17",
+      "page": 12,
+      "text": "Upside / volatile",
+      "bbox": {
+        "x": 201.74,
+        "y": 209.1,
+        "width": 67.01,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 17
+    },
+    {
+      "id": "p12-t18",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 209.1,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 18
+    },
+    {
+      "id": "p12-t19",
+      "page": 12,
+      "text": "Yields and intervention risk",
+      "bbox": {
+        "x": 495.71,
+        "y": 209.1,
+        "width": 112.76,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 19
+    },
+    {
+      "id": "p12-t23",
+      "page": 12,
+      "text": "Yields and safe-haven",
+      "bbox": {
+        "x": 495.71,
+        "y": 233.85,
+        "width": 92.37,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 20
+    },
+    {
+      "id": "p12-t20",
+      "page": 12,
+      "text": "Gold",
+      "bbox": {
+        "x": 54.75,
+        "y": 239.1,
+        "width": 20.08,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 21
+    },
+    {
+      "id": "p12-t21",
+      "page": 12,
+      "text": "Neutral / volatile",
+      "bbox": {
+        "x": 201.74,
+        "y": 239.1,
+        "width": 68.74,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 22
+    },
+    {
+      "id": "p12-t22",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 239.1,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 23
+    },
+    {
+      "id": "p12-t24",
+      "page": 12,
+      "text": "demand",
+      "bbox": {
+        "x": 495.71,
+        "y": 245.1,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 24
+    },
+    {
+      "id": "p12-t25",
+      "page": 12,
+      "text": "Silver",
+      "bbox": {
+        "x": 54.75,
+        "y": 269.85,
+        "width": 23.25,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 25
+    },
+    {
+      "id": "p12-t26",
+      "page": 12,
+      "text": "Positive / volatile",
+      "bbox": {
+        "x": 201.74,
+        "y": 269.85,
+        "width": 70.73,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 26
+    },
+    {
+      "id": "p12-t27",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 269.85,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 27
+    },
+    {
+      "id": "p12-t28",
+      "page": 12,
+      "text": "Precious-metals momentum",
+      "bbox": {
+        "x": 495.71,
+        "y": 269.85,
+        "width": 120.92,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 28
+    },
+    {
+      "id": "p12-t29",
+      "page": 12,
+      "text": "WTI Oil",
+      "bbox": {
+        "x": 54.75,
+        "y": 295.35,
+        "width": 31.57,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 29
+    },
+    {
+      "id": "p12-t30",
+      "page": 12,
+      "text": "Downside / volatile",
+      "bbox": {
+        "x": 201.74,
+        "y": 295.35,
+        "width": 79.53,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 30
+    },
+    {
+      "id": "p12-t31",
+      "page": 12,
+      "text": "Medium-High",
+      "bbox": {
+        "x": 348.73,
+        "y": 295.35,
+        "width": 59.17,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 31
+    },
+    {
+      "id": "p12-t32",
+      "page": 12,
+      "text": "Middle East supply",
+      "bbox": {
+        "x": 495.71,
+        "y": 295.35,
+        "width": 78.6,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 32
+    },
+    {
+      "id": "p12-t33",
+      "page": 12,
+      "text": "US30",
+      "bbox": {
+        "x": 54.75,
+        "y": 320.1,
+        "width": 23.56,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 33
+    },
+    {
+      "id": "p12-t34",
+      "page": 12,
+      "text": "Neutral",
+      "bbox": {
+        "x": 201.74,
+        "y": 320.1,
+        "width": 31.07,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 34
+    },
+    {
+      "id": "p12-t35",
+      "page": 12,
+      "text": "Medium",
+      "bbox": {
+        "x": 348.73,
+        "y": 320.1,
+        "width": 35.02,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 35
+    },
+    {
+      "id": "p12-t36",
+      "page": 12,
+      "text": "Oil and Treasury yields",
+      "bbox": {
+        "x": 495.71,
+        "y": 320.1,
+        "width": 93.23,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 36
+    },
+    {
+      "id": "p12-t37",
+      "page": 12,
+      "text": "NASDAQ",
+      "bbox": {
+        "x": 54.75,
+        "y": 345.6,
+        "width": 38.71,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 37
+    },
+    {
+      "id": "p12-t38",
+      "page": 12,
+      "text": "Upside / rate-sensitive",
+      "bbox": {
+        "x": 201.74,
+        "y": 345.6,
+        "width": 94.65,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 38
+    },
+    {
+      "id": "p12-t39",
+      "page": 12,
+      "text": "Medium-High",
+      "bbox": {
+        "x": 348.73,
+        "y": 345.6,
+        "width": 59.17,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 39
+    },
+    {
+      "id": "p12-t40",
+      "page": 12,
+      "text": "Yields and AI demand",
+      "bbox": {
+        "x": 495.71,
+        "y": 345.6,
+        "width": 90.88,
+        "height": 9.15
+      },
+      "fontSize": 9.15,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 40
+    },
+    {
+      "id": "p12-t41",
+      "page": 12,
+      "text": "NEXT MAJOR CATALYST",
+      "bbox": {
+        "x": 58,
+        "y": 388.75,
+        "width": 126.34,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 41
+    },
+    {
+      "id": "p12-t42",
+      "page": 12,
+      "text": "Flash PMIs across Europe, the UK and US, followed by Fed speakers. Markets are also watching the Trump–Xi meeting",
+      "bbox": {
+        "x": 45,
+        "y": 425.05,
+        "width": 568.49,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 42
+    },
+    {
+      "id": "p12-t43",
+      "page": 12,
+      "text": "and developments around Middle East supply and diplomacy.",
+      "bbox": {
+        "x": 45,
+        "y": 440.05,
+        "width": 298.08,
+        "height": 10.69
+      },
+      "fontSize": 10.69,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 43
+    },
+    {
+      "id": "p12-t44",
+      "page": 12,
+      "text": "Global Trend Markets | Daily Market Analysis |",
+      "bbox": {
+        "x": 45,
+        "y": 927.3,
+        "width": 148.15,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 44
+    },
+    {
+      "id": "p12-t45",
+      "page": 12,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 194.6,
+        "y": 927.3,
+        "width": 107.47,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 45
+    },
+    {
+      "id": "p12-t46",
+      "page": 12,
+      "text": "Market information only — not investment advice",
+      "bbox": {
+        "x": 472.62,
+        "y": 927.3,
+        "width": 161.09,
+        "height": 7.2
+      },
+      "fontSize": 7.2,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 46
+    },
+    {
+      "id": "p13-t0",
+      "page": 13,
+      "text": "GLOBAL TREND MARKETS",
+      "bbox": {
+        "x": 76.99,
+        "y": 106.75,
+        "width": 140.51,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 0
+    },
+    {
+      "id": "p13-t1",
+      "page": 13,
+      "text": "MARKET INTELLIGENCE",
+      "bbox": {
+        "x": 76.99,
+        "y": 174.5,
+        "width": 344.14,
+        "height": 31
+      },
+      "fontSize": 31,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 1
+    },
+    {
+      "id": "p13-t2",
+      "page": 13,
+      "text": "Clear data. Clear context. Disciplined decisions.",
+      "bbox": {
+        "x": 76.99,
+        "y": 241.25,
+        "width": 280.34,
+        "height": 13
+      },
+      "fontSize": 13,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 2
+    },
+    {
+      "id": "p13-t3",
+      "page": 13,
+      "text": "METHODOLOGY",
+      "bbox": {
+        "x": 89.99,
+        "y": 341.5,
+        "width": 87.22,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 3
+    },
+    {
+      "id": "p13-t4",
+      "page": 13,
+      "text": "Live-chart references use TradingView. Fundamental and calendar context is based primarily on FXStreet, with",
+      "bbox": {
+        "x": 76.99,
+        "y": 384.1,
+        "width": 521.77,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 4
+    },
+    {
+      "id": "p13-t5",
+      "page": 13,
+      "text": "Reuters used for current market developments. Market facts and scenario analysis are kept distinct.",
+      "bbox": {
+        "x": 76.99,
+        "y": 399.1,
+        "width": 468.51,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 5
+    },
+    {
+      "id": "p13-t6",
+      "page": 13,
+      "text": "RISK DISCLAIMER",
+      "bbox": {
+        "x": 89.99,
+        "y": 474.25,
+        "width": 93.75,
+        "height": 10.99
+      },
+      "fontSize": 10.99,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 6
+    },
+    {
+      "id": "p13-t7",
+      "page": 13,
+      "text": "This report is for market information and educational purposes only. It is not investment advice or a",
+      "bbox": {
+        "x": 76.99,
+        "y": 516.85,
+        "width": 465.14,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 7
+    },
+    {
+      "id": "p13-t8",
+      "page": 13,
+      "text": "recommendation to buy or sell any financial instrument. Leveraged products and CFDs carry a high level of risk",
+      "bbox": {
+        "x": 76.99,
+        "y": 531.85,
+        "width": 521.72,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 8
+    },
+    {
+      "id": "p13-t9",
+      "page": 13,
+      "text": "and may not be suitable for all investors. Verify live prices and apply appropriate risk management. Your Market.",
+      "bbox": {
+        "x": 76.99,
+        "y": 546.85,
+        "width": 524.38,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 9
+    },
+    {
+      "id": "p13-t10",
+      "page": 13,
+      "text": "Your Move.",
+      "bbox": {
+        "x": 76.99,
+        "y": 562.6,
+        "width": 52.89,
+        "height": 10.39
+      },
+      "fontSize": 10.39,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 10
+    },
+    {
+      "id": "p13-t11",
+      "page": 13,
+      "text": "Daily Report",
+      "bbox": {
+        "x": 76.99,
+        "y": 848.25,
+        "width": 42.21,
+        "height": 7.5
+      },
+      "fontSize": 7.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 11
+    },
+    {
+      "id": "p13-t12",
+      "page": 13,
+      "text": "Wednesday, 23 September 2026",
+      "bbox": {
+        "x": 489.76,
+        "y": 848.25,
+        "width": 111.95,
+        "height": 7.5
+      },
+      "fontSize": 7.5,
+      "fontName": "sans-serif",
+      "source": "pdf",
+      "readingOrder": 12
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-p2-1",
+      "page": 2,
+      "bbox": {
+        "x": 54.75,
+        "y": 238.35,
+        "width": 515.4,
+        "height": 210.9
+      },
+      "rows": [
+        [
+          {
+            "text": "Asset",
+            "bbox": {
+              "x": 54.75,
+              "y": 238.35,
+              "width": 25,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Main Driver",
+            "bbox": {
+              "x": 201.74,
+              "y": 238.35,
+              "width": 49.68,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Daily Bias",
+            "bbox": {
+              "x": 348.73,
+              "y": 238.35,
+              "width": 41.36,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 495.71,
+              "y": 238.35,
+              "width": 74.44,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "EUR/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 263.85,
+              "width": 40.43,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD and rate differential",
+            "bbox": {
+              "x": 201.74,
+              "y": 263.85,
+              "width": 102.64,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / downside",
+            "bbox": {
+              "x": 348.73,
+              "y": 263.85,
+              "width": 65.93,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "1.1446",
+            "bbox": {
+              "x": 495.71,
+              "y": 263.85,
+              "width": 24.36,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "GBP/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 289.35,
+              "width": 40.72,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD and BoE expectations",
+            "bbox": {
+              "x": 201.74,
+              "y": 289.35,
+              "width": 111.73,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / downside",
+            "bbox": {
+              "x": 348.73,
+              "y": 289.35,
+              "width": 65.93,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "1.3337",
+            "bbox": {
+              "x": 495.71,
+              "y": 289.35,
+              "width": 25.57,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "USD/JPY",
+            "bbox": {
+              "x": 54.75,
+              "y": 314.1,
+              "width": 37.61,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Yields and intervention risk",
+            "bbox": {
+              "x": 201.74,
+              "y": 314.1,
+              "width": 112.76,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Volatile / upside",
+            "bbox": {
+              "x": 348.73,
+              "y": 314.1,
+              "width": 67.23,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "157.6",
+            "bbox": {
+              "x": 495.71,
+              "y": 314.1,
+              "width": 19.6,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "XAU/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 339.6,
+              "width": 41.09,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Yields and safe haven",
+            "bbox": {
+              "x": 201.74,
+              "y": 339.6,
+              "width": 89.79,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral / volatile",
+            "bbox": {
+              "x": 348.73,
+              "y": 339.6,
+              "width": 68.74,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "$4,341",
+            "bbox": {
+              "x": 495.71,
+              "y": 339.6,
+              "width": 26.54,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "XAG/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 364.35,
+              "width": 41.76,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Precious-metals momentum",
+            "bbox": {
+              "x": 201.74,
+              "y": 364.35,
+              "width": 120.92,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Positive / volatile",
+            "bbox": {
+              "x": 348.73,
+              "y": 364.35,
+              "width": 70.73,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "$66.5",
+            "bbox": {
+              "x": 495.71,
+              "y": 364.35,
+              "width": 23.57,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "WTI Oil",
+            "bbox": {
+              "x": 54.75,
+              "y": 389.85,
+              "width": 31.57,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Middle East supply",
+            "bbox": {
+              "x": 201.74,
+              "y": 389.85,
+              "width": 78.6,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / volatile",
+            "bbox": {
+              "x": 348.73,
+              "y": 389.85,
+              "width": 55.32,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "~$90",
+            "bbox": {
+              "x": 495.71,
+              "y": 389.85,
+              "width": 22.17,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "US30",
+            "bbox": {
+              "x": 54.75,
+              "y": 414.6,
+              "width": 23.56,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Oil, yields and risk appetite",
+            "bbox": {
+              "x": 201.74,
+              "y": 414.6,
+              "width": 111.25,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral",
+            "bbox": {
+              "x": 348.73,
+              "y": 414.6,
+              "width": 31.07,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "51,916",
+            "bbox": {
+              "x": 495.71,
+              "y": 414.6,
+              "width": 24.44,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "NASDAQ",
+            "bbox": {
+              "x": 54.75,
+              "y": 440.1,
+              "width": 38.71,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Yields and AI sensitivity",
+            "bbox": {
+              "x": 201.74,
+              "y": 440.1,
+              "width": 98.37,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Positive",
+            "bbox": {
+              "x": 348.73,
+              "y": 440.1,
+              "width": 33.06,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "27,244",
+            "bbox": {
+              "x": 495.71,
+              "y": 440.1,
+              "width": 26.47,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p2-2",
+      "page": 2,
+      "bbox": {
+        "x": 54.75,
+        "y": 575.85,
+        "width": 520.6,
+        "height": 147.9
+      },
+      "rows": [
+        [
+          {
+            "text": "Impact",
+            "bbox": {
+              "x": 54.75,
+              "y": 575.85,
+              "width": 30.79,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Event",
+            "bbox": {
+              "x": 172.34,
+              "y": 575.85,
+              "width": 24.78,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Currency",
+            "bbox": {
+              "x": 289.92,
+              "y": 575.85,
+              "width": 40.43,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Cyprus Time",
+            "bbox": {
+              "x": 407.51,
+              "y": 575.85,
+              "width": 55.52,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Date",
+            "bbox": {
+              "x": 525.09,
+              "y": 575.85,
+              "width": 20.61,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "High",
+            "bbox": {
+              "x": 54.75,
+              "y": 606.6,
+              "width": 19.94,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "EUR",
+            "bbox": {
+              "x": 289.92,
+              "y": 606.6,
+              "width": 17.93,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "10:30–11:00",
+            "bbox": {
+              "x": 407.51,
+              "y": 606.6,
+              "width": 48.23,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Wed 23 Sep",
+            "bbox": {
+              "x": 525.09,
+              "y": 606.6,
+              "width": 50.26,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "High",
+            "bbox": {
+              "x": 54.75,
+              "y": 637.35,
+              "width": 19.94,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Flash UK PMI",
+            "bbox": {
+              "x": 172.34,
+              "y": 637.35,
+              "width": 55.49,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "GBP",
+            "bbox": {
+              "x": 289.92,
+              "y": 637.35,
+              "width": 18.79,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "11:30",
+            "bbox": {
+              "x": 407.51,
+              "y": 637.35,
+              "width": 20.35,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Wed 23 Sep",
+            "bbox": {
+              "x": 525.09,
+              "y": 637.35,
+              "width": 50.26,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "High",
+            "bbox": {
+              "x": 54.75,
+              "y": 673.35,
+              "width": 19.94,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Manufacturing &",
+            "bbox": {
+              "x": 172.34,
+              "y": 673.35,
+              "width": 70.95,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD",
+            "bbox": {
+              "x": 289.92,
+              "y": 673.35,
+              "width": 18.93,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "16:45",
+            "bbox": {
+              "x": 407.51,
+              "y": 673.35,
+              "width": 21.37,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Wed 23 Sep",
+            "bbox": {
+              "x": 525.09,
+              "y": 673.35,
+              "width": 50.26,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 54.75,
+              "y": 714.6,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD",
+            "bbox": {
+              "x": 289.92,
+              "y": 714.6,
+              "width": 18.93,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "17:05",
+            "bbox": {
+              "x": 407.51,
+              "y": 714.6,
+              "width": 21.25,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Wed 23 Sep",
+            "bbox": {
+              "x": 525.09,
+              "y": 714.6,
+              "width": 50.26,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p4-1",
+      "page": 4,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 457.9,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: 1.1400 | Resistance: 1.1500",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 145.21,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "1.1446",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 24.36,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / downside",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 65.93,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p4-2",
+      "page": 4,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 538.37,
+        "height": 61.7
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Softer US activity data could reduce rate-hike expectations and",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 241.84,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "Stronger US PMI data or higher Treasury yields could reinforce",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 237.27,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "relieve",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 25.41,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "USD demand.",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 53.35,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "pressure on the euro. A move back above 1.1500 would improve",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 240.95,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "A sustained break below recent support would weaken the",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 223.2,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "the",
+            "bbox": {
+              "x": 86.74,
+              "y": 762.6,
+              "width": 12.94,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "recovery structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 762.6,
+              "width": 72.42,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p5-1",
+      "page": 5,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 457.9,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: 1.3280 | Resistance: 1.3420",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 147.78,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "1.3337",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 25.57,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / downside",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 65.93,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p5-2",
+      "page": 5,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 535.26,
+        "height": 50.45
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "A softer US data pulse or stronger UK PMI could ease dollar",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 226.12,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "Firm US data and yields could keep the dollar supported. Loss",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 234.16,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "pressure.",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 35.36,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "of recent",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 34.53,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "Reclaiming 1.3420 would improve momentum.",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 177.05,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "support would extend the downside structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 176.57,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p6-1",
+      "page": 6,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 459.2,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: 156.0 | Resistance: 160.0",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 138.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "157.6",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 19.6,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Volatile / upside",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 67.23,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p6-2",
+      "page": 6,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 534.42,
+        "height": 50.45
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Higher US yields can keep the pair supported. A sustained",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 220.92,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "A fall in US yields or stronger intervention warnings could pull",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 233.32,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "break above 160",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 62.57,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "the pair lower. A",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 61.22,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "would increase upside momentum but also intervention",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 213.36,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "break below 156 would weaken the current structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 201,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p7-1",
+      "page": 7,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 460.71,
+        "height": 39.9
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "$4,341",
+            "bbox": {
+              "x": 250.73,
+              "y": 167.85,
+              "width": 26.54,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral / volatile",
+            "bbox": {
+              "x": 446.72,
+              "y": 167.85,
+              "width": 68.74,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p7-2",
+      "page": 7,
+      "bbox": {
+        "x": 73.75,
+        "y": 720.55,
+        "width": 537.42,
+        "height": 50.45
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 720.55,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 720.55,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Softer US PMI data or lower yields could support a rebound. A",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 234.62,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "Higher yields and a stronger dollar could pressure gold toward",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 236.32,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "daily close",
+            "bbox": {
+              "x": 86.74,
+              "y": 747.6,
+              "width": 39.93,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "$4,300. A loss",
+            "bbox": {
+              "x": 374.85,
+              "y": 747.6,
+              "width": 53.81,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "above $4,390–$4,400 would improve the upside structure.",
+            "bbox": {
+              "x": 86.74,
+              "y": 762.6,
+              "width": 224.29,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "of support would open room for a deeper correction.",
+            "bbox": {
+              "x": 374.85,
+              "y": 762.6,
+              "width": 200.06,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p8-1",
+      "page": 8,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 462.7,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: $65.0 | Resistance: $68.0",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 142.03,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "$66.5",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 23.57,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Positive / volatile",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 70.73,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p8-2",
+      "page": 8,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 535.45,
+        "height": 61.7
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Holding above the recent breakout area and renewed gold",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 221.61,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "A stronger dollar and renewed yield pressure could produce a",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 234.35,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "strength could",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 56.3,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "sharper",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 29.58,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "support continuation. A break above $68 would improve",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 214.7,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "correction. Failure below $65 would weaken the recent",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 208.2,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "momentum.",
+            "bbox": {
+              "x": 86.74,
+              "y": 762.6,
+              "width": 47.68,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 762.6,
+              "width": 37.19,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p9-1",
+      "page": 9,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 447.29,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: $88 | Resistance: $94–$96",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 148.9,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "~$90",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 22.17,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Soft / volatile",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 55.32,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p9-2",
+      "page": 9,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 531.82,
+        "height": 61.7
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Renewed supply-risk headlines could restore the risk premium.",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 240,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "Further supply normalization or weaker growth expectations",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 230.72,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "Holding above",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 55.4,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "could extend the",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 64.72,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "$88 and reclaiming $94–$96 would improve the upside",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 211.38,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "decline. Losing $88 would weaken the recent support",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 203.85,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "structure.",
+            "bbox": {
+              "x": 86.74,
+              "y": 762.6,
+              "width": 37.19,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 762.6,
+              "width": 37.19,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p10-1",
+      "page": 10,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 423.04,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: 51,700 | Resistance: 52,400",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 150.09,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "51,916",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 24.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 31.07,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p10-2",
+      "page": 10,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 537.85,
+        "height": 50.45
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Lower yields and stable earnings sentiment could support a",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 226.64,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "A renewed rise in yields or a break below 51,700 could lead to a",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 236.75,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "rebound. Holding",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 66.96,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "deeper",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 27.54,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "above 51,700 keeps the consolidation structure intact.",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 205.29,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "pullback.",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 34.57,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p11-1",
+      "page": 11,
+      "bbox": {
+        "x": 54.75,
+        "y": 137.1,
+        "width": 490.33,
+        "height": 34.65
+      },
+      "rows": [
+        [
+          {
+            "text": "Key Levels",
+            "bbox": {
+              "x": 54.75,
+              "y": 137.1,
+              "width": 45.16,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Price / Reference",
+            "bbox": {
+              "x": 250.73,
+              "y": 137.1,
+              "width": 74.44,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 446.72,
+              "y": 137.1,
+              "width": 17.91,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Support: 27,000 | Resistance: 27,400",
+            "bbox": {
+              "x": 54.75,
+              "y": 162.6,
+              "width": 151.14,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "27,244",
+            "bbox": {
+              "x": 250.73,
+              "y": 162.6,
+              "width": 26.47,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Positive / rate-sensitive",
+            "bbox": {
+              "x": 446.72,
+              "y": 162.6,
+              "width": 98.36,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p11-2",
+      "page": 11,
+      "bbox": {
+        "x": 73.75,
+        "y": 709.3,
+        "width": 540.72,
+        "height": 50.45
+      },
+      "rows": [
+        [
+          {
+            "text": "BULLISH SCENARIO",
+            "bbox": {
+              "x": 73.75,
+              "y": 709.3,
+              "width": 87.64,
+              "height": 9.19
+            }
+          },
+          {
+            "text": "BEARISH / RISK SCENARIO",
+            "bbox": {
+              "x": 361.85,
+              "y": 709.3,
+              "width": 117.59,
+              "height": 9.19
+            }
+          }
+        ],
+        [
+          {
+            "text": "Continued AI demand and softer yields could support further",
+            "bbox": {
+              "x": 86.74,
+              "y": 726.6,
+              "width": 233.69,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "Higher real yields could pressure technology valuations. Losing",
+            "bbox": {
+              "x": 374.85,
+              "y": 726.6,
+              "width": 239.62,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "strength. A break",
+            "bbox": {
+              "x": 86.74,
+              "y": 737.1,
+              "width": 66.26,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "27,000 would",
+            "bbox": {
+              "x": 374.85,
+              "y": 737.1,
+              "width": 51.6,
+              "height": 8.4
+            }
+          }
+        ],
+        [
+          {
+            "text": "above 27,400 would improve momentum.",
+            "bbox": {
+              "x": 86.74,
+              "y": 751.35,
+              "width": 158.81,
+              "height": 8.4
+            }
+          },
+          {
+            "text": "weaken the short-term recovery structure.",
+            "bbox": {
+              "x": 374.85,
+              "y": 751.35,
+              "width": 162.01,
+              "height": 8.4
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    },
+    {
+      "id": "table-p12-1",
+      "page": 12,
+      "bbox": {
+        "x": 54.75,
+        "y": 133.35,
+        "width": 561.88,
+        "height": 221.4
+      },
+      "rows": [
+        [
+          {
+            "text": "Instrument",
+            "bbox": {
+              "x": 54.75,
+              "y": 133.35,
+              "width": 48.86,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Bias",
+            "bbox": {
+              "x": 201.74,
+              "y": 133.35,
+              "width": 17.91,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Confidence",
+            "bbox": {
+              "x": 348.73,
+              "y": 133.35,
+              "width": 50.52,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Main Catalyst",
+            "bbox": {
+              "x": 495.71,
+              "y": 133.35,
+              "width": 59.39,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "EUR/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 158.85,
+              "width": 40.43,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Downside",
+            "bbox": {
+              "x": 201.74,
+              "y": 158.85,
+              "width": 41.86,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 158.85,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD and rate differential",
+            "bbox": {
+              "x": 495.71,
+              "y": 158.85,
+              "width": 102.64,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "GBP/USD",
+            "bbox": {
+              "x": 54.75,
+              "y": 183.6,
+              "width": 40.72,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Downside",
+            "bbox": {
+              "x": 201.74,
+              "y": 183.6,
+              "width": 41.86,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 183.6,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "USD and BoE outlook",
+            "bbox": {
+              "x": 495.71,
+              "y": 183.6,
+              "width": 89.26,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "USD/JPY",
+            "bbox": {
+              "x": 54.75,
+              "y": 209.1,
+              "width": 37.61,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Upside / volatile",
+            "bbox": {
+              "x": 201.74,
+              "y": 209.1,
+              "width": 67.01,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 209.1,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Yields and intervention risk",
+            "bbox": {
+              "x": 495.71,
+              "y": 209.1,
+              "width": 112.76,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Gold",
+            "bbox": {
+              "x": 54.75,
+              "y": 239.1,
+              "width": 20.08,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral / volatile",
+            "bbox": {
+              "x": 201.74,
+              "y": 239.1,
+              "width": 68.74,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 239.1,
+              "width": 35.02,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "Silver",
+            "bbox": {
+              "x": 54.75,
+              "y": 269.85,
+              "width": 23.25,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Positive / volatile",
+            "bbox": {
+              "x": 201.74,
+              "y": 269.85,
+              "width": 70.73,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 269.85,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Precious-metals momentum",
+            "bbox": {
+              "x": 495.71,
+              "y": 269.85,
+              "width": 120.92,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "WTI Oil",
+            "bbox": {
+              "x": 54.75,
+              "y": 295.35,
+              "width": 31.57,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Downside / volatile",
+            "bbox": {
+              "x": 201.74,
+              "y": 295.35,
+              "width": 79.53,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium-High",
+            "bbox": {
+              "x": 348.73,
+              "y": 295.35,
+              "width": 59.17,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Middle East supply",
+            "bbox": {
+              "x": 495.71,
+              "y": 295.35,
+              "width": 78.6,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "US30",
+            "bbox": {
+              "x": 54.75,
+              "y": 320.1,
+              "width": 23.56,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Neutral",
+            "bbox": {
+              "x": 201.74,
+              "y": 320.1,
+              "width": 31.07,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium",
+            "bbox": {
+              "x": 348.73,
+              "y": 320.1,
+              "width": 35.02,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Oil and Treasury yields",
+            "bbox": {
+              "x": 495.71,
+              "y": 320.1,
+              "width": 93.23,
+              "height": 9.15
+            }
+          }
+        ],
+        [
+          {
+            "text": "NASDAQ",
+            "bbox": {
+              "x": 54.75,
+              "y": 345.6,
+              "width": 38.71,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Upside / rate-sensitive",
+            "bbox": {
+              "x": 201.74,
+              "y": 345.6,
+              "width": 94.65,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Medium-High",
+            "bbox": {
+              "x": 348.73,
+              "y": 345.6,
+              "width": 59.17,
+              "height": 9.15
+            }
+          },
+          {
+            "text": "Yields and AI demand",
+            "bbox": {
+              "x": 495.71,
+              "y": 345.6,
+              "width": 90.88,
+              "height": 9.15
+            }
+          }
+        ]
+      ],
+      "detection": "heuristic"
+    }
+  ],
+  "warnings": [
+    "Tables are heuristic groupings of aligned text lines, not semantic table extraction. Review merged cells, borders and multi-line cells manually."
+  ]
+}

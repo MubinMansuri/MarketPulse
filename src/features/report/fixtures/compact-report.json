@@ -1,0 +1,12 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-compact",
+  "date": "2026-10-10",
+  "sourceLocale": "en",
+  "locale": "en",
+  "metadata": { "title": "Compact Market Note", "edition": "COMPACT" },
+  "sections": [
+    { "id": "cover", "type": "cover", "title": "Overview", "data": { "text": "A compact market note", "caption": "Short commentary." } },
+    { "id": "summary", "type": "paragraph", "title": "Summary", "data": { "text": "One short paragraph." } }
+  ]
+}

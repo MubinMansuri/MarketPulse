@@ -1,0 +1,62 @@
+name: Deploy to Vercel
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Deployment target
+        required: true
+        default: production
+        type: choice
+        options:
+          - preview
+          - production
+
+permissions:
+  contents: read
+
+concurrency:
+  group: vercel-${{ inputs.target }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy ${{ inputs.target }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment: ${{ inputs.target }}
+    env:
+      VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+      VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+      VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Verify Vercel credentials
+        shell: bash
+        run: |
+          test -n "$VERCEL_TOKEN" || { echo "Missing VERCEL_TOKEN secret."; exit 1; }
+          test -n "$VERCEL_ORG_ID" || { echo "Missing VERCEL_ORG_ID secret."; exit 1; }
+          test -n "$VERCEL_PROJECT_ID" || { echo "Missing VERCEL_PROJECT_ID secret."; exit 1; }
+
+      - name: Pull Vercel environment configuration
+        run: npx --yes vercel@latest pull --yes --environment=${{ inputs.target }} --token="$VERCEL_TOKEN"
+
+      - name: Build Vercel output
+        run: npx --yes vercel@latest build ${{ inputs.target == 'production' && '--prod' || '' }} --token="$VERCEL_TOKEN"
+
+      - name: Deploy prebuilt output
+        shell: bash
+        run: |
+          if [ "${{ inputs.target }}" = "production" ]; then
+            npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+          else
+            npx --yes vercel@latest deploy --prebuilt --token="$VERCEL_TOKEN"
+          fi

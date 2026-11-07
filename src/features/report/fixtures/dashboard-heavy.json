@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-dashboard-heavy",
+  "date": "2026-10-10",
+  "sourceLocale": "en",
+  "locale": "en",
+  "metadata": { "title": "Dashboard Heavy Report", "edition": "DASHBOARD" },
+  "sections": [
+    { "id": "cover", "type": "cover", "title": "Overview", "data": { "text": "Dashboard edition", "caption": "Several variable-length tables." } },
+    { "id": "dashboard", "type": "dashboard", "title": "Market dashboard", "data": { "table": { "columns": [{ "key": "instrument", "label": "Instrument" }, { "key": "price", "label": "Price" }], "rows": [
+      { "instrument": "EUR/USD", "price": 1.16 }, { "instrument": "GBP/USD", "price": 1.33 }, { "instrument": "XAU/USD", "price": 3980.5 }, { "instrument": "US30", "price": 46520 }, { "instrument": "WTI", "price": 62.84 }, { "instrument": "DXY", "price": 98.2 }
+    ] } } },
+    { "id": "bias", "type": "bias-matrix", "title": "Bias matrix", "data": { "table": { "columns": [{ "key": "asset", "label": "Asset" }, { "key": "bias", "label": "Bias" }], "rows": [{ "asset": "Gold", "bias": "Bullish" }, { "asset": "Oil", "bias": "Neutral" }] } } }
+  ]
+}

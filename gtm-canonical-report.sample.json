@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0",
+  "id": "gtm-daily-report-template",
+  "date": "2026-10-14",
+  "sourceLocale": "en",
+  "locale": "en",
+  "metadata": {
+    "title": "Daily Market Report",
+    "edition": "GLOBAL TREND MARKETS - DAILY BRIEFING",
+    "brandName": "Global Trend Markets",
+    "dataAsOf": "Replace with the report date and publication session",
+    "verificationPolicy": "Use source-backed dated observations and clearly label analyst-derived or non-live levels.",
+    "sourceStatus": {
+      "EUR/USD": "Replace with source and timestamp status before publication"
+    }
+  },
+  "sections": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "title": "Market overview",
+      "data": {
+        "text": "Daily Market Report",
+        "caption": "Currencies, commodities, and indices - 14 October 2026"
+      }
+    },
+    {
+      "id": "executive-summary",
+      "type": "paragraph",
+      "title": "Executive Market View",
+      "data": {
+        "text": "Use this canonical template for daily editorial content. Replace all illustrative prices, events, levels, and scenarios with reviewed market data before publication."
+      }
+    },
+    {
+      "id": "market-dashboard",
+      "type": "dashboard",
+      "title": "Market Dashboard",
+      "data": {
+        "table": {
+          "columns": [
+            { "key": "instrument", "label": "INSTRUMENT" },
+            { "key": "reference", "label": "CURRENT / REFERENCE" },
+            { "key": "bias", "label": "DAILY BIAS" },
+            { "key": "driver", "label": "MAIN DRIVER" }
+          ],
+          "rows": [
+            {
+              "instrument": "EUR/USD",
+              "reference": "1.1150",
+              "bias": "Neutral / recovery",
+              "driver": "US CPI and yields"
+            },
+            {
+              "instrument": "GBP/USD",
+              "reference": "1.3250",
+              "bias": "Neutral / recovery",
+              "driver": "USD and UK data"
+            },
+            {
+              "instrument": "XAU/USD",
+              "reference": "4,150",
+              "bias": "Neutral / constructive",
+              "driver": "Real yields"
+            },
+            {
+              "instrument": "WTI Oil",
+              "reference": "59.00",
+              "bias": "Neutral / volatile",
+              "driver": "Supply headlines"
+            },
+            {
+              "instrument": "NASDAQ",
+              "reference": "Check live quote",
+              "bias": "Neutral / rate-sensitive",
+              "driver": "Yields and earnings"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "economic-calendar",
+      "type": "economic-calendar",
+      "title": "Economic Calendar",
+      "data": {
+        "table": {
+          "columns": [
+            { "key": "time", "label": "TIME (UTC)" },
+            { "key": "currency", "label": "CCY" },
+            { "key": "event", "label": "EVENT" },
+            { "key": "impact", "label": "IMPACT" }
+          ],
+          "rows": [
+            {
+              "time": "12:30",
+              "currency": "USD",
+              "event": "Consumer Price Index",
+              "impact": "High"
+            },
+            {
+              "time": "14:00",
+              "currency": "USD",
+              "event": "Consumer Sentiment",
+              "impact": "Medium"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eurusd-levels",
+      "type": "technical-analysis",
+      "title": "EUR/USD Technical Framework",
+      "data": {
+        "instrument": "EUR/USD",
+        "bias": "Neutral / recovery",
+        "reference": "1.1150 (illustrative reference; replace before publication)",
+        "support": "1.1100 (illustrative reference; replace before publication)",
+        "resistance": "1.1200 (illustrative reference; replace before publication)",
+        "levelsVerifiedLive": false,
+        "levelsStatus": "Illustrative template values only; verify against an appropriate dated source before publication.",
+        "text": "Support/reference: 1.1100 (illustrative; not a live calculation). Resistance/reference: 1.1200 (illustrative; not a live calculation)."
+      }
+    },
+    {
+      "id": "eurusd-chart",
+      "type": "chart",
+      "title": "EUR/USD TradingView Live Chart",
+      "data": {
+        "instrument": "EUR/USD",
+        "caption": "Open the live EUR/USD chart in TradingView.",
+        "chartUrl": "https://www.tradingview.com/symbols/EURUSD/"
+      }
+    },
+    {
+      "id": "eurusd-fundamental",
+      "type": "fundamental-analysis",
+      "title": "EUR/USD Fundamental View",
+      "data": {
+        "text": "Dollar direction, US inflation data, and central-bank expectations remain the primary near-term drivers."
+      }
+    },
+    {
+      "id": "eurusd-scenarios",
+      "type": "scenario",
+      "title": "EUR/USD Trading Scenarios",
+      "data": {
+        "bullish": "A sustained move above 1.1200 could support a recovery toward the next daily swing high.",
+        "bearish": "Failure at 1.1200 or a break below 1.1100 could restore downside momentum."
+      }
+    },
+    {
+      "id": "bias-matrix",
+      "type": "bias-matrix",
+      "title": "Daily Bias Matrix",
+      "data": {
+        "table": {
+          "columns": [
+            { "key": "instrument", "label": "INSTRUMENT" },
+            { "key": "bias", "label": "BIAS" },
+            { "key": "confidence", "label": "CONFIDENCE" },
+            { "key": "catalyst", "label": "MAIN CATALYST" }
+          ],
+          "rows": [
+            {
+              "instrument": "EUR/USD",
+              "bias": "Neutral / recovery",
+              "confidence": "Medium",
+              "catalyst": "US CPI"
+            },
+            {
+              "instrument": "GBP/USD",
+              "bias": "Neutral",
+              "confidence": "Medium",
+              "catalyst": "USD and UK data"
+            },
+            {
+              "instrument": "XAU/USD",
+              "bias": "Neutral / constructive",
+              "confidence": "Medium",
+              "catalyst": "Real yields"
+            },
+            {
+              "instrument": "WTI Oil",
+              "bias": "Neutral / volatile",
+              "confidence": "Medium",
+              "catalyst": "Supply headlines"
+            },
+            {
+              "instrument": "NASDAQ",
+              "bias": "Neutral / rate-sensitive",
+              "confidence": "Medium",
+              "catalyst": "Yields and earnings"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sources",
+      "type": "sources",
+      "title": "Sources and Methodology",
+      "data": {
+        "text": "Use verified market-data, calendar, and news sources. This template contains illustrative values only."
+      }
+    },
+    {
+      "id": "risk-disclosure",
+      "type": "risk-disclosure",
+      "title": "Risk Disclosure",
+      "data": {
+        "text": "This report is for market information only and is not investment advice. Trading leveraged financial instruments involves substantial risk."
+      }
+    }
+  ]
+}

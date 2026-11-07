@@ -1,0 +1,14 @@
+{
+  "schemaVersion": "1.0",
+  "id": "fixture-long-calendar",
+  "date": "2026-10-10",
+  "sourceLocale": "en",
+  "locale": "en",
+  "metadata": { "title": "Long Calendar Report", "edition": "CALENDAR" },
+  "sections": [
+    { "id": "cover", "type": "cover", "title": "Overview", "data": { "text": "Calendar focus", "caption": "A longer event list." } },
+    { "id": "calendar", "type": "economic-calendar", "title": "Economic calendar", "data": { "table": { "columns": [{ "key": "time", "label": "Time" }, { "key": "event", "label": "Event" }, { "key": "impact", "label": "Impact" }], "rows": [
+      { "time": "08:00", "event": "GDP release", "impact": "High" }, { "time": "09:30", "event": "Employment data", "impact": "Medium" }, { "time": "11:00", "event": "Central bank speech", "impact": "High" }, { "time": "12:30", "event": "Inflation expectations", "impact": "High" }, { "time": "14:00", "event": "Consumer sentiment", "impact": "Medium" }, { "time": "16:00", "event": "Treasury auction", "impact": "Low" }, { "time": "18:30", "event": "Energy inventories", "impact": "Medium" }, { "time": "20:00", "event": "Policy minutes", "impact": "High" }
+    ] } } }
+  ]
+}
