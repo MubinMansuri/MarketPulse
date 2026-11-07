@@ -241,47 +241,49 @@ export function ChartPlaceholder({ section, editable, onChange }: BlockProps) {
           />
         </figcaption>
       )}
-      {editable && section.data.chartUrl && (
-        <a
-          className="chart-live-link"
-          href={section.data.chartUrl}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Open live chart
-        </a>
-      )}
       {editable && (
-        <label className="chart-image-edit editor-only">
-          <Upload size={15} />
-          <span>Replace visual</span>
-          <input
-            type="file"
-            accept="image/png,image/jpeg,image/webp"
-            onChange={(event) => {
-              const file = event.target.files?.[0];
-              if (!file) return;
-              if (
-                !["image/png", "image/jpeg", "image/webp"].includes(file.type) ||
-                file.size > 10 * 1024 * 1024
-              ) {
-                setUploadError("Choose a PNG, JPEG, or WebP image under 10 MB.");
-                return;
-              }
-              const reader = new FileReader();
-              reader.onload = () => {
-                setImageError(false);
-                setUploadError("");
-                onChange({
-                  ...section,
-                  data: { ...section.data, imageUrl: String(reader.result) },
-                });
-              };
-              reader.onerror = () => setUploadError("Image could not be read.");
-              reader.readAsDataURL(file);
-            }}
-          />
-        </label>
+        <div className="chart-actions editor-only">
+          {section.data.chartUrl && (
+            <a
+              className="chart-live-link"
+              href={section.data.chartUrl}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open live chart
+            </a>
+          )}
+          <label className="chart-image-edit">
+            <Upload size={15} />
+            <span>Replace visual</span>
+            <input
+              type="file"
+              accept="image/png,image/jpeg,image/webp"
+              onChange={(event) => {
+                const file = event.target.files?.[0];
+                if (!file) return;
+                if (
+                  !["image/png", "image/jpeg", "image/webp"].includes(file.type) ||
+                  file.size > 10 * 1024 * 1024
+                ) {
+                  setUploadError("Choose a PNG, JPEG, or WebP image under 10 MB.");
+                  return;
+                }
+                const reader = new FileReader();
+                reader.onload = () => {
+                  setImageError(false);
+                  setUploadError("");
+                  onChange({
+                    ...section,
+                    data: { ...section.data, imageUrl: String(reader.result) },
+                  });
+                };
+                reader.onerror = () => setUploadError("Image could not be read.");
+                reader.readAsDataURL(file);
+              }}
+            />
+          </label>
+        </div>
       )}
       {uploadError && (
         <span className="chart-upload-error editor-only" role="alert">
