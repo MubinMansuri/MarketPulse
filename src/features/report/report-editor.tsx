@@ -231,16 +231,32 @@ export function ReportEditor() {
   const ui = getUiLabels(interfaceLocale);
   const publicationBrand = report.metadata.brandName ?? brand.name;
   const selected = report.sections.find((s) => s.id === selectedId);
+  const displaySections = useMemo(() => {
+    if (report.sections[0]?.type === "cover") return report.sections;
+    return [
+      {
+        id: "generated-cover",
+        type: "cover" as const,
+        title: "Cover",
+        data: {
+          kicker: brand.publication.toUpperCase(),
+          text: report.metadata.title || "Daily Market Report",
+          caption: report.metadata.edition || "Market intelligence and editorial context.",
+        },
+      },
+      ...report.sections,
+    ];
+  }, [report.metadata.edition, report.metadata.title, report.sections]);
   const pages = useMemo(
     () =>
       theme === "gtm" && report.sourceLayout
-        ? groupSourcePages(report.sections)
-        : paginateSections(report.sections, 740, theme === "gtm"),
-    [report.sections, report.sourceLayout, theme],
+        ? groupSourcePages(displaySections)
+        : paginateSections(displaySections, 740, theme === "gtm"),
+    [displaySections, report.sourceLayout, theme],
   );
   const issues = validateFoundation(report);
   const errors = issues.filter((i) => i.severity === "error");
-  const publicationPageCount = pages.length + (theme === "gtm" ? 1 : 0);
+  const publicationPageCount = pages.length + 1;
   const pageOffsets = useMemo(
     () => Array.from({ length: pages.length + 1 }, (_, index) => index * ESTIMATED_PAGE_HEIGHT),
     [pages.length],
@@ -1036,6 +1052,7 @@ export function ReportEditor() {
                       pageCount={publicationPageCount}
                       editable={!preview}
                       showGtmBranding={theme === "gtm"}
+                      isCover={pageIndex === 0 && sections[0]?.type === "cover"}
                       onBrandChange={(brandName) => update(rebrandReport(report, brandName))}
                     >
                       {sections.map((section) => (
@@ -1049,7 +1066,7 @@ export function ReportEditor() {
                             } as CSSProperties
                           }
                           onClick={() => {
-                            if (!preview) setSelectedId(section.id);
+                            if (!preview && section.id !== "generated-cover") setSelectedId(section.id);
                           }}
                         >
                           {section.type !== "cover" &&
@@ -1066,8 +1083,8 @@ export function ReportEditor() {
                             )}
                           <ReportBlock
                             section={section}
-                            editable={!preview}
-                            onChange={updateSection}
+                            editable={!preview && section.id !== "generated-cover"}
+                            onChange={section.id === "generated-cover" ? () => {} : updateSection}
                           />
                         </section>
                       ))}
@@ -1085,13 +1102,14 @@ export function ReportEditor() {
                 style={{ height: pageOffsets[pages.length]! - pageOffsets[renderedRange.end + 1]! }}
               />
             )}
-            {theme === "gtm" && renderedRange.end === pages.length - 1 && (
+            {renderedRange.end === pages.length - 1 && (
               <div className="page-wrapper report-back-cover-wrapper">
                 <ReportBackCover
                   report={report}
                   pageNumber={publicationPageCount}
                   pageCount={publicationPageCount}
                   editable={!preview}
+                  showGtmBranding={theme === "gtm"}
                   onMetadataChange={(key, value) =>
                     update({
                       ...report,

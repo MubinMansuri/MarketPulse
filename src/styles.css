@@ -1830,6 +1830,17 @@ button {
   object-fit: contain;
   object-position: left center;
 }
+.back-cover-classic-mark {
+  width: 3rem;
+  height: 3rem;
+  display: grid;
+  place-items: center;
+  border: 0.0625rem solid var(--primary);
+  border-radius: 50%;
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 1.125rem;
+}
 .back-cover-kicker {
   margin: 1.375rem 0 0.625rem;
   color: #f7cf63;

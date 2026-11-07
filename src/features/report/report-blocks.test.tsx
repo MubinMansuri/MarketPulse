@@ -29,6 +29,29 @@ describe("report brand", () => {
     expect(html).not.toContain('class="publication-brand-mark"');
   });
 
+  it("renders a Classic front cover when it is supplied by the editor", () => {
+    const report = structuredClone(sampleReport);
+    report.sections = report.sections.filter((section) => section.type !== "cover");
+    const html = renderToStaticMarkup(
+      <ReportPage report={report} pageNumber={1} pageCount={2} isCover>
+        <ReportBlock
+          section={{
+            id: "generated-cover",
+            type: "cover",
+            title: "Cover",
+            data: { kicker: "MARKETPULSE", text: "Daily Market Report", caption: "Market intelligence" },
+          }}
+          editable={false}
+          onChange={() => {}}
+        />
+      </ReportPage>,
+    );
+
+    expect(html).toContain("report-page-cover");
+    expect(html).toContain("Daily Market Report");
+    expect(html).toContain("cover-date");
+  });
+
   it("renders an imported scenario label once, not again inside its scenario text", () => {
     const html = renderToStaticMarkup(
       <ReportBlock
@@ -71,6 +94,16 @@ describe("report brand", () => {
     expect(html).toContain("Horizon Markets Research");
     expect(html).toContain("A focused brief for informed decisions.");
     expect(html.match(/role="textbox"/g)).toHaveLength(3);
+  });
+
+  it("renders a self-contained Classic back cover without GTM artwork", () => {
+    const html = renderToStaticMarkup(
+      <ReportBackCover report={sampleReport} pageNumber={2} pageCount={2} />,
+    );
+
+    expect(html).toContain("report-page-back-cover");
+    expect(html).toContain('class="back-cover-classic-mark"');
+    expect(html).not.toContain("globaltrendmarkets.com");
   });
 
   it("renders the front-cover kicker as editable cover data", () => {

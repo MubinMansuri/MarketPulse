@@ -365,6 +365,7 @@ export function ReportPage({
   children,
   editable = false,
   showGtmBranding = false,
+  isCover: isCoverOverride,
   onBrandChange = () => {},
 }: {
   report: CanonicalReport;
@@ -373,10 +374,11 @@ export function ReportPage({
   children: ReactNode;
   editable?: boolean;
   showGtmBranding?: boolean;
+  isCover?: boolean;
   onBrandChange?: (brandName: string) => void;
 }) {
   const publicationBrand = report.metadata.brandName ?? brand.name;
-  const isCover = pageNumber === 1 && report.sections[0]?.type === "cover";
+  const isCover = isCoverOverride ?? (pageNumber === 1 && report.sections[0]?.type === "cover");
   return (
     <article
       className={`report-page ${isCover ? "report-page-cover" : ""}`}
@@ -410,7 +412,7 @@ export function ReportPage({
       </header>
       <div className="page-body">
         {children}
-        {pageNumber === 1 && report.sections[0]?.type === "cover" && (
+        {isCover && (
           <p className="cover-date">{formatReportDate(report.date, report.locale)}</p>
         )}
       </div>
@@ -430,12 +432,14 @@ export function ReportBackCover({
   pageNumber,
   pageCount,
   editable = false,
+  showGtmBranding = false,
   onMetadataChange = () => {},
 }: {
   report: CanonicalReport;
   pageNumber: number;
   pageCount: number;
   editable?: boolean;
+  showGtmBranding?: boolean;
   onMetadataChange?: (
     key: "backCoverKicker" | "backCoverHeadline" | "backCoverMessage",
     value: string,
@@ -460,12 +464,22 @@ export function ReportBackCover({
     >
       <div className="back-cover-rule" />
       <div className="back-cover-content">
-        <img
-          className="back-cover-mark"
-          src="https://globaltrendmarkets.com/wp-content/themes/blankslate-child/assets/media/img/logo.svg"
-          alt={`${publicationBrand} logo`}
-          decoding="async"
-        />
+        {showGtmBranding ? (
+          <img
+            className="back-cover-mark"
+            src="https://globaltrendmarkets.com/wp-content/themes/blankslate-child/assets/media/img/logo.svg"
+            alt={`${publicationBrand} logo`}
+            decoding="async"
+          />
+        ) : (
+          <div
+            className="back-cover-classic-mark"
+            role="img"
+            aria-label={`${publicationBrand} mark`}
+          >
+            {publicationBrand.slice(0, 1).toUpperCase()}
+          </div>
+        )}
         <p className="back-cover-kicker">
           <EditableText
             text={kicker}
