@@ -15,7 +15,13 @@ export async function POST(request: Request) {
       { status: 403, headers: apiHeaders() },
     );
   }
-  const rateLimit = limitRequest(request, "translate-batch", 10);
+  // Production remains tightly throttled. Development gets enough room for
+  // repeat QA runs without using the same small bucket as a real user.
+  const rateLimit = limitRequest(
+    request,
+    "translate-batch",
+    process.env.NODE_ENV === "development" ? 30 : 10,
+  );
   if (!rateLimit.allowed) {
     return NextResponse.json(
       { error: "Too many translation requests. Please try again shortly." },

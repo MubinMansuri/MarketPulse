@@ -15,7 +15,11 @@ export async function POST(request: Request) {
       { status: 403, headers: apiHeaders() },
     );
   }
-  const rateLimit = limitRequest(request, "translate", 20);
+  const rateLimit = limitRequest(
+    request,
+    "translate",
+    process.env.NODE_ENV === "development" ? 60 : 20,
+  );
   if (!rateLimit.allowed) {
     return NextResponse.json(
       { error: "Too many translation requests. Please try again shortly." },

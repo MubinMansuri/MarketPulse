@@ -112,6 +112,22 @@ describe("multilingual report support", () => {
     expect(translateBatch.mock.calls[0]?.[0]).toHaveLength(2);
   });
 
+  it("keeps a safe server error when a translation batch fails", async () => {
+    const adapter = createTranslationAdapter(
+      "es",
+      async () => ({ ok: false, reason: "unused" }),
+      undefined,
+      async () => {
+        throw new Error("Too many translation requests. Please try again shortly.");
+      },
+    );
+
+    await expect(adapter.translateText("Market outlook")).resolves.toMatchObject({
+      ok: false,
+      reason: "Too many translation requests. Please try again shortly.",
+    });
+  });
+
   it("warns when translated fields remain equal to the English source", () => {
     const translated = structuredClone(sampleReport);
     translated.locale = "es";

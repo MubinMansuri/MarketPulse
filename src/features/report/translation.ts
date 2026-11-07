@@ -150,9 +150,13 @@ function createRequestBatcher(
           ),
         );
       }
-    } catch {
+    } catch (error) {
+      const reason =
+        error instanceof Error && error.message
+          ? error.message
+          : "Translation service could not be reached.";
       pending.forEach(({ resolve }) =>
-        resolve({ ok: false, reason: "Translation service could not be reached." }),
+        resolve({ ok: false, reason }),
       );
     }
   };
