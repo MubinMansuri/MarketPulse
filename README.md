@@ -4,6 +4,8 @@ MarketPulse Studio is a browser-based editor for producing **Daily Market Report
 
 The project keeps report content in a typed JSON model, separate from the visual publication layer. Teams can import a report, review and edit its structure, translate eligible English copy, then preview or export an A4-style publication.
 
+**Live demo:** [market-pulse-theta-orpin.vercel.app](https://market-pulse-theta-orpin.vercel.app/)
+
 > **Important:** MarketPulse Studio is a session-based editorial tool. It does not provide accounts, a database, remote storage, live market data, automatic publishing, or financial advice.
 
 ## Features
