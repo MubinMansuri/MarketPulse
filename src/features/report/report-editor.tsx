@@ -641,7 +641,7 @@ export function ReportEditor() {
         <div className="header-document">
           <div className="document-title">
             {report.metadata.title}
-            {isSample && <span className="sample-tag">SAMPLE</span>}
+            {/* {isSample && <span className="sample-tag">SAMPLE</span>} */}
           </div>
           <div className="document-meta">
             <span>{report.date}</span>
@@ -844,15 +844,6 @@ export function ReportEditor() {
               <Plus />
               {ui.addSection}
             </Button>
-            <div className="sidebar-bottom">
-              <div className="document-icon">
-                <FileText size={18} />
-              </div>
-              <div>
-                <strong>Demonstration edition</strong>
-                <p>Illustrative data · not for trading</p>
-              </div>
-            </div>
           </aside>
         )}
         <main
